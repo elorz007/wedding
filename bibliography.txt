@@ -1,0 +1,11 @@
+biblio
+---
+Test doubles http://www.martinfowler.com/bliki/TestDouble.html
+Unit testing http://nshipster.com/unit-testing/
+Arrange, act, assert http://c2.com/cgi/wiki?ArrangeActAssert
+Best practices http://es.slideshare.net/nickokiss/unit-testing-best-practices
+TDD all the time is wrong https://www.thekua.com/atwork/2008/02/if-you-do-test-driven-development-all-the-time-youre-doing-something-wrong/
+More best practices http://es.slideshare.net/homespothq/unit-testing-concepts-and-best-practices?next_slideshow=1
+Naming best practices http://stackoverflow.com/questions/155436/unit-test-naming-best-practices
+Naming http://stackoverflow.com/questions/96297/what-are-some-popular-naming-conventions-for-unit-tests
+The ugly mirror http://jasonrudolph.com/blog/2008/07/30/testing-anti-patterns-the-ugly-mirror/
