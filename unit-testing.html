@@ -183,8 +183,8 @@ Subject Under Test
 
 ```objectivec
 /* BAD EXAMPLE */
-// TestPerson.m
-- (void)test_is_sending_message {
+// PersonTest.m
+- (void)test_when_message_is_provided_it_is_being_sent {
   NSString *message = @"Hello there.";
   NSString *signature = @"Sent with iPhone";
   Phone *phone = [[Phone alloc] initWithSignature:signature];
@@ -213,7 +213,7 @@ Replace real objects
 
 ```objectivec
 // TestPerson.m
-- (void)test_is_sending_message {
+- (void)test_when_message_is_provided_it_is_being_sent {
   NSString *message = @"Hello there.";
   id phoneMock OCMClassMock([Phone class]);
   Person *person = [[Person alloc] initWithDevice:phoneMock];
@@ -406,7 +406,7 @@ This is bad:
 
 ```objectivec
 // GeometryCalculatorTest.h
-- (void)when_height_has_decimals_then_area_is_correct {
+- (void)test_when_height_has_decimals_then_area_is_correct {
   CGFloat base = 3.0f;
   CGFloat height = 20.5f;
   GeometryCalculator *geometryCalculator = [[GeometryCalculator alloc] init];
@@ -429,7 +429,7 @@ This is better:
 
 ```objectivec
 // GeometryCalculatorTest.h
-- (void)when_height_has_decimals_then_area_is_correct {
+- (void)test_when_height_has_decimals_then_area_is_correct {
   CGFloat base = 3.0f;
   CGFloat height = 20.5f;
   GeometryCalculator *geometryCalculator = [[GeometryCalculator alloc] init];
