@@ -326,7 +326,8 @@ Person *person = [[Person alloc] initWithDevice:phoneMock];
 ]
 .right-column[
 My proposal: up to debate!
-- Don't use "test"
+- Use exactly test in filename: 
+  - Calculator.m -> CalculatorTest.m
 
 - use_snake_case
   - Easier to read
@@ -353,11 +354,13 @@ template: inverse
 .right-column[
 - One assert per test method
 
-- More than one test file per SUT
+- More than one test file per SUT if needed
 
 - One test at a time
 
 - Treat tests as regular code
+
+- Always run all tests before submitting
 
 ]
 ---
@@ -367,14 +370,20 @@ template: inverse
 ]
 .right-column[
 - Nondeterministic tests
+  - random()
+  - Time / date
 
 - Non-isolated
+  - Not dependant of other tests
+  - Not dependant of state in singletons, etc.
 
 - Ifs, catching exceptions, fors
 
 - Lazy naming
 
 - Try to test everything
+  - Obvious things
+  - System functionality
 
 ]
 ---
