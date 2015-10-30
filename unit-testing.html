@@ -3,7 +3,8 @@
   <head>
     <title>Unit testing - SecurePIM</title>
     <meta charset="utf-8">
-<script>document.write('<script src="http://'
+<script>
+document.write('<script src="http://'
     + (location.host || 'localhost').split(':')[0]
     + ':35729/livereload.js"></'
     + 'script>')</script><style>
@@ -38,7 +39,7 @@
         border-radius: 5px;
       }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
-      .remark-code-line-highlighted     { background-color: #373832; }
+      .remark-code-line-highlighted     { background-color: rgba(100,100,100,0.5); }
       .pull-left {
         float: left;
         width: 47%;
@@ -191,7 +192,7 @@ Subject Under Test
   
   [person send:message];
 
-  NSString *expected = [message stringByAppendingString:signature];
+* NSString *expected = [message stringByAppendingString:signature];
   STAssertEquals(expected, [phone lastSentMessage], nil);
 }
 ```
@@ -216,7 +217,7 @@ Replace real objects
   NSString *message = @"Hello there.";
   id phoneMock OCMClassMock([Phone class]);
   Person *person = [[Person alloc] initWithDevice:phoneMock];
-  [[phoneMock expect] sendMail:message]
+* [[phoneMock expect] sendMail:message]
 
   [person send:message];
 
@@ -369,8 +370,6 @@ template: inverse
 
 - Non-isolated
 
-- The ugly mirror
-
 - Ifs, catching exceptions, fors
 
 - Lazy naming
@@ -379,22 +378,68 @@ template: inverse
 
 ]
 ---
-template: inverse
+.left-column[
+  ## Writing tests
+  ### - Ugly practices
+]
+.right-column[
+The ugly mirror
 
-## The good, the bad and the ugly
+- Reverse code
+
+```objectivec
+// SUT: GeometryCalculator.h
+- (CGFloat)triangleAreaWithBase:(CGFloat)base height:(CGFloat)height {
+* return (base * height) / 2.0f;
+}
+```
+   This is bad:
+
+```objectivec
+// GeometryCalculatorTest.h
+- (void)when_height_has_decimals_then_area_is_correct {
+  CGFloat base = 3.0f;
+  CGFloat height = 20.5f;
+  GeometryCalculator *geometryCalculator = [[GeometryCalculator alloc] init];
+
+  CGFloat resultingArea = [geometryCalculator triangleAreaWithBase:base height:height];
+
+* CGFloat expectedArea = (base * height) / 2.0f;
+  XCTAssertEqual(expectedArea, resultingArea, nil);
+}
+```
+]
 ---
 .left-column[
   ## Writing tests
-  ### - Good practices
+  ### - Ugly practices
 ]
 .right-column[
-- One assert per test method
 
-- More than one test file per SUT
+- This is better:
 
-- One test at a time
+```objectivec
+// GeometryCalculatorTest.h
+- (void)when_height_has_decimals_then_area_is_correct {
+  CGFloat base = 3.0f;
+  CGFloat height = 20.5f;
+  GeometryCalculator *geometryCalculator = [[GeometryCalculator alloc] init];
 
-- Treat tests as regular code
+  CGFloat resultingArea = [geometryCalculator triangleAreaWithBase:base height:height];
+
+* XCTAssertEqual(30.75f, resultingArea, nil);
+}
+```
+]
+---
+template: inverse
+
+## Example
+---
+.left-column[
+  ## Example
+]
+.right-column[
 
 ]
 ---
@@ -409,7 +454,9 @@ Slideshow created using [remark](http://github.com/gnab/remark).
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
     </script>
     <script>
-      var slideshow = remark.create();
+var slideshow = remark.create({
+        highlightLines: true
+      });
     </script>
 
   </body>
