@@ -184,7 +184,7 @@ Subject Under Test
 ```objectivec
 /* BAD EXAMPLE */
 // PersonTest.m
-- (void)test_when_message_is_provided_it_is_being_sent {
+- (void)testWhenMessageIsProvidedItIsBeingSent {
   NSString *message = @"Hello there.";
   NSString *signature = @"Sent with iPhone";
   Phone *phone = [[Phone alloc] initWithSignature:signature];
@@ -213,7 +213,7 @@ Replace real objects
 
 ```objectivec
 // TestPerson.m
-- (void)test_when_message_is_provided_it_is_being_sent {
+- (void)testWhenMessageIsProvidedItIsBeingSent {
   NSString *message = @"Hello there.";
   id phoneMock OCMClassMock([Phone class]);
   Person *person = [[Person alloc] initWithDevice:phoneMock];
@@ -286,9 +286,9 @@ template: inverse
   - Code not compiling
   - Any test is failing
 - Green
-  - Code works
+  - Code works, tests pass
 - Blue
-  - Refactor
+  - Refactor, tests pass
 
 1. Write test, make it fail
 2. Implement the minimum to pass, KISS
@@ -325,21 +325,21 @@ Person *person = [[Person alloc] initWithDevice:phoneMock];
   ### - Naming
 ]
 .right-column[
-My proposal: up to debate!
-- Use exactly test in filename: 
-  - Calculator.m -> CalculatorTest.m
 
-- use_snake_case
-  - Easier to read
-  - Distinguishable
+- Create the test file in the same path as the SUT but under the test folder.
+
+![Folder structure](./images/folderStructure.png)
+
+- Append exactly "tests" in filename: 
+  - Calculator.m -> CalculatorTests.m
 
 - Don't be afraid of long names
 
 - Make readable sentences
 
 - When/Then
-  - when_something_happens_then_result_is_whatever
-  - when_email_is_nil_then_logged_is_false
+  - testWhenSomethingHappensThenResultIsWhatever
+  - testWhenEmailIsNilThenLoggedIsFalse
 
 ]
 ---
@@ -406,7 +406,7 @@ This is bad:
 
 ```objectivec
 // GeometryCalculatorTest.h
-- (void)test_when_height_has_decimals_then_area_is_correct {
+- (void)testWhenHeightHasDecimalsThenAreaIsCorrect {
   CGFloat base = 3.0f;
   CGFloat height = 20.5f;
   GeometryCalculator *geometryCalculator = [[GeometryCalculator alloc] init];
@@ -429,7 +429,7 @@ This is better:
 
 ```objectivec
 // GeometryCalculatorTest.h
-- (void)test_when_height_has_decimals_then_area_is_correct {
+- (void)testWhenHeightHasDecimalsThenAreaIsCorrect {
   CGFloat base = 3.0f;
   CGFloat height = 20.5f;
   GeometryCalculator *geometryCalculator = [[GeometryCalculator alloc] init];
