@@ -118,6 +118,10 @@ document.write('<script src="http://'
         float: right;
         padding-top: 1em;
       }
+
+      img {
+        max-width: 100%;
+      }
     </style>
   </head>
   <body>
@@ -439,6 +443,66 @@ This is better:
 * XCTAssertEqual(30.75f, resultingArea, nil);
 }
 ```
+]
+---
+template: inverse
+
+## The script
+---
+.left-column[
+  ## Install and run
+]
+.right-column[
+Install dependency
+```bash
+sudo gem install -n /usr/local/bin xcpretty
+```
+Run unit tests
+```bash
+./BuildScriptsAutobuild/UnitTestRunner.sh
+```
+- Number of project
+- Device
+- OS
+
+]
+---
+.left-column[
+  ## Install and run
+]
+.right-column[
+How to get project number
+```bash
+./BuildScriptsAutobuild/UnitTestRunner.sh --menu-test
+```
+Device and OS list
+```bash
+./BuildScriptsAutobuild/UnitTestRunner.sh --device-list-full
+```
+]
+---
+.left-column[
+  ## Install and run
+]
+.right-column[
+Outcome bash:
+![Outcome bash](./images/outcomeBash.png)
+Outcome HTML:
+.width-100[![Outcome HTML](./images/outcomeHtml.png)]
+
+]
+---
+.left-column[
+  ## Setup only
+]
+.right-column[
+Setup the project (do not run unit tests)
+```bash
+./BuildScriptsAutobuild/UnitTestRunner.sh --setup-only
+./BuildScriptsAutobuild/UnitTestRunner.sh --menu-setup
+```
+It should open the subproject (if it does not, just go to the appropriate folder an open the .xcworkspace file)
+
 ]
 ---
 name: last-page
