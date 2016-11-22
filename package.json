@@ -2,7 +2,7 @@
   "name": "unit-test",
   "version": "1.0.0",
   "description": "",
-  "main": "unit-testing.html",
+  "main": "slides.html",
   "dependencies": {},
   "devDependencies": {
     "grunt": "^0.4.5",
