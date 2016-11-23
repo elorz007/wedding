@@ -6,15 +6,15 @@ module.exports = function(grunt) {
     watch: {
       css: {
         files: '**/*.md',
-        tasks: ['includereplace'],
+        tasks: ['includereplace:preview'],
         options: {
           livereload: true,
         },
       },
     },
 
-    // Use 'grunt includereplace' for generating preview (which is gitignored)
-    // Use 'grunt includereplace:dist' for generating the real distributing html
+    // Use 'grunt includereplace:preview' for generating preview (which is gitignored)
+    // Use 'grunt includereplace' for generating the real distributing html
     includereplace: {
       preview: {
         options: {
