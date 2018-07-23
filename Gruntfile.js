@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     watch: {
       css: {
-        files: '**/*.md',
+        files: ['**/*.md', 'slides.html'],
         tasks: ['includereplace:preview'],
         options: {
           livereload: true,
