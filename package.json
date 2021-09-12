@@ -1,17 +1,16 @@
 {
-  "name": "unit-test",
-  "version": "1.0.0",
+  "name": "Wedding M&M",
+  "version": "0.0.1",
   "description": "",
-  "main": "slides.html",
-  "dependencies": {},
+  "main": "index.html",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-watch": "^0.6.1",
+    "grunt": "^1.4.1",
+    "grunt-contrib-watch": "^1.1.0",
     "grunt-include-replace": "^5.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Mikel Elorz",
+  "license": "WTFPL"
 }

@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     watch: {
       css: {
-        files: ['**/*.md', 'slides.html'],
+        files: ['**/*.md', 'index.html'],
         tasks: ['includereplace:preview'],
         options: {
           livereload: true,
@@ -21,7 +21,7 @@ module.exports = function(grunt) {
           // Task-specific options go here.
         },
         // Files to perform replacements and includes with
-        src: 'slides.html',
+        src: 'index.html',
         // Destination directory to copy files to
         dest: 'preview/'
       },
@@ -31,9 +31,9 @@ module.exports = function(grunt) {
           // Task-specific options go here.
         },
         // Files to perform replacements and includes with
-        src: 'slides.html',
+        src: 'index.html',
         // Destination directory to copy files to
-        dest: 'dist/'
+        dest: 'docs/'
       }
     }
 
