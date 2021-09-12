@@ -1,102 +1,11 @@
-name: inverse
-layout: true
-class: center, middle, inverse
----
-#Government & Smartcard introduction
-[SecurePIM iOS]
----
-layout: false
-- SecurePIM > Secure Personal Information Management
-- Mail, calendar, contacts, documents, tasks, notes, browser.
-- Government: our most secure solution with hardware based tokens
-    - Container solution
-    - S/MIME encryption
-    - TLS
-    - Intranet page gateway
-- Very complex infrastructure
-  - Multiple VPNs
-  - Multiple (hidden) sub-networks and DMZ
-  - Complex CRL and OCSP
-  - Traffic analysis tools
-  - Proxies
-  - ...
+Bacon ipsum dolor amet brisket turkey sirloin capicola picanha buffalo shank meatball bacon pastrami doner pork chop boudin meatloaf. Prosciutto beef ribs turkey meatloaf, spare ribs tongue hamburger tail. Flank boudin kevin porchetta, tail shank pastrami capicola pancetta. Cow shankle beef ribs spare ribs biltong sausage chislic tenderloin kielbasa filet mignon meatloaf capicola porchetta.
 
+Ham hock andouille alcatra filet mignon short loin pig salami venison tongue pork belly. Kevin ground round jerky tongue tenderloin short ribs. Tri-tip prosciutto shoulder cupim. Strip steak leberkas venison fatback, pastrami brisket beef. Short ribs shankle prosciutto salami andouille alcatra. Strip steak leberkas flank kielbasa fatback short ribs shoulder turkey pork chop.
 
-![spim](../images/spim.png)
----
-.left-column[
-  ## Registration
-]
+Alcatra landjaeger burgdoggen beef meatloaf tri-tip pork chop. Chuck fatback pig, brisket ball tip salami leberkas bresaola bacon corned beef short ribs drumstick ribeye hamburger. Sirloin alcatra jowl, ribeye andouille beef ribs landjaeger turducken shoulder. Ground round kevin frankfurter alcatra. Biltong turkey porchetta jerky ham hock filet mignon. Ball tip alcatra andouille, venison turducken strip steak beef ribs shoulder pork loin ham hock fatback.
 
-.right-column[
-- No network, no data persisted
-  - First step: unlock smartcard
-- Selection of reader
-  - Pairing (also in Settings.app)
-- Pin not stored + going to background
-  - Disconnect from reader
-  - Logout
-  - All data erased
-- Ability to forget
-  - Not chosen
-  - Still paired
-- Support for non-numeric passwords
-- Certificate pinning
-.footnote[
-  .soft[
-  BS846367
-  ]
-]
-]
----
-.left-column[
-  ## Features
-]
-.right-column[
-- Import extra keys
-  - We need the pin of the smartcard
-- Usages of certificates
-- Encryption and signature of emails
-- Local encryption of files
-- SecurePIM Gateway
-- https://confluence.virtual-solution.de/pages/viewpage.action?spaceKey=SAL&title=Support+and+Maintenance+Bxx
-]
----
-.left-column[
-  ## Login Logout
-]
-.right-column[
-- Manually
-- Remove card
-- Power off / disconnect
-- Autolock
-- **Switch processes**
-- Forget reader
-- Tries remaining
-- Battery (planned)
-]
+Brisket pork loin ground round hamburger turkey. Cupim chislic tail sirloin short loin meatloaf jowl pastrami tri-tip pork chop swine flank porchetta tongue ball tip. Cupim tail boudin leberkas tenderloin. Boudin salami landjaeger cupim, swine burgdoggen meatball jerky chislic andouille. Andouille jowl salami shank brisket. Strip steak filet mignon shoulder buffalo ribeye biltong.
 
----
-.left-column[
-  ## We don't have
-]
-.right-column[
-- Modifying cards
-- Multiple readers
-- PUK / PIN2 unblocking
-- Grace period (for now)
-]
----
-template: inverse
+Corned beef venison shoulder brisket alcatra. Meatloaf brisket hamburger sirloin tail chislic turkey tenderloin filet mignon kevin kielbasa pork chop. Pork filet mignon pork belly, chicken tail jerky spare ribs strip steak meatball kielbasa corned beef prosciutto bacon. Rump capicola pork loin ham biltong short loin meatball pastrami, cow t-bone. Burgdoggen turkey pork, frankfurter sirloin doner biltong kevin kielbasa flank short ribs alcatra pancetta. Jerky fatback salami ham cow strip steak pork drumstick shoulder alcatra landjaeger picanha sirloin. Beef ribs turkey pastrami ribeye sausage.
 
-## Questions?
----
-name: last-page
-template: inverse
-
-#Government & Smartcard introduction
-[SecurePIM iOS]
-
-.footnote[
-Slideshow created using [remark](http://github.com/gnab/remark).
-]
+Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!

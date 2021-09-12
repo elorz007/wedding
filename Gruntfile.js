@@ -14,11 +14,13 @@ module.exports = function(grunt) {
     },
 
     // Use 'grunt includereplace:preview' for generating preview (which is gitignored)
-    // Use 'grunt includereplace' for generating the real distributing html
+    // Use 'grunt includereplace' for generating the real distribution html
     includereplace: {
       preview: {
         options: {
-          // Task-specific options go here.
+          globals: {
+            head: '<script src="http://localhost:35729/livereload.js"></script>'
+          }
         },
         // Files to perform replacements and includes with
         src: 'index.html',
@@ -28,7 +30,9 @@ module.exports = function(grunt) {
 
       dist: {
         options: {
-          // Task-specific options go here.
+          globals: {
+            head: ''
+          }        
         },
         // Files to perform replacements and includes with
         src: 'index.html',
@@ -40,5 +44,6 @@ module.exports = function(grunt) {
   });
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-include-replace');
-
+  grunt.registerTask('default', ['watch']);
+  grunt.registerTask('dist', ['includereplace:dist']);
 };
