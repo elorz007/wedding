@@ -11,7 +11,7 @@ module.exports = function(grunt) {
 
     watch: {
       preview: {
-        files: ['<%= imagesFolder %>/*', '*.html', '*.css'],
+        files: ['<%= imagesFolder %>/*', '*.html', '*.css', '*.yml'],
         tasks: ['preview'],
       },
       livereload: {
@@ -65,13 +65,25 @@ module.exports = function(grunt) {
           replacements: [{
             pattern: /@@localize\((.*?)\)/ig,
             replacement: function (match, key) {
-              return translations[key];
+              return eval('translations.' + key) || key;
+            }
+          }]
+        }
+      },
+      dist: {
+        files: {
+          '<%= distFolder %>/<%= source %>': '<%= distFolder %>/<%= source %>'
+        },
+        options: {
+          replacements: [{
+            pattern: /@@localize\((.*?)\)/ig,
+            replacement: function (match, key) {
+              return eval('translations.' + key) || key;
             }
           }]
         }
       }
     }
-
   });
   var translations = grunt.file.readYAML('translations.yml');
   grunt.loadNpmTasks('grunt-contrib-watch');
