@@ -1,0 +1,19 @@
+:root {
+  --text: #FFD498;
+  --background: #7f8c8d;
+  --accent-primary: #DF3D2E;
+  --accent-secondary: #700414;
+  --accent-tertiary: #FE5825;
+  --accent-alternative: #047C51;
+}
+
+body {
+    line-height: 1.7em;
+    color: var(--text);
+    background-color: var(--background);;
+    font-size: 13px;
+}
+
+h1, h2, h3, h4, h5, h6, label {
+    color: var(--accent-primary);
+}

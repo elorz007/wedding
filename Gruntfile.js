@@ -3,18 +3,23 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+
+    previewFolder : 'preview/',
+    distFolder : 'dist/',
+    imagesFolder : 'images/',
+    source: 'index.html',
+
     watch: {
-      css: {
-        files: ['**/*.md', 'index.html'],
-        tasks: ['includereplace:preview'],
-        options: {
-          livereload: true,
-        },
+      preview: {
+        files: ['<%= imagesFolder %>/*', '*.html', '*.css'],
+        tasks: ['preview'],
       },
+      livereload: {
+        options: { livereload: true },
+        files: ['<%= previewFolder %>/**/*'],
+      }
     },
 
-    // Use 'grunt includereplace:preview' for generating preview (which is gitignored)
-    // Use 'grunt includereplace' for generating the real distribution html
     includereplace: {
       preview: {
         options: {
@@ -22,10 +27,9 @@ module.exports = function(grunt) {
             head: '<script src="http://localhost:35729/livereload.js"></script>'
           }
         },
-        // Files to perform replacements and includes with
-        src: 'index.html',
-        // Destination directory to copy files to
-        dest: 'preview/'
+        files: [
+            {src: '<%= source %>', dest: '<%= previewFolder %>'},
+        ]
       },
 
       dist: {
@@ -34,16 +38,28 @@ module.exports = function(grunt) {
             head: ''
           }        
         },
-        // Files to perform replacements and includes with
-        src: 'index.html',
-        // Destination directory to copy files to
-        dest: 'docs/'
+        files: [
+            {src: '<%= source %>', dest: '<%= distFolder %>'},
+        ]
       }
-    }
-
+    },
+    copy: {
+      preview: {
+        expand: true,
+        src: '<%= imagesFolder %>/*',
+        dest: '<%= previewFolder %>',
+      },
+      dist: {
+        expand: true,
+        src: '<%= imagesFolder %>/*',
+        dest: '<%= distFolder %>',
+      },
+    },
   });
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-include-replace');
+  grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.registerTask('preview', ['includereplace:preview', 'copy:preview']);
+  grunt.registerTask('dist', ['includereplace:dist', 'copy:dist']);
   grunt.registerTask('default', ['watch']);
-  grunt.registerTask('dist', ['includereplace:dist']);
 };
