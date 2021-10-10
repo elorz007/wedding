@@ -55,11 +55,30 @@ module.exports = function(grunt) {
         dest: '<%= distFolder %>',
       },
     },
+
+    'string-replace': {
+      preview: {
+        files: {
+          '<%= previewFolder %>/<%= source %>': '<%= previewFolder %>/<%= source %>'
+        },
+        options: {
+          replacements: [{
+            pattern: /@@localize\((.*?)\)/ig,
+            replacement: function (match, key) {
+              return translations[key];
+            }
+          }]
+        }
+      }
+    }
+
   });
+  var translations = grunt.file.readYAML('translations.yml');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-include-replace');
   grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.registerTask('preview', ['includereplace:preview', 'copy:preview']);
-  grunt.registerTask('dist', ['includereplace:dist', 'copy:dist']);
+  grunt.loadNpmTasks('grunt-string-replace');
+  grunt.registerTask('preview', ['includereplace:preview', 'copy:preview', 'string-replace:preview']);
+  grunt.registerTask('dist', ['includereplace:dist', 'copy:dist', 'string-replace:dist']);
   grunt.registerTask('default', ['watch']);
 };
