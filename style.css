@@ -1,44 +1,103 @@
 :root {
-  --text: #FFD498;
-  --background: #7f8c8d;
-  --accent-primary: #DF3D2E;
+  --text: #999;
+  --text-accent: #FFD498;
+  --background: #191818;
+  --accent: #DF3D2E;
   --accent-secondary: #700414;
   --accent-tertiary: #FE5825;
   --accent-alternative: #047C51;
+  --space: 2em;
 }
 
+
 body {
-    line-height: 1.7em;
     color: var(--text);
     background-color: var(--background);
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, label {
-    color: var(--accent-primary);
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.banner {
-    background: var(--accent-alternative);
+.pure-img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+#banner {
+    background: var(--accent);
+    color: var(--text-accent);
+    border-color: var(--text-accent);
     z-index: 1;
     overflow: hidden;
-    /* The following styles are required for the "scroll-over" effect */
     width: 100%;
     height: 88%;
     top: 0;
     left: 0;
     position: fixed !important;
 }
+  #banner content {
+    margin-bottom: 7em;
+  }
+  #banner .panel {
+    border-style: solid;
+    border-width: 1px 0 1px 0;
+    padding: 1em 2em 1em 2em;
+    text-align: center;
+    position: relative;
+  }
+    #banner .panel h1 {
+      font-size: 2.5em;
+      text-transform: uppercase;
+      font-weight: lighter;
+    }
+    #banner .panel p {
+      font-size: 1em;
+      font-weight: bold;
+    }
 
-.wrapper {
-    /* These styles are required for the "scroll-over" effect */
+  #banner .logo i {
+    font-size: 2em;
+    border-radius: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0.6em;
+  }
+  #banner .connection:after {
+    content: '';
+    display: block;
+    position: relative;
+    bottom: 0em;
+    left: calc(50% - 1px);
+    width: 1px;
+    height: calc(3.5rem + 1px);
+    background: var(--text-accent);
+  }
+  #banner .panel:after {
+    content: '';
+    display: block;
+    position: absolute;
+    --size: 200em;
+    bottom: calc(-1 * var(--size));
+    left: calc(50% - 1px);
+    width: 1px;
+    height: calc(var(--size));
+    background: var(--text-accent);
+  }
+
+#main {
     position: absolute;
     top: 87%;
     width: 100%;
-    min-height: 12%;
     z-index: 2;
     background: var(--background);
 }
+  #main section {
+    padding: var(--space);
+  }
 
 .spotlight:before {
   content: '';
@@ -49,10 +108,23 @@ h1, h2, h3, h4, h5, h6, label {
   --height: 5vw;
   height: var(--height);
   left: 0;
-  top: calc(-1 * var(--height));
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' fill='%237f8c8d' /%3E%3C/svg%3E");
+  top: calc(-1 * var(--height) + 1px);
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' fill='%23191818' /%3E%3C/svg%3E");
 }
 
 .ribbon {
-    background: var(--accent-alternative);
+    background: var(--accent);
+    color: var(--text-accent);
+}
+
+
+@media (min-width: 39em) {
+    #banner {
+        font-size: 150%;
+    }
+}
+@media (min-width: 78em) {
+    #banner {
+        font-size: 200%;
+    }
 }

@@ -1,20 +1,43 @@
-<section class="banner">
-    <!-- <div class="banner"> -->
-        <h1 class="banner-head">@@localize(name)</h1>
-        <p class="banner-subhead">
-            @@localize(whatever) @@localize(info.a)
-        </p>
-    <!-- </div> -->
-</section>
+<header id="banner" class="center">
+	<content>
+		<div class="center logo">
+			<i class="fa fa-diamond" aria-hidden="true"></i>
+		</div>
+		<div class="connection"></div>
+		<div class="panel">
+		    <h1>@@localize(banner.title)</h1>
+		    <p>@@localize(banner.subtitle)</p>
+		</div>
+	</content>
+</header>
 
-<div class="wrapper">
-	<section class="spotlight">
+<content id="main">
+	<section id="location" class="spotlight">
+		<h1 class="center">@@localize(location.title)</h1>
+		<content class="pure-g">
+			<img class="pure-img-responsive pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" src="images/cake.jpg">
+			<img class="pure-img-responsive pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" src="images/leaves.jpg">
+			<img class="pure-img-responsive pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" src="images/cake.jpg">
+			<img class="pure-img-responsive pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" src="images/leaves.jpg">
+		</content>
 		@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)
 	</section>
-	<section class="ribbon">
+	<section id="rsvp">
+		@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)
+	</section>
+	<section id="timeline" class="ribbon">
 		@@localize(lorem)
 	</section>
-	<section>
+	<section id="corona">
 		@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)
 	</section>
-</div>
+	<section id="stay">
+		@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)
+	</section>
+	<section id="tourism">
+		@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)
+	</section>
+	<section id="faq">
+		@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)
+	</section>
+</content>
