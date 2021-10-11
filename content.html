@@ -1,12 +1,12 @@
 <header id="banner" class="center">
 	<content>
-		<div class="center logo">
+		<div class="center logo fadeIn">
 			<i class="fa fa-diamond" aria-hidden="true"></i>
 		</div>
-		<div class="connection"></div>
-		<div class="panel">
-		    <h1>@@localize(banner.title)</h1>
-		    <p>@@localize(banner.subtitle)</p>
+		<div class="connection fadeIn"></div>
+		<div class="panel fadeIn">
+		    <h1 class="fadeInLater">@@localize(banner.title)</h1>
+		    <p class="fadeInLaterLater">@@localize(banner.subtitle)</p>
 		</div>
 	</content>
 </header>
@@ -15,17 +15,28 @@
 	<section id="location" class="spotlight">
 		<h1 class="center">@@localize(location.title)</h1>
 		<content class="pure-g">
-			<img class="pure-img-responsive pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" src="images/cake.jpg">
-			<img class="pure-img-responsive pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" src="images/leaves.jpg">
-			<img class="pure-img-responsive pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" src="images/cake.jpg">
-			<img class="pure-img-responsive pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" src="images/leaves.jpg">
+			<img class="pure-img-responsive pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" src="https://picsum.photos/1000?grayscale&random=1">
+			<img class="pure-img-responsive pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" src="https://picsum.photos/800?grayscale&random=2">
+			<img class="pure-img-responsive pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" src="https://picsum.photos/500?grayscale&random=3">
+			<img class="pure-img-responsive pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" src="https://picsum.photos/100?grayscale&random=4">
 		</content>
-		@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)
 	</section>
 	<section id="rsvp">
-		@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)
+		<h1 class="center">@@localize(rsvp.title)</h1>
+		<content class="center">
+			<div class="box">
+				<h2 class="">@@localize(rsvp.subtitle)</h2>
+				<ul>
+					<li>@@localize(rsvp.assistants)</li>
+					<li>@@localize(rsvp.dietary_restriction)</li>
+					<li>@@localize(rsvp.kids)</li>
+					<li>@@localize(rsvp.extra)</li>
+				</ul>
+				<a class="pure-button button-hollow button-stretch button-large" href="mailto:elorz.mikel@gmail.com">@@localize(rsvp.button)</a>
+			</div>
+		</content>
 	</section>
-	<section id="timeline" class="ribbon">
+	<section id="timeline">
 		@@localize(lorem)
 	</section>
 	<section id="corona">
