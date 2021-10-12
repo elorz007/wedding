@@ -1,5 +1,5 @@
 <header id="banner" class="center">
-	<content>
+	<article>
 		<div class="center logo fadeIn">
 			<i class="fa fa-diamond" aria-hidden="true"></i>
 		</div>
@@ -8,22 +8,22 @@
 		    <h1 class="fadeInLater">@@localize(banner.title)</h1>
 		    <p class="fadeInLaterLater">@@localize(banner.subtitle)</p>
 		</div>
-	</content>
+	</article>
 </header>
 
-<content id="main">
+<main id="main">
 	<section id="location" class="spotlight">
 		<h1 class="center">@@localize(location.title)</h1>
-		<content class="pure-g">
+		<article class="pure-g">
 			<img class="pure-img-responsive pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" src="https://picsum.photos/1000?grayscale&random=1">
 			<img class="pure-img-responsive pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" src="https://picsum.photos/800?grayscale&random=2">
 			<img class="pure-img-responsive pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" src="https://picsum.photos/500?grayscale&random=3">
 			<img class="pure-img-responsive pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" src="https://picsum.photos/100?grayscale&random=4">
-		</content>
+		</article>
 	</section>
 	<section id="rsvp">
 		<h1 class="center">@@localize(rsvp.title)</h1>
-		<content class="center">
+		<article class="center">
 			<div class="box">
 				<h2 class="drop-cap">@@localize(rsvp.subtitle)</h2>
 				<ul>
@@ -34,27 +34,107 @@
 				</ul>
 				<a class="pure-button button-hollow button-stretch button-large" href="mailto:elorz.mikel@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;@@localize(rsvp.button)</a>
 			</div>
-		</content>
+		</article>
+	</section>
+	<section id="get-there">
+		<h1 class="center">@@localize(get_there.title)</h1>
 	</section>
 	<section id="timeline">
 		<h1 class="center">@@localize(timeline.title)</h1>
-		<content class="pure-g">
-			<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" style="background: red; height: 500px;"></div>
-			<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" style="background: blue; height: 500px;"></div>
-			<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" style="background: green; height: 500px;"></div>
-			<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" style="background: purple; height: 500px;"></div>
-		</content>
+		<div class="to-be-announced">
+			<span class="overlay">@@localize(common.to_be_announced)</span>
+			<div class="fake">
+				<p style="display: table;">@@localize(fake.medium_2)</p>
+				<table class="pure-table">
+					<thead>
+						<tr>
+							<th>@@localize(fake.word)</th>
+							<th>@@localize(fake.word_2)</th>
+							<th>@@localize(fake.word_3)</th>
+							<th>@@localize(fake.word_4)</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>@@localize(fake.hour)</td>
+							<td>@@localize(fake.hour)</td>
+							<td>@@localize(fake.hour)</td>
+							<td>@@localize(fake.hour)</td>
+					</tbody>
+				</table>
+			</div>
+		</div>
 	</section>
 	<section id="corona">
-		@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)
+		<h1 class="center">@@localize(corona.title)</h1>
+		<div class="to-be-announced">
+			<span class="overlay">@@localize(common.to_be_announced)</span>
+			<div class="fake">
+				<p>@@localize(fake.medium)</p>
+				<ul>
+					<li>@@localize(fake.short)</li>
+					<li>@@localize(fake.short_2)</li>
+					<li>@@localize(fake.short_3)</li>
+					<li>@@localize(fake.short_4)</li>
+				</ul>
+			</div>
+		</div>
 	</section>
 	<section id="stay">
-		@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)
+		<h1 class="center">@@localize(stay.title)</h1>
+		<div class="to-be-announced">
+			<span class="overlay">@@localize(common.to_be_announced)</span>
+			<div class="fake">
+				<p>@@localize(fake.medium_2)</p>
+				<article class="pure-g">
+					<figure class="pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-4">
+						<img class="pure-img-responsive" src="https://picsum.photos/1000?grayscale&random=1"/>
+						<figcaption>@@localize(fake.short)</figcaption>
+					</figure>
+					<figure class="pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-4">
+						<img class="pure-img-responsive" src="https://picsum.photos/1000?grayscale&random=2"/>
+						<figcaption>@@localize(fake.short)</figcaption>
+					</figure>
+					<figure class="pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-4">
+						<img class="pure-img-responsive" src="https://picsum.photos/1000?grayscale&random=3"/>
+						<figcaption>@@localize(fake.short)</figcaption>
+					</figure>
+					<figure class="pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-4">
+						<img class="pure-img-responsive" src="https://picsum.photos/1000?grayscale&random=4"/>
+						<figcaption>@@localize(fake.short)</figcaption>
+					</figure>
+				</article>
+			</div>
+		</div>
 	</section>
 	<section id="tourism">
-		@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)
+		<h1 class="center">@@localize(tourism.title)</h1>
+		<div class="to-be-announced">
+			<span class="overlay">@@localize(common.to_be_announced)</span>
+			<div class="fake">
+				<p>@@localize(fake.medium_2)</p>
+				<article>
+					<div class="pure-g">
+						<img class="pure-u-1-4" src="https://picsum.photos/1000?grayscale&random=5"/>
+						<p class="pure-u-3-5">@@localize(fake.medium_2)</p>
+					</div>
+				</article>
+				<article>
+					<div class="pure-g">
+						<img class="pure-u-1-4" src="https://picsum.photos/1000?grayscale&random=6"/>
+						<p class="pure-u-3-5">@@localize(fake.medium)</p>
+					</div>
+				</article>
+				<article>
+					<div class="pure-g">
+						<img class="pure-u-1-4" src="https://picsum.photos/1000?grayscale&random=1"/>
+						<p class="pure-u-3-5">@@localize(fake.medium_2)</p>
+					</div>
+				</article>
+			</div>
+		</div>
 	</section>
 	<section id="faq">
-		@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)@@localize(lorem)
+		<h1 class="center">@@localize(faq.title)</h1>
 	</section>
-</content>
+</main>

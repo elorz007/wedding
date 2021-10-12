@@ -12,8 +12,43 @@ rsvp:
   kids: '¿Cuántos menús de niños?'
   dietary_restrictions: '¿Alguna necesidad especial para el menú? (Alergias, menú vegetariano, ...) '
   extra: '¿Algo más que quieras hacernos saber?'
+get_there:
+  title: 'Cómo llegar'
 timeline:
   title: 'Horario'
-lorem: |
-  Bacon ipsum dolor amet ground round prosciutto tenderloin kevin boudin turducken drumstick flank. Frankfurter hamburger tail ribeye. Meatloaf pork chop chuck beef. Venison cow tenderloin tri-tip ham bresaola turkey pork belly meatloaf ribeye beef. Frankfurter chicken rump salami brisket pork swine hamburger short loin. Tri-tip jerky salami kevin chislic tongue doner sirloin bresaola chicken ham flank turkey. Tenderloin bresaola capicola, spare ribs hamburger shoulder leberkas tail swine short ribs t-bone drumstick.
-  Kielbasa meatball frankfurter, cow andouille porchetta shankle chislic short loin pork tongue bacon corned beef pastrami jerky. Fatback pork belly landjaeger chicken meatball venison. Bresaola boudin andouille flank. Kevin venison ball tip fatback turkey filet mignon flank short loin meatball andouille ham frankfurter prosciutto pork chop bresaola. Ground round burgdoggen kielbasa, salami capicola porchetta landjaeger meatloaf pastrami prosciutto ham.
+corona:
+  title: 'Reglas COVID'
+stay:
+  title: 'Alojamiento'
+tourism:
+  title: 'Pamplona y alrededores'
+    # Qué ver
+    # Comida
+    # Frases (Diccionario Castellano | Euskera | Inglés | Alemán | Schwab | Francés(qué más te da))
+faq:
+  title: 'Preguntas frecuentes'
+common:
+  to_be_announced: 'Próximamente'
+fake:
+  word: 'Bacon Ipsum'
+  word_2: 'Dolor Amet'
+  word_3: 'Salami'
+  word_4: 'Meatball'
+  hour: '13:00'
+  short: 'Bacon ipsum dolor amet ham hock jowl salami beef ribs'
+  short_2: 'Venison t-bone spare ribs shankle'
+  short_3: 'Hamburger ball tip prosciutto, landjaeger'
+  short_4: 'Hamburger ball tip prosciutto, landjaeger'
+  medium: |
+    Bacon ipsum dolor amet ham hock jowl salami beef ribs, shankle cow turducken kevin meatball pork belly ham. Filet mignon boudin jerky, shankle corned beef pork chop chicken. Meatloaf jerky short loin tail pork loin chislic corned beef venison leberkas doner spare ribs beef ribs beef pig biltong. Corned beef filet mignon brisket bacon tail. Corned beef strip steak venison salami, shankle shank alcatra buffalo ham hock prosciutto kevin boudin pork loin. Strip steak tongue beef filet mignon leberkas capicola pig burgdoggen chuck.
+  medium_2: |
+    Venison tri-tip spare ribs shankle, andouille t-bone chuck short ribs prosciutto. Drumstick alcatra tenderloin, hamburger ground round pastrami chuck kielbasa. Swine short loin pork belly kielbasa porchetta, turkey pancetta leberkas rump tenderloin boudin pig sirloin chuck. Ham filet mignon cow frankfurter. Alcatra jerky venison bacon. Sirloin chuck short loin pork loin.
+  long: |
+    Bacon ipsum dolor amet ham hock jowl salami beef ribs, shankle cow turducken kevin meatball pork belly ham. Filet mignon boudin jerky, shankle corned beef pork chop chicken. Meatloaf jerky short loin tail pork loin chislic corned beef venison leberkas doner spare ribs beef ribs beef pig biltong. Corned beef filet mignon brisket bacon tail. Corned beef strip steak venison salami, shankle shank alcatra buffalo ham hock prosciutto kevin boudin pork loin. Strip steak tongue beef filet mignon leberkas capicola pig burgdoggen chuck.
+
+    Venison tri-tip spare ribs shankle, andouille t-bone chuck short ribs prosciutto. Drumstick alcatra tenderloin, hamburger ground round pastrami chuck kielbasa. Swine short loin pork belly kielbasa porchetta, turkey pancetta leberkas rump tenderloin boudin pig sirloin chuck. Ham filet mignon cow frankfurter. Alcatra jerky venison bacon. Sirloin chuck short loin pork loin. Tenderloin prosciutto t-bone porchetta, burgdoggen filet mignon sausage turkey jowl.
+
+    Tri-tip ball tip prosciutto, landjaeger pancetta ham hock alcatra andouille pastrami chislic. Ham salami meatball, venison pork chop shank ball tip landjaeger pastrami tongue shankle cupim. Leberkas t-bone drumstick ribeye jerky shoulder turkey kevin pig meatball capicola tongue beef bresaola. Pork chop ribeye pastrami rump tail ball tip andouille corned beef burgdoggen. T-bone meatloaf chicken sirloin ribeye burgdoggen picanha landjaeger pork chop corned beef turducken shank pork belly pastrami chuck. Turkey pork shankle, capicola jowl pancetta meatloaf pork chop pork belly t-bone doner strip steak brisket.
+
+    Prosciutto jerky biltong doner, short ribs tail capicola sausage. Burgdoggen doner short ribs kielbasa strip steak ham hock bacon. Chicken tri-tip fatback spare ribs t-bone. Doner sirloin ham leberkas shank shankle. Pig spare ribs cupim meatball, flank turducken chuck t-bone filet mignon drumstick ham chislic hamburger bresaola. Sausage meatball venison cow.
+  
