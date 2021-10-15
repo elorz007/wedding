@@ -27,6 +27,8 @@ tourism:
     # Frases (Diccionario Castellano | Euskera | Inglés | Alemán | Schwab | Francés(qué más te da))
 faq:
   title: 'Preguntas frecuentes'
+  q: "P."
+  a: "R."
 common:
   to_be_announced: 'Próximamente'
 fake:
