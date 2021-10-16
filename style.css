@@ -246,13 +246,16 @@ p.center, h1.center, h2.center, h3.center, h4.center, h5.center, h6.center,{
 
 #tourism {}
 
-#faq {}
+#faq {
+  padding: var(--space);
+}
   #faq .qa {
     font-size: 1.5em;
     margin-bottom: var(--space-small);
   }
 
   #faq .qa .item {
+    display: block;
     margin: 0;
     padding: var(--space-small);
     padding-left: 3em;
