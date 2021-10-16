@@ -1,8 +1,11 @@
 :root {
-  --text: #999;
+  --text: #999898;
   --text-inverted: #191818;
-  --text-accent: #FFD498;
+  --text-accent: #DF3D2E;
+  --text-accent-over-alternative: #700414;
+  --text-over-accent: #FFD498;
   --background: #191818;
+  --background-alternative: #494848;
   --accent: #DF3D2E;
   --accent-secondary: #700414;
   --accent-tertiary: #FE5825;
@@ -52,10 +55,25 @@ p.center, h1.center, h2.center, h3.center, h4.center, h5.center, h6.center,{
   padding-left: var(--space-tiny);
 }
 
+iframe.responsive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.responsive-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
 #banner {
     background: var(--accent);
-    color: var(--text-accent);
-    border-color: var(--text-accent);
+    color: var(--text-over-accent);
+    border-color: var(--text-over-accent);
     z-index: 1;
     overflow: hidden;
     width: 100%;
@@ -99,7 +117,7 @@ p.center, h1.center, h2.center, h3.center, h4.center, h5.center, h6.center,{
     left: calc(50% - 1px);
     width: 1px;
     height: calc(var(--space) + 1px);
-    background: var(--text-accent);
+    background: var(--text-over-accent);
   }
   #banner .panel:after {
     content: '';
@@ -110,7 +128,7 @@ p.center, h1.center, h2.center, h3.center, h4.center, h5.center, h6.center,{
     left: calc(50% - 1px);
     width: 1px;
     height: calc(var(--size));
-    background: var(--text-accent);
+    background: var(--text-over-accent);
   }
 
 #main {
@@ -149,7 +167,7 @@ p.center, h1.center, h2.center, h3.center, h4.center, h5.center, h6.center,{
 }
 
   .drop-cap::first-letter {
-    color: var(--accent);
+    color: var(--text-accent);
     float: left;
     font-style: italic;
     font-family: serif;
@@ -219,10 +237,10 @@ p.center, h1.center, h2.center, h3.center, h4.center, h5.center, h6.center,{
     user-select: none;
   }
 
-.ribbon {
-  background: var(--accent);
-  color: var(--text-accent);
-}
+#location {}
+  #location img {
+    filter: contrast(125%) grayscale(100%);
+  }
 
 #rsvp {}
   #rsvp .box {
@@ -234,6 +252,24 @@ p.center, h1.center, h2.center, h3.center, h4.center, h5.center, h6.center,{
     }
 
 #get-there {}
+  #get-there div {
+    min-height: 22em;
+  }
+  #get-there .address {
+    background-color: var(--background-alternative);
+    color: var(--text-inverted);
+    text-transform: uppercase;
+  }
+    #get-there .address .center {
+        flex-direction: column;
+    }
+    #get-there .address .title {
+      margin: 0;
+      font-size: 1.5em;
+    }
+    #get-there .address .text {
+      font-size: 1.25em;
+    }
 
 #timeline {}
 
@@ -247,10 +283,10 @@ p.center, h1.center, h2.center, h3.center, h4.center, h5.center, h6.center,{
 #tourism {}
 
 #faq {
-  padding: var(--space);
+  /*padding: var(--space);*/
 }
   #faq .qa {
-    font-size: 1.5em;
+    font-size: 1.25em;
     margin-bottom: var(--space-small);
   }
 
@@ -258,10 +294,10 @@ p.center, h1.center, h2.center, h3.center, h4.center, h5.center, h6.center,{
     display: block;
     margin: 0;
     padding: var(--space-small);
-    padding-left: 3em;
+    padding-left: 3.25em;
     position: relative;
     border-style: solid;
-    border-width: 0 0 0 5px;
+    border-width: 0 0 0 3px;
   }
     #faq .qa .item:before {
       position: absolute;
@@ -269,25 +305,28 @@ p.center, h1.center, h2.center, h3.center, h4.center, h5.center, h6.center,{
       left: 0;
       transform: translateY(-50%);
       font-size: 2.5em;
-      padding-left: 5px;
+      padding-left: 10px;
     }
   #faq .qa .question {
-    background-color: var(--accent);
-    border-color: var(--accent-secondary);
-    color: var(--accent-secondary);
+    background-color: var(--background-alternative);
+    color: var(--text-inverted);
+    border-color: var(--text-accent-over-alternative);
+    font-weight: bold;
   }
     #faq .qa .question:before {
       content: '@@localize(faq.q)';
-      color: var(--accent-secondary);
+      color: var(--text-accent-over-alternative);
+      font-weight: normal;
     }
   #faq .qa .answer {
-    background-color: var(--accent-secondary);
-    border-color: var(--accent);
-    color: var(--accent);
+    border-color: var(--text);
+    color: var(--text);
+    font-weight: normal;
   }
     #faq .qa .answer:before {
       content: '@@localize(faq.a)';
-      color: var(--accent);
+      color: var(--text);
+      font-weight: normal;
     }
 
 
