@@ -2,10 +2,12 @@
   --text: #999898;
   --text-inverted: #191818;
   --text-accent: #DF3D2E;
-  --text-accent-over-alternative: #700414;
+  --text-accent-over-background-alternative: #DF3D2E;
+  --text-over-background-alternative: #9d9c9c;
   --text-over-accent: #FFD498;
   --background: #191818;
-  --background-alternative: #494848;
+  --background-inverted: #999898;
+  --background-alternative: #1d1c1c;
   --accent: #DF3D2E;
   --accent-secondary: #700414;
   --accent-tertiary: #FE5825;
@@ -195,7 +197,7 @@ iframe.responsive {
   }
 
   .button-hollow:hover {
-    background-color: var(--text);
+    background-color: var(--background-inverted);
     color: var(--text-inverted);
     border-color: var(--text-inverted);
     border-width: 1px;
@@ -250,25 +252,39 @@ iframe.responsive {
     #rsvp .box li {
       font-size: 125%;
     }
+    #rsvp .box .pure-button {
+      margin-top: var(--space);
+    }
 
 #get-there {}
   #get-there div {
     min-height: 22em;
   }
   #get-there .address {
-    background-color: var(--background-alternative);
-    color: var(--text-inverted);
-    text-transform: uppercase;
+    border-style: solid;
+    border-width: 1px 0 1px 0;
+    border-color: var(--text);
   }
+    #get-there .map {
+      filter: grayscale(100%);
+    }
     #get-there .address .center {
         flex-direction: column;
     }
     #get-there .address .title {
       margin: 0;
       font-size: 1.5em;
+      text-transform: uppercase;
     }
-    #get-there .address .text {
+    #get-there .address .street {
+      margin: var(--space-small) 0 0 0;
       font-size: 1.25em;
+      text-transform: uppercase;
+    }
+    #get-there .address .distance {
+      margin: 0;
+      font-size: 1em;
+      font-weight: lighter;
     }
 
 #timeline {}
@@ -309,13 +325,13 @@ iframe.responsive {
     }
   #faq .qa .question {
     background-color: var(--background-alternative);
-    color: var(--text-inverted);
-    border-color: var(--text-accent-over-alternative);
-    font-weight: bold;
+    color: var(--text-over-background-alternative);
+    border-color: var(--text-accent-over-background-alternative);
+    font-weight: bolder;
   }
     #faq .qa .question:before {
       content: '@@localize(faq.q)';
-      color: var(--text-accent-over-alternative);
+      color: var(--text-accent-over-background-alternative);
       font-weight: normal;
     }
   #faq .qa .answer {

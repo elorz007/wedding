@@ -6,17 +6,21 @@ location:
   title: 'Palacio de Olloqui'
 rsvp:
   title: 'Confirma tu asistencia'
-  subtitle: 'Nos encantaría contar <em>contigo</em> y con tu familia y nos ayudaría mucho que nos mandes un email o un mensaje con un poco de información:'
+  subtitle: 'Nos encantaría contar con <em>vosotros</em> y nos ayudaría mucho que nos mandéis un email o un mensaje con un poco de información:'
   button: 'Escríbenos'
+  # https://mailtolink.me/
+  link: 'mailto:elorz.mikel@gmail.com?subject=Boda%20Mikel%20%26%20Montse&body=Buenos%20d%C3%ADas%2C%0D%0A%0D%0A%C2%A1Nos%20apuntamos%20a%20la%20boda%20el%20s%C3%A1bado%208%20de%20Octubre%20de%202022!%0D%0A%0D%0A-%20Personas%20(men%C3%BA%20est%C3%A1ndar%20%2F%20men%C3%BA%20vegetariano%20%2F%20men%C3%BA%20vegano%20%2F%20men%C3%BA%20ni%C3%B1os%20%2F%20alergias)%3A%0D%0ANombre%20Apellido%20(men%C3%BA%20est%C3%A1ndar)%0D%0ANombre%20Apellido%20(men%C3%BA%20vegetariano%2C%20alergia%20a...)%0D%0ANombre%20Apellido%20(men%C3%BA%20ni%C3%B1os)%0D%0A%0D%0A-%20Nos%20interesar%C3%ADa%20autob%C3%BAs%20de%20Pamplona%20al%20Palacio%20Olloqui%3A%0D%0ASolo%20ida%20%2F%20Ida%20y%20vuelta%20%2F%20No%0D%0A%0D%0A%0D%0AUn%20saludo'
   assistants: '¿Con cuántas personas deberíamos contar? (Parejas, hijos, ...)'
   kids: '¿Cuántos menús de niños?'
   dietary_restrictions: '¿Alguna necesidad especial para el menú? (Alergias, menú vegetariano, ...) '
-  extra: '¿Algo más que quieras hacernos saber?'
+  transportation: '¿Os interesaría un autobús de Pamplona al palacio de Olloqui?'
+  extra: '¿Algo más que queráis hacernos saber?'
 get_there:
   title: 'Cómo llegar'
   address:
     title: 'Dirección'
-    text: 'Calle San Adrián 15, Olloki'
+    street: 'Calle San Adrián 15, Olloki'
+    distance: 'a 15 minutos del centro'
 timeline:
   title: 'Horario'
 corona:
@@ -26,7 +30,8 @@ stay:
 tourism:
   title: 'Pamplona y alrededores'
     # Qué ver
-    # Comida
+    # Ciudades cerca
+    # Qué comer
     # Frases (Diccionario Castellano | Euskera | Inglés | Alemán | Schwab | Francés(qué más te da))
 faq:
   title: 'Preguntas frecuentes'
