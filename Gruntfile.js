@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     previewFolder : 'preview/',
-    distFolder : 'dist/',
+    distFolder : 'docs/',
     imagesFolder : 'images/',
     source: 'index.html',
 
