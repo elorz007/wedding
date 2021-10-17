@@ -1,17 +1,16 @@
 :root {
-  --text: #999898;
-  --text-inverted: #191818;
-  --text-accent: #DF3D2E;
-  --text-accent-over-background-alternative: #DF3D2E;
-  --text-over-background-alternative: #9d9c9c;
-  --text-over-accent: #FFD498;
   --background: #191818;
-  --background-inverted: #999898;
+  --text: #999898;
+
+  --background-inverted: var(--text);
+  --text-inverted: var(--background);
+  
   --background-alternative: #1d1c1c;
-  --accent: #DF3D2E;
-  --accent-secondary: #700414;
-  --accent-tertiary: #FE5825;
-  --accent-alternative: #047C51;
+  --text-over-background-alternative: #9d9c9c;
+
+  --accent: #6F201D;
+  --text-over-accent: #E2A93A;
+
   --space-tiny: 0.5em;
   --space-small: 1em;
   --space: 2em;
@@ -21,7 +20,7 @@
 
 body {
     color: var(--text);
-    background-color: var(--background);
+    background: var(--background);
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 2em;
 }
@@ -39,8 +38,8 @@ figure {
 }
 
 ::selection {
-    background: var(--accent-tertiary);
-    color: var(--text-inverted);
+    background: var(--accent);
+    color: var(--text-over-accent);
 }
 
 .center {
@@ -51,10 +50,6 @@ figure {
 
 p.center, h1.center, h2.center, h3.center, h4.center, h5.center, h6.center,{
   text-align: center;
-}
-
-.bump-left {
-  padding-left: var(--space-tiny);
 }
 
 iframe.responsive {
@@ -73,17 +68,20 @@ iframe.responsive {
 }
 
 #banner {
-    background: var(--accent);
+    background-color: var(--accent);
     color: var(--text-over-accent);
     border-color: var(--text-over-accent);
     z-index: 1;
-    overflow: hidden;
     width: 100%;
     height: 88%;
     top: 0;
     left: 0;
     position: fixed !important;
 }
+  #banner ::selection {
+      background: var(--background);
+      color: var(--text-over-background);
+  }
   #banner article {
     margin-bottom: var(--space-huge);
   }
@@ -169,7 +167,7 @@ iframe.responsive {
 }
 
   .drop-cap::first-letter {
-    color: var(--text-accent);
+    color: var(--accent);
     float: left;
     font-style: italic;
     font-family: serif;
@@ -299,11 +297,11 @@ iframe.responsive {
 #tourism {}
 
 #faq {
-  /*padding: var(--space);*/
+  padding: var(--space);
 }
   #faq .qa {
-    font-size: 1.25em;
     margin-bottom: var(--space-small);
+    font-size: 1.15em;
   }
 
   #faq .qa .item {
@@ -326,23 +324,20 @@ iframe.responsive {
   #faq .qa .question {
     background-color: var(--background-alternative);
     color: var(--text-over-background-alternative);
-    border-color: var(--text-accent-over-background-alternative);
+    border-color: var(--accent);
     font-weight: bolder;
   }
     #faq .qa .question:before {
       content: '@@localize(faq.q)';
-      color: var(--text-accent-over-background-alternative);
-      font-weight: normal;
+      color: var(--accent);
     }
   #faq .qa .answer {
     border-color: var(--text);
     color: var(--text);
-    font-weight: normal;
   }
     #faq .qa .answer:before {
       content: '@@localize(faq.a)';
       color: var(--text);
-      font-weight: normal;
     }
 
 

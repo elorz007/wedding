@@ -10,7 +10,7 @@ rsvp:
   button: 'Escríbenos'
   # https://mailtolink.me/
   link: 'mailto:elorz.mikel@gmail.com?subject=Boda%20Mikel%20%26%20Montse&body=Buenos%20d%C3%ADas%2C%0D%0A%0D%0A%C2%A1Nos%20apuntamos%20a%20la%20boda%20el%20s%C3%A1bado%208%20de%20Octubre%20de%202022!%0D%0A%0D%0A-%20Personas%20(men%C3%BA%20est%C3%A1ndar%20%2F%20men%C3%BA%20vegetariano%20%2F%20men%C3%BA%20vegano%20%2F%20men%C3%BA%20ni%C3%B1os%20%2F%20alergias)%3A%0D%0ANombre%20Apellido%20(men%C3%BA%20est%C3%A1ndar)%0D%0ANombre%20Apellido%20(men%C3%BA%20vegetariano%2C%20alergia%20a...)%0D%0ANombre%20Apellido%20(men%C3%BA%20ni%C3%B1os)%0D%0A%0D%0A-%20Nos%20interesar%C3%ADa%20autob%C3%BAs%20de%20Pamplona%20al%20Palacio%20Olloqui%3A%0D%0ASolo%20ida%20%2F%20Ida%20y%20vuelta%20%2F%20No%0D%0A%0D%0A%0D%0AUn%20saludo'
-  assistants: '¿Con cuántas personas deberíamos contar? (Parejas, hijos, ...)'
+  assistants: '¿Con cuántas personas deberíamos contar? (Pareja, hijos, ...)'
   kids: '¿Cuántos menús de niños?'
   dietary_restrictions: '¿Alguna necesidad especial para el menú? (Alergias, menú vegetariano, ...) '
   transportation: '¿Os interesaría un autobús de Pamplona al palacio de Olloqui?'
@@ -25,6 +25,10 @@ timeline:
   title: 'Horario'
 corona:
   title: 'Reglas COVID'
+  # Mask + type + testing + certificate
+  # Contact
+  # How many people
+  # Dance
 stay:
   title: 'Alojamiento'
 tourism:
@@ -35,8 +39,39 @@ tourism:
     # Frases (Diccionario Castellano | Euskera | Inglés | Alemán | Schwab | Francés(qué más te da))
 faq:
   title: 'Preguntas frecuentes'
-  q: "P."
-  a: "R."
+  q: 'P.'
+  a: 'R.'
+  gifts:
+    q: '¿Qué tipo de regalo de boda preferís?'
+    a: 'El mejor regalo que podéis hacernos es vuestra presencia, suena a cliché pero es verdad. Si aún así queréis, una ayuda financiera para cubrir los costes de la boda siempre viene bien.'
+  dress_code:
+    q: '¿Hay código de vestimenta?'
+    a: 'Hombre, pues es una boda y es en Octubre así que si vienes en pantaloneta harás el ridículo y pasarás frío.'
+  weather:
+    q: 'Hablando del tiempo, ¿qué tiempo hará en Octubre en Pamplona?'
+    a: '¿Acaso tengo cara de metereólogo? Pues fresquito, trae chaqueta.'
+  party:
+    q: '¿Habrá baile y barra libre?'
+    a: 'Sí y sí (siempre y cuando lo permitan las normas).'
+  dance:
+    q: '¿Es obligatorio bailar?'
+    a: 'Sí.'
+  rsvp:
+    q: '¿Hasta cuándo tenemos tiempo para confirmar asistencia?'
+    a: 'Nos gustaría tener la lista de asistentes cerrada para el 1 de Julio 2022.'
+  guests:
+    q: '¿Cuántos invitados habrá?'
+    a: 'Queremos mantenerlo por debajo de 100 personas.'
+  honey_moon:
+    q: '¿A dónde vais de luna de miel?'
+    a: 'No lo sabemos aún pero estamos pensando irnos como un mes a Nueva Zelanda.'
+  author:
+    q: '¿Quién de los dos ha hecho esta página web?'
+    a: 'Lo hemos hecho los dos a partes iguales y Montse no está mirando mientras escribo esto.'
+  pictures:
+    q: '¿Podemos sacar fotos y vídeo durante la boda?'
+    a: 'Siempre y cuando no molestéis al fotógrafo oficial y no os traigáis un dron o alguna locura así, sin problema.'
+
 common:
   to_be_announced: 'Próximamente'
 fake:
@@ -48,7 +83,7 @@ fake:
   short: 'Bacon ipsum dolor amet ham hock jowl salami beef ribs'
   short_2: 'Venison t-bone spare ribs shankle'
   short_3: 'Hamburger ball tip prosciutto, landjaeger'
-  short_4: 'Hamburger ball tip prosciutto, landjaeger'
+  short_4: 'Prosciutto jerky biltong doner, short ribs tail capicola sausage.'
   medium: |
     Bacon ipsum dolor amet ham hock jowl salami beef ribs, shankle cow turducken kevin meatball pork belly ham. Filet mignon boudin jerky, shankle corned beef pork chop chicken. Meatloaf jerky short loin tail pork loin chislic corned beef venison leberkas doner spare ribs beef ribs beef pig biltong. Corned beef filet mignon brisket bacon tail. Corned beef strip steak venison salami, shankle shank alcatra buffalo ham hock prosciutto kevin boudin pork loin. Strip steak tongue beef filet mignon leberkas capicola pig burgdoggen chuck.
   medium_2: |

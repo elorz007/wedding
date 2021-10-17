@@ -83,14 +83,59 @@ module.exports = function(grunt) {
           }]
         }
       }
+    },
+    htmlmin: {
+      preview: {
+        options: {
+          removeComments: true,
+          ignoreCustomComments: [ /still alive/ ],
+          collapseWhitespace: true,
+          minifyCSS: true,
+          minifyJS: true,
+          removeEmptyAttributes: true,
+          removeAttributeQuotes: true,
+          removeEmptyElements: false,
+          removeOptionalTags: true,
+          removeRedundantAttributes: true,
+          removeStyleLinkTypeAttributes: true,
+          useShortDoctype: true,
+          collapseInlineTagWhitespace: true,
+        },
+        files: {
+          '<%= previewFolder %>/<%= source %>': '<%= previewFolder %>/<%= source %>'
+        }
+      },
+      dist: {
+        options: {
+          removeComments: true,
+          ignoreCustomComments: [ /still alive/ ],
+          collapseWhitespace: true,
+          minifyCSS: true,
+          minifyJS: true,
+          removeEmptyAttributes: true,
+          removeAttributeQuotes: true,
+          removeEmptyElements: false,
+          removeOptionalTags: true,
+          removeRedundantAttributes: true,
+          removeStyleLinkTypeAttributes: true,
+          useShortDoctype: true,
+          collapseInlineTagWhitespace: true,
+        },
+        files: {
+          '<%= distFolder %>/<%= source %>': '<%= distFolder %>/<%= source %>'
+        }
+      }
     }
+
   });
   var translations = grunt.file.readYAML('translations.yml');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-include-replace');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-string-replace');
-  grunt.registerTask('preview', ['includereplace:preview', 'copy:preview', 'string-replace:preview']);
-  grunt.registerTask('dist', ['includereplace:dist', 'copy:dist', 'string-replace:dist']);
+  grunt.loadNpmTasks('grunt-contrib-htmlmin');
+
+  grunt.registerTask('preview', ['includereplace:preview', 'copy:preview', 'string-replace:preview', 'htmlmin:preview']);
+  grunt.registerTask('dist', ['includereplace:dist', 'copy:dist', 'string-replace:dist', 'htmlmin:dist']);
   grunt.registerTask('default', ['watch']);
 };
