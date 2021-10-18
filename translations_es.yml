@@ -1,3 +1,4 @@
+lang: 'es'
 title: 'Mikel & Montse'
 favicon: 'images/favicon.ico'
 banner:
@@ -10,10 +11,18 @@ language_selection:
     de: './de/'
 location:
   title: 'Palacio de Olloqui'
-  building: 'images/olloqui_building.jpg'
-  room: 'images/olloqui_room.jpg'
-  table: 'images/olloqui_table.jpg'
-  disco: 'images/olloqui_disco.jpg'
+  building: 
+    src: './images/olloqui_building.webp'
+    alt: 'Foto del exterior del Palacio de Olloqui'
+  room: 
+    src: './images/olloqui_room.webp'
+    alt: 'Foto de la sala del interior del Palacio de Olloqui'
+  table: 
+    src: './images/olloqui_table.webp'
+    alt: 'Foto de la mesa de boda decorada'
+  disco: 
+    src: './images/olloqui_disco.webp'
+    alt: 'Foto de la discoteca con bola de luces'
 rsvp:
   title: 'Confirma tu asistencia'
   subtitle: 'Nos encantaría contar con <em>vosotros</em> y nos ayudaría mucho que nos mandéis un email o un mensaje con un poco de información:'
@@ -85,6 +94,7 @@ faq:
 common:
   to_be_announced: 'Próximamente'
 fake:
+  img_alt: 'Imagen de relleno'
   word: 'Bacon Ipsum'
   word_2: 'Dolor Amet'
   word_3: 'Salami'

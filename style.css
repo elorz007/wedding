@@ -380,11 +380,7 @@ iframe.responsive {
   @keyframes fadeIn {
     from {
       transform: translateY(20px);
-      filter: blur(20px);
       opacity: 0.0;       
-    }
-    50% {
-      filter: blur(0);
     }
     to {
       transform: translate(0);
