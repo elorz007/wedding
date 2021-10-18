@@ -124,20 +124,39 @@ module.exports = function(grunt) {
           '<%= distFolder %>/<%= source %>': '<%= distFolder %>/<%= source %>'
         }
       }
-    }
-
+    },
+    clean : {
+      preview: ['<%= previewFolder %>'],
+      dist: ['<%= distFolder %>']
+    },
+    mkdir : {
+      preview: {
+        options: {
+          create: ['<%= previewFolder %>'],
+        }        
+      },
+      dist: {
+        options: {
+          create: ['<%= distFolder %>'],
+        }        
+      }
+    },
   });
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-include-replace');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-string-replace');
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
+  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-mkdir');
+
+
   grunt.registerTask('translate', function(environment, language) {
     grunt.option('language', language);
     grunt.task.run('string-replace:' + environment + '_' + language)
   });
 
-  grunt.registerTask('preview', ['includereplace:preview', 'copy:preview', 'htmlmin:preview', 'translate:preview:de', 'translate:preview:en', 'translate:preview:es']);
-  grunt.registerTask('dist', ['includereplace:dist', 'copy:dist', 'htmlmin:dist', 'translate:dist:de', 'translate:dist:en', 'translate:dist:es']);
+  grunt.registerTask('preview', ['clean:preview', 'mkdir:preview', 'includereplace:preview', 'copy:preview', 'htmlmin:preview', 'translate:preview:de', 'translate:preview:en', 'translate:preview:es']);
+  grunt.registerTask('dist', ['clean:dist', 'mkdir:dist', 'includereplace:dist', 'copy:dist', 'htmlmin:dist', 'translate:dist:de', 'translate:dist:en', 'translate:dist:es']);
   grunt.registerTask('default', ['watch']);
 };
