@@ -4,6 +4,10 @@ banner:
   subtitle: '8 de Octubre de 2022'
 location:
   title: 'Palacio de Olloqui'
+  building: 'images/olloqui_building.jpg'
+  room: 'images/olloqui_room.jpg'
+  table: 'images/olloqui_table.jpg'
+  disco: 'images/olloqui_disco.jpg'
 rsvp:
   title: 'Confirma tu asistencia'
   subtitle: 'Nos encantaría contar con <em>vosotros</em> y nos ayudaría mucho que nos mandéis un email o un mensaje con un poco de información:'
