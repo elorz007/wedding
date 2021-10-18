@@ -131,6 +131,19 @@ iframe.responsive {
     background: var(--text-over-accent);
   }
 
+#language-selection {
+  position: absolute;
+  font-size: 0.5em;
+  top: 0px;
+  right: 0px;
+  z-index: 3;
+}
+#language-selection a {
+  text-decoration: none;
+  color: var(--text-over-accent);
+  padding: var(--space-tiny);
+}
+
 #main {
     position: absolute;
     top: 87%;
@@ -267,7 +280,8 @@ iframe.responsive {
       filter: grayscale(100%);
     }
     #get-there .address .center {
-        flex-direction: column;
+      flex-direction: column;
+      text-align: center;
     }
     #get-there .address .title {
       margin: 0;

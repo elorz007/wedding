@@ -1,7 +1,13 @@
 title: 'Mikel & Montse'
+favicon: '../images/favicon.ico'
 banner:
-  title: 'Mikel & Montse de'
+  title: 'Mikel & Montse'
   subtitle: '8 de Octubre de 2022'
+language_selection:
+  link:
+    es: '../'
+    en: '../en/'
+    de: '../de/'
 location:
   title: 'Palacio de Olloqui'
   building: '../images/olloqui_building.jpg'
