@@ -133,7 +133,7 @@ iframe.responsive {
 
 #language-selection {
   position: absolute;
-  font-size: 0.5em;
+  font-size: 1.25em;
   top: 0px;
   right: 0px;
   z-index: 3;
@@ -394,11 +394,17 @@ iframe.responsive {
 
 @media (min-width: 39em) {
   #banner {
-      font-size: 150%;
+    font-size: 150%;
+  }
+  #language-selection {
+   font-size: 85%;
   }
 }
 @media (min-width: 78em) {
   #banner {
-      font-size: 200%;
+    font-size: 200%;
+  }
+  #language-selection {
+    font-size: 75%;
   }
 }
