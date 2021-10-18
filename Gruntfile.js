@@ -107,7 +107,7 @@ module.exports = function(grunt) {
         minifyJS: true,
         removeEmptyAttributes: true,
         removeAttributeQuotes: false,
-        removeEmptyElements: true,
+        removeEmptyElements: false,
         removeOptionalTags: true,
         removeRedundantAttributes: true,
         removeStyleLinkTypeAttributes: true,
