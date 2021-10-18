@@ -93,7 +93,7 @@ iframe.responsive {
     position: relative;
   }
     #banner .panel h1 {
-      font-size: 2.5em;
+      font-size: 2.25em;
       text-transform: uppercase;
       font-weight: lighter;
     }
@@ -310,9 +310,7 @@ iframe.responsive {
 
 #tourism {}
 
-#faq {
-  padding: var(--space);
-}
+#faq {}
   #faq .qa {
     margin-bottom: var(--space-small);
     font-size: 1.15em;
@@ -394,6 +392,9 @@ iframe.responsive {
   }
   #language-selection {
    font-size: 85%;
+  }
+  #faq {
+    padding: var(--space);
   }
 }
 @media (min-width: 78em) {
