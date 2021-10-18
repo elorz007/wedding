@@ -1,0 +1,103 @@
+title: 'Mikel & Montse'
+banner:
+  title: 'Mikel & Montse en'
+  subtitle: '8 de Octubre de 2022'
+location:
+  title: 'Palacio de Olloqui'
+  building: '../images/olloqui_building.jpg'
+  room: '../images/olloqui_room.jpg'
+  table: '../images/olloqui_table.jpg'
+  disco: '../images/olloqui_disco.jpg'
+rsvp:
+  title: 'Confirma tu asistencia'
+  subtitle: 'Nos encantaría contar con <em>vosotros</em> y nos ayudaría mucho que nos mandéis un email o un mensaje con un poco de información:'
+  button: 'Escríbenos'
+  # https://mailtolink.me/
+  link: 'mailto:elorz.mikel@gmail.com?subject=Boda%20Mikel%20%26%20Montse&body=Buenos%20d%C3%ADas%2C%0D%0A%0D%0A%C2%A1Nos%20apuntamos%20a%20la%20boda%20el%20s%C3%A1bado%208%20de%20Octubre%20de%202022!%0D%0A%0D%0A-%20Personas%20(men%C3%BA%20est%C3%A1ndar%20%2F%20men%C3%BA%20vegetariano%20%2F%20men%C3%BA%20vegano%20%2F%20men%C3%BA%20ni%C3%B1os%20%2F%20alergias)%3A%0D%0ANombre%20Apellido%20(men%C3%BA%20est%C3%A1ndar)%0D%0ANombre%20Apellido%20(men%C3%BA%20vegetariano%2C%20alergia%20a...)%0D%0ANombre%20Apellido%20(men%C3%BA%20ni%C3%B1os)%0D%0A%0D%0A-%20Nos%20interesar%C3%ADa%20autob%C3%BAs%20de%20Pamplona%20al%20Palacio%20Olloqui%3A%0D%0ASolo%20ida%20%2F%20Ida%20y%20vuelta%20%2F%20No%0D%0A%0D%0A%0D%0AUn%20saludo'
+  assistants: '¿Con cuántas personas deberíamos contar? (Pareja, hijos, ...)'
+  kids: '¿Cuántos menús de niños?'
+  dietary_restrictions: '¿Alguna necesidad especial para el menú? (Alergias, menú vegetariano, ...) '
+  transportation: '¿Os interesaría un autobús de Pamplona al palacio de Olloqui?'
+  extra: '¿Algo más que queráis hacernos saber?'
+get_there:
+  title: 'Cómo llegar'
+  address:
+    title: 'Dirección'
+    street: 'Calle San Adrián 15, Olloki'
+    distance: 'a 15 minutos del centro'
+timeline:
+  title: 'Horario'
+corona:
+  title: 'Reglas COVID'
+  # Mask + type + testing + certificate
+  # Contact
+  # How many people
+  # Dance
+stay:
+  title: 'Alojamiento'
+tourism:
+  title: 'Pamplona y alrededores'
+    # Qué ver
+    # Ciudades cerca
+    # Qué comer
+    # Frases (Diccionario Castellano | Euskera | Inglés | Alemán | Schwab | Francés(qué más te da))
+faq:
+  title: 'Preguntas frecuentes'
+  q: 'P.'
+  a: 'R.'
+  gifts:
+    q: '¿Qué tipo de regalo de boda preferís?'
+    a: 'El mejor regalo que podéis hacernos es vuestra presencia, suena a cliché pero es verdad. Si aún así queréis, una ayuda financiera para cubrir los costes de la boda siempre viene bien.'
+  dress_code:
+    q: '¿Hay código de vestimenta?'
+    a: 'Hombre, pues es una boda y es en Octubre así que si vienes en pantaloneta harás el ridículo y pasarás frío.'
+  weather:
+    q: 'Hablando del tiempo, ¿qué tiempo hará en Octubre en Pamplona?'
+    a: '¿Acaso tengo cara de metereólogo? Pues fresquito, trae chaqueta.'
+  party:
+    q: '¿Habrá baile y barra libre?'
+    a: 'Sí y sí (siempre y cuando lo permitan las normas).'
+  dance:
+    q: '¿Es obligatorio bailar?'
+    a: 'Sí.'
+  rsvp:
+    q: '¿Hasta cuándo tenemos tiempo para confirmar asistencia?'
+    a: 'Nos gustaría tener la lista de asistentes cerrada para el 1 de Julio 2022.'
+  guests:
+    q: '¿Cuántos invitados habrá?'
+    a: 'Queremos mantenerlo por debajo de 100 personas.'
+  honey_moon:
+    q: '¿A dónde vais de luna de miel?'
+    a: 'No lo sabemos aún pero estamos pensando irnos como un mes a Nueva Zelanda.'
+  author:
+    q: '¿Quién de los dos ha hecho esta página web?'
+    a: 'Lo hemos hecho los dos a partes iguales y Montse no está mirando mientras escribo esto.'
+  pictures:
+    q: '¿Podemos sacar fotos y vídeo durante la boda?'
+    a: 'Siempre y cuando no molestéis al fotógrafo oficial y no os traigáis un dron o alguna locura así, sin problema.'
+
+common:
+  to_be_announced: 'Próximamente'
+fake:
+  word: 'Bacon Ipsum'
+  word_2: 'Dolor Amet'
+  word_3: 'Salami'
+  word_4: 'Meatball'
+  hour: '13:00'
+  short: 'Bacon ipsum dolor amet ham hock jowl salami beef ribs'
+  short_2: 'Venison t-bone spare ribs shankle'
+  short_3: 'Hamburger ball tip prosciutto, landjaeger'
+  short_4: 'Prosciutto jerky biltong doner, short ribs tail capicola sausage.'
+  medium: |
+    Bacon ipsum dolor amet ham hock jowl salami beef ribs, shankle cow turducken kevin meatball pork belly ham. Filet mignon boudin jerky, shankle corned beef pork chop chicken. Meatloaf jerky short loin tail pork loin chislic corned beef venison leberkas doner spare ribs beef ribs beef pig biltong. Corned beef filet mignon brisket bacon tail. Corned beef strip steak venison salami, shankle shank alcatra buffalo ham hock prosciutto kevin boudin pork loin. Strip steak tongue beef filet mignon leberkas capicola pig burgdoggen chuck.
+  medium_2: |
+    Venison tri-tip spare ribs shankle, andouille t-bone chuck short ribs prosciutto. Drumstick alcatra tenderloin, hamburger ground round pastrami chuck kielbasa. Swine short loin pork belly kielbasa porchetta, turkey pancetta leberkas rump tenderloin boudin pig sirloin chuck. Ham filet mignon cow frankfurter. Alcatra jerky venison bacon. Sirloin chuck short loin pork loin.
+  long: |
+    Bacon ipsum dolor amet ham hock jowl salami beef ribs, shankle cow turducken kevin meatball pork belly ham. Filet mignon boudin jerky, shankle corned beef pork chop chicken. Meatloaf jerky short loin tail pork loin chislic corned beef venison leberkas doner spare ribs beef ribs beef pig biltong. Corned beef filet mignon brisket bacon tail. Corned beef strip steak venison salami, shankle shank alcatra buffalo ham hock prosciutto kevin boudin pork loin. Strip steak tongue beef filet mignon leberkas capicola pig burgdoggen chuck.
+
+    Venison tri-tip spare ribs shankle, andouille t-bone chuck short ribs prosciutto. Drumstick alcatra tenderloin, hamburger ground round pastrami chuck kielbasa. Swine short loin pork belly kielbasa porchetta, turkey pancetta leberkas rump tenderloin boudin pig sirloin chuck. Ham filet mignon cow frankfurter. Alcatra jerky venison bacon. Sirloin chuck short loin pork loin. Tenderloin prosciutto t-bone porchetta, burgdoggen filet mignon sausage turkey jowl.
+
+    Tri-tip ball tip prosciutto, landjaeger pancetta ham hock alcatra andouille pastrami chislic. Ham salami meatball, venison pork chop shank ball tip landjaeger pastrami tongue shankle cupim. Leberkas t-bone drumstick ribeye jerky shoulder turkey kevin pig meatball capicola tongue beef bresaola. Pork chop ribeye pastrami rump tail ball tip andouille corned beef burgdoggen. T-bone meatloaf chicken sirloin ribeye burgdoggen picanha landjaeger pork chop corned beef turducken shank pork belly pastrami chuck. Turkey pork shankle, capicola jowl pancetta meatloaf pork chop pork belly t-bone doner strip steak brisket.
+
+    Prosciutto jerky biltong doner, short ribs tail capicola sausage. Burgdoggen doner short ribs kielbasa strip steak ham hock bacon. Chicken tri-tip fatback spare ribs t-bone. Doner sirloin ham leberkas shank shankle. Pig spare ribs cupim meatball, flank turducken chuck t-bone filet mignon drumstick ham chislic hamburger bresaola. Sausage meatball venison cow.
+  

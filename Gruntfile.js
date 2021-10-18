@@ -57,70 +57,69 @@ module.exports = function(grunt) {
     },
 
     'string-replace': {
-      preview: {
+      options: {
+        replacements: [{
+          pattern: /@@localize\((.*?)\)/ig,
+          replacement: function (match, key) {
+            var translations = grunt.file.readYAML('translations_' + grunt.option('language') +'.yml');
+            return eval('translations.' + key) || key;
+          }
+        }]
+      },
+      preview_es: {
         files: {
           '<%= previewFolder %>/<%= source %>': '<%= previewFolder %>/<%= source %>'
-        },
-        options: {
-          replacements: [{
-            pattern: /@@localize\((.*?)\)/ig,
-            replacement: function (match, key) {
-              return eval('translations.' + key) || key;
-            }
-          }]
         }
       },
-      dist: {
+      preview_en: {
+        files: {
+          '<%= previewFolder %>/en/<%= source %>': '<%= previewFolder %>/<%= source %>'
+        }
+      },
+      preview_de: {
+        files: {
+          '<%= previewFolder %>/de/<%= source %>': '<%= previewFolder %>/<%= source %>'
+        }
+      },
+      dist_es: {
         files: {
           '<%= distFolder %>/<%= source %>': '<%= distFolder %>/<%= source %>'
-        },
-        options: {
-          replacements: [{
-            pattern: /@@localize\((.*?)\)/ig,
-            replacement: function (match, key) {
-              return eval('translations.' + key) || key;
-            }
-          }]
+        }
+      },
+      dist_en: {
+        files: {
+          '<%= distFolder %>/en/<%= source %>': '<%= distFolder %>/<%= source %>'
+        }
+      },
+      dist_de: {
+        files: {
+          '<%= distFolder %>/de/<%= source %>': '<%= distFolder %>/<%= source %>'
         }
       }
     },
+
     htmlmin: {
+      options: {
+        removeComments: true,
+        ignoreCustomComments: [ /still alive/ ],
+        collapseWhitespace: true,
+        minifyCSS: true,
+        minifyJS: true,
+        removeEmptyAttributes: true,
+        removeAttributeQuotes: true,
+        removeEmptyElements: false,
+        removeOptionalTags: true,
+        removeRedundantAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true,
+        collapseInlineTagWhitespace: true,
+      },
       preview: {
-        options: {
-          removeComments: true,
-          ignoreCustomComments: [ /still alive/ ],
-          collapseWhitespace: true,
-          minifyCSS: true,
-          minifyJS: true,
-          removeEmptyAttributes: true,
-          removeAttributeQuotes: true,
-          removeEmptyElements: false,
-          removeOptionalTags: true,
-          removeRedundantAttributes: true,
-          removeStyleLinkTypeAttributes: true,
-          useShortDoctype: true,
-          collapseInlineTagWhitespace: true,
-        },
         files: {
           '<%= previewFolder %>/<%= source %>': '<%= previewFolder %>/<%= source %>'
         }
       },
       dist: {
-        options: {
-          removeComments: true,
-          ignoreCustomComments: [ /still alive/ ],
-          collapseWhitespace: true,
-          minifyCSS: true,
-          minifyJS: true,
-          removeEmptyAttributes: true,
-          removeAttributeQuotes: true,
-          removeEmptyElements: false,
-          removeOptionalTags: true,
-          removeRedundantAttributes: true,
-          removeStyleLinkTypeAttributes: true,
-          useShortDoctype: true,
-          collapseInlineTagWhitespace: true,
-        },
         files: {
           '<%= distFolder %>/<%= source %>': '<%= distFolder %>/<%= source %>'
         }
@@ -128,14 +127,17 @@ module.exports = function(grunt) {
     }
 
   });
-  var translations = grunt.file.readYAML('translations.yml');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-include-replace');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-string-replace');
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
+  grunt.registerTask('translate', function(environment, language) {
+    grunt.option('language', language);
+    grunt.task.run('string-replace:' + environment + '_' + language)
+  });
 
-  grunt.registerTask('preview', ['includereplace:preview', 'copy:preview', 'string-replace:preview', 'htmlmin:preview']);
-  grunt.registerTask('dist', ['includereplace:dist', 'copy:dist', 'string-replace:dist', 'htmlmin:dist']);
+  grunt.registerTask('preview', ['includereplace:preview', 'copy:preview', 'htmlmin:preview', 'translate:preview:de', 'translate:preview:en', 'translate:preview:es']);
+  grunt.registerTask('dist', ['includereplace:dist', 'copy:dist', 'htmlmin:dist', 'translate:dist:de', 'translate:dist:en', 'translate:dist:es']);
   grunt.registerTask('default', ['watch']);
 };
