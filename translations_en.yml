@@ -30,8 +30,8 @@ rsvp:
   # https://mailtolink.me/
   link: "mailto:elorz.mikel@gmail.com?subject=Wedding%20Mikel%20%26%20Montse&body=Greetings%2C%0D%0A%0D%0AWe%20confirm%20we%20want%20to%20attend%20your%20wedding%20on%20the%208th%20of%20October%202022!%0D%0A%0D%0A-%20Participants%20(standard%20menu%20%2F%20vegetarian%20menu%20%2F%20vegan%20menu%20%2F%20kids%20menu%20%2F%20alergies%20%2F%20etc.)%3A%0D%0AName%20Surname%20(standard%20menu)%0D%0AName%20Surname%20(Vegetarian%20menu%2C%20I'm%20allergic%20to...)%0D%0AName%20Surname%20(Kids%20menu)%0D%0A%0D%0A-%20We%20would%20be%20interested%20in%20taking%20the%20bus%20from%20Pamplona's%20city%20center%20to%20the%20wedding%20location%3A%0D%0AOne%20way%20only%20%2F%20Return%20trip%20%2F%20No%0D%0A%0D%0ABest%2C"
   assistants: 'How many of you would attend? (Partner, children, ...)'
-  kids: "How many kids's menus?"
-  dietary_restrictions: 'Any dietary restrictions? (Alergies, vegetarian menu, ...) '
+  kids: "How many kids' menus?"
+  dietary_restrictions: 'Any dietary restrictions? (Allergies, vegetarian menu, ...) '
   transportation: "Would you be interested in a bus from Pamplona's city center to the location?"
   extra: 'Something else you want to let us know?'
 get_there:
@@ -83,7 +83,7 @@ faq:
     a: 'We are trying to keep it under <strike>50</strike> <strike>75</strike> 100 people.'
   honey_moon:
     q: 'Are you going on a honey moon after the wedding?'
-    a: 'We are not sure yet but we are planning to go to New Zeland for a month'
+    a: 'We are not sure yet but we are planning to go to New Zealand for a month'
   author:
     q: 'Which one of you made this website?'
     a: 'We did it both 50-50 and Montse is not currently looking over my shoulder.'
@@ -92,7 +92,7 @@ faq:
     a: "As long as you don't get in the official photographer's way and you don't bring something crazy like a drone, sure, no problem"
 
 common:
-  to_be_announced: 'Comming&nbsp;soon'
+  to_be_announced: 'Coming&nbsp;soon'
 fake:
   img_alt: 'Placeholder picture only for filling purposes'
   word: 'Bacon Ipsum'
