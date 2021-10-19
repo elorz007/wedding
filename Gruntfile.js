@@ -156,7 +156,7 @@ module.exports = function(grunt) {
     grunt.task.run('string-replace:' + environment + '_' + language)
   });
 
-  grunt.registerTask('preview', ['clean:preview', 'mkdir:preview', 'includereplace:preview', 'copy:preview', 'htmlmin:preview', 'translate:preview:de', 'translate:preview:en', 'translate:preview:es']);
-  grunt.registerTask('dist', ['clean:dist', 'mkdir:dist', 'includereplace:dist', 'copy:dist', 'htmlmin:dist', 'translate:dist:de', 'translate:dist:en', 'translate:dist:es']);
+  grunt.registerTask('preview', ['clean:preview', 'mkdir:preview', 'includereplace:preview', 'copy:preview', 'htmlmin:preview', 'translate:preview:en', 'translate:preview:es']);
+  grunt.registerTask('dist', ['clean:dist', 'mkdir:dist', 'includereplace:dist', 'copy:dist', 'htmlmin:dist', 'translate:dist:en', 'translate:dist:es']);
   grunt.registerTask('default', ['watch']);
 };

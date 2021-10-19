@@ -96,6 +96,7 @@ iframe.responsive {
       font-size: 2.25em;
       text-transform: uppercase;
       font-weight: lighter;
+      line-height: 1em;
     }
     #banner .panel p {
       font-size: 1em;
@@ -153,6 +154,9 @@ iframe.responsive {
 }
   #main section {
     margin-top: var(--space-big);
+  }
+  #main h1 {
+    text-align: center;
   }
 
 .spotlight:before {
