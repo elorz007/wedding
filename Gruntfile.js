@@ -51,7 +51,7 @@ module.exports = function(grunt) {
       },
       dist: {
         expand: true,
-        src: '<%= imagesFolder %>/*',
+        src: ['<%= imagesFolder %>/*', 'CNAME'],
         dest: '<%= distFolder %>',
       },
     },

@@ -1,9 +1,9 @@
-lang: 'de'
+lang: 'en'
 title: 'Mikel & Montse'
 favicon: '../images/favicon.ico'
 banner:
   title: 'Mikel & Montse'
-  subtitle: '8 de Octubre de 2022'
+  subtitle: '8<sup>th</sup> October 2022'
 language_selection:
   link:
     es: '../'
@@ -13,86 +13,86 @@ location:
   title: 'Palacio de Olloqui'
   building: 
     src: '../images/olloqui_building.webp'
-    alt: 'Foto del exterior del Palacio de Olloqui'
+    alt: 'Photo of the Palacio de Olloqui building'
   room: 
     src: '../images/olloqui_room.webp'
-    alt: 'Foto de la sala del interior del Palacio de Olloqui'
+    alt: 'Photo of the dining room inside Palacio de Olloqui'
   table: 
     src: '../images/olloqui_table.webp'
-    alt: 'Foto de la mesa de boda decorada'
+    alt: 'Photo of the decorated wedding table'
   disco: 
     src: '../images/olloqui_disco.webp'
-    alt: 'Foto de la discoteca con bola de luces'
+    alt: 'Photo of the dancefloor with a disco ball'
 rsvp:
-  title: 'Confirma tu asistencia'
-  subtitle: 'Nos encantaría contar con <em>vosotros</em> y nos ayudaría mucho que nos mandéis un email o un mensaje con un poco de información:'
-  button: 'Escríbenos'
+  title: 'RSVP'
+  subtitle: 'We would love to have <em>you</em> in our celebration and it would help us greatly if you could send us an email or a message with a bit of info:'
+  button: 'Message us'
   # https://mailtolink.me/
-  link: 'mailto:elorz.mikel@gmail.com?subject=Boda%20Mikel%20%26%20Montse&body=Buenos%20d%C3%ADas%2C%0D%0A%0D%0A%C2%A1Nos%20apuntamos%20a%20la%20boda%20el%20s%C3%A1bado%208%20de%20Octubre%20de%202022!%0D%0A%0D%0A-%20Personas%20(men%C3%BA%20est%C3%A1ndar%20%2F%20men%C3%BA%20vegetariano%20%2F%20men%C3%BA%20vegano%20%2F%20men%C3%BA%20ni%C3%B1os%20%2F%20alergias)%3A%0D%0ANombre%20Apellido%20(men%C3%BA%20est%C3%A1ndar)%0D%0ANombre%20Apellido%20(men%C3%BA%20vegetariano%2C%20alergia%20a...)%0D%0ANombre%20Apellido%20(men%C3%BA%20ni%C3%B1os)%0D%0A%0D%0A-%20Nos%20interesar%C3%ADa%20autob%C3%BAs%20de%20Pamplona%20al%20Palacio%20Olloqui%3A%0D%0ASolo%20ida%20%2F%20Ida%20y%20vuelta%20%2F%20No%0D%0A%0D%0A%0D%0AUn%20saludo'
-  assistants: '¿Con cuántas personas deberíamos contar? (Pareja, hijos, ...)'
-  kids: '¿Cuántos menús de niños?'
-  dietary_restrictions: '¿Alguna necesidad especial para el menú? (Alergias, menú vegetariano, ...) '
-  transportation: '¿Os interesaría un autobús de Pamplona al palacio de Olloqui?'
-  extra: '¿Algo más que queráis hacernos saber?'
+  link: "mailto:elorz.mikel@gmail.com?subject=Wedding%20Mikel%20%26%20Montse&body=Greetings%2C%0D%0A%0D%0AWe%20confirm%20we%20want%20to%20attend%20your%20wedding%20on%20the%208th%20of%20October%202022!%0D%0A%0D%0A-%20Participants%20(standard%20menu%20%2F%20vegetarian%20menu%20%2F%20vegan%20menu%20%2F%20kids%20menu%20%2F%20alergies%20%2F%20etc.)%3A%0D%0AName%20Surname%20(standard%20menu)%0D%0AName%20Surname%20(Vegetarian%20menu%2C%20I'm%20allergic%20to...)%0D%0AName%20Surname%20(Kids%20menu)%0D%0A%0D%0A-%20We%20would%20be%20interested%20in%20taking%20the%20bus%20from%20Pamplona's%20city%20center%20to%20the%20wedding%20location%3A%0D%0AOne%20way%20only%20%2F%20Return%20trip%20%2F%20No%0D%0A%0D%0ABest%2C"
+  assistants: 'How many of you would attend? (Partner, children, ...)'
+  kids: "How many kids' menus?"
+  dietary_restrictions: 'Any dietary restrictions? (Allergies, vegetarian menu, ...) '
+  transportation: "Would you be interested in a bus from Pamplona's city center to the location?"
+  extra: 'Something else you want to let us know?'
 get_there:
-  title: 'Cómo llegar'
+  title: 'How to get there'
   address:
-    title: 'Dirección'
-    street: 'Calle San Adrián 15, Olloki'
-    distance: 'a 15 minutos del centro'
+    title: 'Address'
+    street: 'Calle San Adrián 15, 31699 Olloki,<br> Navarra, Spain'
+    distance: "15 minutes away from Pamplona's city center"
 timeline:
-  title: 'Horario'
+  title: 'Timeline'
 corona:
-  title: 'Reglas COVID'
+  title: 'COVID rules'
   # Mask + type + testing + certificate
   # Contact
   # How many people
   # Dance
 stay:
-  title: 'Alojamiento'
+  title: 'Stay & Hotels'
 tourism:
-  title: 'Pamplona y alrededores'
+  title: 'Sightseeing & Tourism'
     # Qué ver
     # Ciudades cerca
     # Qué comer
     # Frases (Diccionario Castellano | Euskera | Inglés | Alemán | Schwab | Francés(qué más te da))
 faq:
-  title: 'Preguntas frecuentes'
-  q: 'P.'
-  a: 'R.'
+  title: 'FAQ'
+  q: 'Q.'
+  a: 'A.'
   gifts:
-    q: '¿Qué tipo de regalo de boda preferís?'
-    a: 'El mejor regalo que podéis hacernos es vuestra presencia, suena a cliché pero es verdad. Si aún así queréis, una ayuda financiera para cubrir los costes de la boda siempre viene bien.'
+    q: 'What kind of wedding gift are you expecting?'
+    a: "The best gift you can give us is your presence and your time; it sounds cheesy but it's true. If you still want to give us something final help to cover the wedding's cost is always appreciated"
   dress_code:
-    q: '¿Hay código de vestimenta?'
-    a: 'Hombre, pues es una boda y es en Octubre así que si vienes en pantaloneta harás el ridículo y pasarás frío.'
+    q: 'Is there a dress code?'
+    a: "I mean, it's a wedding and it's on October so if you come in shorts you will not fit plus you'll be cold"
   weather:
-    q: 'Hablando del tiempo, ¿qué tiempo hará en Octubre en Pamplona?'
-    a: '¿Acaso tengo cara de metereólogo? Pues fresquito, trae chaqueta.'
+    q: 'Speaking of cold, what kind of weather do you have in October in Pamplona?'
+    a: 'Do I look like a meteorologist? I guess chilly, bring a jacket.'
   party:
-    q: '¿Habrá baile y barra libre?'
-    a: 'Sí y sí (siempre y cuando lo permitan las normas).'
+    q: 'Will there be a party and free drinks?'
+    a: 'Yes and yes (as long as the COVID rules allow it).'
   dance:
-    q: '¿Es obligatorio bailar?'
-    a: 'Sí.'
+    q: 'Is it mandatory to dance?'
+    a: 'Yes.'
   rsvp:
-    q: '¿Hasta cuándo tenemos tiempo para confirmar asistencia?'
-    a: 'Nos gustaría tener la lista de asistentes cerrada para el 1 de Julio 2022.'
+    q: 'Until when do I have time to RSVP?'
+    a: 'We would like to have the participants list finalized by the 1<sup>st</sup> of July 2022.'
   guests:
-    q: '¿Cuántos invitados habrá?'
-    a: 'Queremos mantenerlo por debajo de 100 personas.'
+    q: 'How many participants will there be?'
+    a: 'We are trying to keep it under <strike>50</strike> <strike>75</strike> 100 people.'
   honey_moon:
-    q: '¿A dónde vais de luna de miel?'
-    a: 'No lo sabemos aún pero estamos pensando irnos como un mes a Nueva Zelanda.'
+    q: 'Are you going on a honey moon after the wedding?'
+    a: 'We are not sure yet but we are planning to go to New Zealand for a month'
   author:
-    q: '¿Quién de los dos ha hecho esta página web?'
-    a: 'Lo hemos hecho los dos a partes iguales y Montse no está mirando mientras escribo esto.'
+    q: 'Which one of you made this website?'
+    a: 'We did it both 50-50 and Montse is not currently looking over my shoulder.'
   pictures:
-    q: '¿Podemos sacar fotos y vídeo durante la boda?'
-    a: 'Siempre y cuando no molestéis al fotógrafo oficial y no os traigáis un dron o alguna locura así, sin problema.'
+    q: 'Can we take pictures and videos during the wedding?'
+    a: "As long as you don't get in the official photographer's way and you don't bring something crazy like a drone, sure, no problem"
 
 common:
-  to_be_announced: 'Próximamente'
+  to_be_announced: 'Coming&nbsp;soon'
 fake:
   img_alt: 'Placeholder picture only for filling purposes'
   word: 'Bacon Ipsum'

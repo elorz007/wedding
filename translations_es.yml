@@ -24,8 +24,8 @@ location:
     src: './images/olloqui_disco.webp'
     alt: 'Foto de la discoteca con bola de luces'
 rsvp:
-  title: 'Confirma tu asistencia'
-  subtitle: 'Nos encantaría contar con <em>vosotros</em> y nos ayudaría mucho que nos mandéis un email o un mensaje con un poco de información:'
+  title: 'Confirmar tu asistencia'
+  subtitle: 'Nos encantaría contar <em>contigo</em> y los tuyos para celebrar nuestra boda. Para ello nos ayudaría mucho que nos mandaseis un email o un mensaje con un poco de información:'
   button: 'Escríbenos'
   # https://mailtolink.me/
   link: 'mailto:elorz.mikel@gmail.com?subject=Boda%20Mikel%20%26%20Montse&body=Buenos%20d%C3%ADas%2C%0D%0A%0D%0A%C2%A1Nos%20apuntamos%20a%20la%20boda%20el%20s%C3%A1bado%208%20de%20Octubre%20de%202022!%0D%0A%0D%0A-%20Personas%20(men%C3%BA%20est%C3%A1ndar%20%2F%20men%C3%BA%20vegetariano%20%2F%20men%C3%BA%20vegano%20%2F%20men%C3%BA%20ni%C3%B1os%20%2F%20alergias)%3A%0D%0ANombre%20Apellido%20(men%C3%BA%20est%C3%A1ndar)%0D%0ANombre%20Apellido%20(men%C3%BA%20vegetariano%2C%20alergia%20a...)%0D%0ANombre%20Apellido%20(men%C3%BA%20ni%C3%B1os)%0D%0A%0D%0A-%20Nos%20interesar%C3%ADa%20autob%C3%BAs%20de%20Pamplona%20al%20Palacio%20Olloqui%3A%0D%0ASolo%20ida%20%2F%20Ida%20y%20vuelta%20%2F%20No%0D%0A%0D%0A%0D%0AUn%20saludo'
@@ -43,7 +43,7 @@ get_there:
 timeline:
   title: 'Horario'
 corona:
-  title: 'Reglas COVID'
+  title: 'Normas COVID'
   # Mask + type + testing + certificate
   # Contact
   # How many people

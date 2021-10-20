@@ -1,15 +1,16 @@
 :root {
-  --background: #191818;
-  --text: #999898;
+  --background: #271E22;
+  --text: #D3B9A5;
 
   --background-inverted: var(--text);
   --text-inverted: var(--background);
   
-  --background-alternative: #1d1c1c;
-  --text-over-background-alternative: #9d9c9c;
+  --background-alternative: #221A1d;
+  --text-over-background-alternative: #E3C9B5;
 
-  --accent: #6F201D;
-  --text-over-accent: #E2A93A;
+  /* https://www.colorion.co/palette/87377 */
+  --accent: #5D2523;
+  --text-over-accent: var(--text);
 
   --space-tiny: 0.5em;
   --space-small: 1em;
@@ -48,10 +49,6 @@ figure {
   justify-content: center;
 }
 
-p.center, h1.center, h2.center, h3.center, h4.center, h5.center, h6.center,{
-  text-align: center;
-}
-
 iframe.responsive {
   position: absolute;
   top: 0;
@@ -84,6 +81,7 @@ iframe.responsive {
   }
   #banner article {
     margin-bottom: var(--space-huge);
+    margin-top: var(--space);
   }
   #banner .panel {
     border-style: solid;
@@ -104,11 +102,13 @@ iframe.responsive {
     }
 
   #banner .logo i {
-    font-size: 1.25em;
+    font-size: 1.5em;
+    width: 1em;
+    height: 1em;
     border-radius: 100%;
     border-width: 1px;
     border-style: solid;
-    padding: var(--space-small);
+    padding: var(--space-tiny);
   }
   #banner .connection:after {
     content: '';
@@ -157,6 +157,8 @@ iframe.responsive {
   }
   #main h1 {
     text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
   }
 
 .spotlight:before {
@@ -169,7 +171,7 @@ iframe.responsive {
   height: var(--height);
   left: 0;
   top: calc(-1 * var(--height) + 1px);
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' fill='%23191818' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' fill='%23271E22' /%3E%3C/svg%3E");
 }
 
 .box {
@@ -256,7 +258,8 @@ iframe.responsive {
 
 #location {}
   #location img {
-    filter: contrast(125%) grayscale(100%);
+    /*filter: contrast(125%) grayscale(100%);*/
+    /*filter: contrast(75%);*/
   }
 
 #rsvp {}
@@ -281,7 +284,7 @@ iframe.responsive {
     border-color: var(--text);
   }
     #get-there .map {
-      filter: grayscale(100%);
+      filter: grayscale(50%);
     }
     #get-there .address .center {
       flex-direction: column;
