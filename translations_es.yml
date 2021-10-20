@@ -24,7 +24,7 @@ location:
     src: './images/olloqui_disco.webp'
     alt: 'Foto de la discoteca con bola de luces'
 rsvp:
-  title: 'Confirmar tu asistencia'
+  title: 'Confirma tu asistencia'
   subtitle: 'Nos encantaría contar <em>contigo</em> y los tuyos para celebrar nuestra boda. Para ello nos ayudaría mucho que nos mandaseis un email o un mensaje con un poco de información:'
   button: 'Escríbenos'
   # https://mailtolink.me/
