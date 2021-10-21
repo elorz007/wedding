@@ -81,15 +81,12 @@ faq:
   guests:
     q: '¿Cuántos invitados habrá?'
     a: 'Queremos mantenerlo por debajo de <strike>50</strike> <strike>75</strike> 100 personas.'
-  honey_moon:
-    q: '¿A dónde vais de luna de miel?'
-    a: 'No lo sabemos aún pero estamos pensando irnos como un mes a Nueva Zelanda.'
   author:
     q: '¿Quién de los dos ha hecho esta página web?'
     a: 'Lo hemos hecho los dos a partes iguales y Montse no está mirando mientras escribo esto.'
   pictures:
     q: '¿Podemos sacar fotos y vídeo durante la boda?'
-    a: 'Siempre y cuando no molestéis al fotógrafo oficial y no os traigáis un dron o alguna locura así, sin problema.'
+    a: 'Siempre y cuando no molestéis al fotógrafo oficial, sin problema.'
 
 common:
   to_be_announced: 'Próximamente'

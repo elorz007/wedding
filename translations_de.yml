@@ -1,9 +1,9 @@
-lang: 'en'
+lang: 'de'
 title: 'Mikel & Montse'
 favicon: '../images/favicon.ico'
 banner:
   title: 'Mikel & Montse'
-  subtitle: '8<sup>th</sup> October 2022'
+  subtitle: '8. October 2022'
 language_selection:
   link:
     es: '../'
@@ -25,33 +25,33 @@ location:
     alt: 'Photo of the dancefloor with a disco ball'
 rsvp:
   title: 'RSVP'
-  subtitle: 'We would love to have <em>you</em> in our celebration and it would help us greatly if you could send us an email or a message with a bit of info:'
-  button: 'Message us'
+  subtitle: 'Wir würden uns freuen, <em>euch</em> bei unserer Feier dabei zu haben und es würde uns sehr helfen, wenn ihr uns eine E-Mail oder eine Nachricht mit ein paar Informationen zu schicken könntet:'
+  button: 'Schreib´ uns'
   # https://mailtolink.me/
   link: "mailto:elorz.mikel@gmail.com?subject=Wedding%20Mikel%20%26%20Montse&body=Greetings%2C%0D%0A%0D%0AWe%20confirm%20we%20want%20to%20attend%20your%20wedding%20on%20the%208th%20of%20October%202022!%0D%0A%0D%0A-%20Participants%20(standard%20menu%20%2F%20vegetarian%20menu%20%2F%20vegan%20menu%20%2F%20kids%20menu%20%2F%20alergies%20%2F%20etc.)%3A%0D%0AName%20Surname%20(standard%20menu)%0D%0AName%20Surname%20(Vegetarian%20menu%2C%20I'm%20allergic%20to...)%0D%0AName%20Surname%20(Kids%20menu)%0D%0A%0D%0A-%20We%20would%20be%20interested%20in%20taking%20the%20bus%20from%20Pamplona's%20city%20center%20to%20the%20wedding%20location%3A%0D%0AOne%20way%20only%20%2F%20Return%20trip%20%2F%20No%0D%0A%0D%0ABest%2C"
-  assistants: 'How many of you would attend? (Partner, children, ...)'
-  kids: "How many kids' menus?"
-  dietary_restrictions: 'Any dietary restrictions? (Allergies, vegetarian menu, ...) '
-  transportation: "Would you be interested in a bus from Pamplona's city center to the location?"
-  extra: 'Something else you want to let us know?'
+  assistants: 'Wie viele Personen werden kommen? (Partner, Kinder, ...)'
+  kids: "Wie viele Kinder-Menü´s sind erwünscht?"
+  dietary_restrictions: 'Irgendwelche Ernährungspräferenzen oder -beschränkungen, die wir wissen sollten? (Allergien, Vegetarier, ...) '
+  transportation: "Hättet ihr Interesse an einem Bus von Pamplona-Stadtmitte zur Hochzeitslocation?"
+  extra: 'Sonst noch etwas, das ihr uns mitteilen wollt?'
 get_there:
-  title: 'How to get there'
+  title: 'Anfahrt'
   address:
-    title: 'Address'
-    street: 'Calle San Adrián 15, 31699 Olloki,<br> Navarra, Spain'
-    distance: "15 minutes away from Pamplona's city center"
+    title: 'Adresse'
+    street: 'Calle San Adrián 15, 31699 Olloki,<br> Navarra, Spanien'
+    distance: "15 Minuten vom Stadtzentrum Pamplona entfernt"
 timeline:
-  title: 'Timeline'
+  title: 'Ablauf'
 corona:
-  title: 'COVID rules'
+  title: 'COVID Regelungen'
   # Mask + type + testing + certificate
   # Contact
   # How many people
   # Dance
 stay:
-  title: 'Stay & Hotels'
+  title: 'Unterkünfte'
 tourism:
-  title: 'Sightseeing & Tourism'
+  title: 'Sightseeing & Tourismus'
     # Qué ver
     # Ciudades cerca
     # Qué comer
@@ -61,35 +61,32 @@ faq:
   q: 'Q.'
   a: 'A.'
   gifts:
-    q: 'What kind of wedding gift are you expecting?'
-    a: "The best gift you can give us is your presence and your time; it sounds cheesy but it's true. If you still want to give us something final help to cover the wedding's cost is always appreciated"
+    q: 'Was wünscht ihr euch zur Hochzeit?'
+    a: "Das größte Geschenk für uns ist eure Zeit und Anwesenheit; klingt kitschig, ist aber so. Besteht ihr dennoch auf ein Geschenk, freuen wir uns über jede finanzielle Unterstützung für die Hochzeitsfeier."
   dress_code:
-    q: 'Is there a dress code?'
-    a: "I mean, it's a wedding and it's on October so if you come in shorts you will not fit plus you'll be cold"
+    q: 'Gibt es einen Dresscode?'
+    a: "Also es ist eine Hochzeit und Oktober. Wenn ihr in kurzer Hose kommen wollt, werdet ihr wahrscheinlich schon herausstechen...und vermutlich frieren."
   weather:
-    q: 'Speaking of cold, what kind of weather do you have in October in Pamplona?'
-    a: 'Do I look like a meteorologist? I guess chilly, bring a jacket.'
+    q: 'Apropos Wetter, wie wird das Wetter im Oktober in Pamplona?'
+    a: 'Let me google that for you: https://lmgtfy.app/?q=wie+wird+das+Wetter+im+Oktober+in+Pamplona'
   party:
-    q: 'Will there be a party and free drinks?'
-    a: 'Yes and yes (as long as the COVID rules allow it).'
+    q: 'Wird es eine Party und kostenlose Getränke geben?'
+    a: 'Ja und Ja (so lYes and yes (solange die COVID-Regeln es zulassen).'
   dance:
-    q: 'Is it mandatory to dance?'
-    a: 'Yes.'
+    q: 'Ist Tanzen Pflicht?'
+    a: 'Ja.'
   rsvp:
-    q: 'Until when do I have time to RSVP?'
-    a: 'We would like to have the participants list finalized by the 1<sup>st</sup> of July 2022.'
+    q: 'Bis wann haben wir Zeit, unsere Teilnahme zu bestätigen?'
+    a: 'Wir möchten die Gästeliste bis zum 1. Juli 2022 fertigstellen.'
   guests:
-    q: 'How many participants will there be?'
-    a: 'We are trying to keep it under <strike>50</strike> <strike>75</strike> 100 people.'
-  honey_moon:
-    q: 'Are you going on a honey moon after the wedding?'
-    a: 'We are not sure yet but we are planning to go to New Zealand for a month'
+    q: 'Wie viele Gäste sind eingeladen?'
+    a: 'Wir versuchen die Personenanzahl unter <strike>50</strike> <strike>75</strike> 100.'
   author:
-    q: 'Which one of you made this website?'
-    a: 'We did it both 50-50 and Montse is not currently looking over my shoulder.'
+    q: 'Wer von euch hat diese Website erstellt?'
+    a: 'Wir haben beide 50-50 We did it both 50-50 and Montse is not currently looking over my shoulder.'
   pictures:
-    q: 'Can we take pictures and videos during the wedding?'
-    a: "As long as you don't get in the official photographer's way and you don't bring something crazy like a drone, sure, no problem"
+    q: 'Dürfen wir Bilder und Videos machen während der Hochzeitsfeier?'
+    a: "Klar, kein Problem"
 
 common:
   to_be_announced: 'Coming&nbsp;soon'

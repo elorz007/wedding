@@ -62,7 +62,7 @@ faq:
   a: 'A.'
   gifts:
     q: 'What kind of wedding gift are you expecting?'
-    a: "The best gift you can give us is your presence and your time; it sounds cheesy but it's true. If you still want to give us something final help to cover the wedding's cost is always appreciated"
+    a: "The best gift you can give us is your presence and your time; it sounds cheesy but it's true. If you still want to give us something financial help to cover the wedding's cost is always appreciated"
   dress_code:
     q: 'Is there a dress code?'
     a: "I mean, it's a wedding and it's on October so if you come in shorts you will not fit plus you'll be cold"
@@ -81,15 +81,12 @@ faq:
   guests:
     q: 'How many participants will there be?'
     a: 'We are trying to keep it under <strike>50</strike> <strike>75</strike> 100 people.'
-  honey_moon:
-    q: 'Are you going on a honey moon after the wedding?'
-    a: 'We are not sure yet but we are planning to go to New Zealand for a month'
   author:
     q: 'Which one of you made this website?'
     a: 'We did it both 50-50 and Montse is not currently looking over my shoulder.'
   pictures:
     q: 'Can we take pictures and videos during the wedding?'
-    a: "As long as you don't get in the official photographer's way and you don't bring something crazy like a drone, sure, no problem"
+    a: "As long as you don't get in the official photographer's way, sure, no problem"
 
 common:
   to_be_announced: 'Coming&nbsp;soon'
