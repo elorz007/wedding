@@ -160,6 +160,9 @@ iframe.responsive {
     text-transform: uppercase;
     font-weight: lighter;
   }
+  #main a {
+    color: var(--text);
+  }
 
 .spotlight:before {
   content: '';
@@ -197,11 +200,9 @@ iframe.responsive {
   }
 
 .pure-button {}
-
   .button-stretch {
     width: 100%;
   }
-
   .button-large {
     font-size: 125%;
   }
@@ -212,10 +213,9 @@ iframe.responsive {
     border-width: 1px;
     border-style: solid;
   }
-
   .button-hollow:hover {
     background-color: var(--background-inverted);
-    color: var(--text-inverted);
+    color: var(--text-inverted) !important;
     border-color: var(--text-inverted);
     border-width: 1px;
     border-style: solid;
@@ -259,7 +259,6 @@ iframe.responsive {
 #location {}
   #location img {
     /*filter: contrast(125%) grayscale(100%);*/
-    /*filter: contrast(75%);*/
   }
 
 #rsvp {}
@@ -358,9 +357,6 @@ iframe.responsive {
       content: '@@localize(faq.a)';
       color: var(--text);
     }
-
-
-
 
 
 

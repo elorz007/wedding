@@ -28,10 +28,10 @@ rsvp:
   subtitle: 'Wir würden uns freuen, <em>euch</em> bei unserer Feier dabei zu haben und es würde uns sehr helfen, wenn ihr uns eine E-Mail oder eine Nachricht mit ein paar Informationen zu schicken könntet:'
   button: 'Schreib´ uns'
   # https://mailtolink.me/
-  link: "mailto:elorz.mikel@gmail.com?subject=Wedding%20Mikel%20%26%20Montse&body=Greetings%2C%0D%0A%0D%0AWe%20confirm%20we%20want%20to%20attend%20your%20wedding%20on%20the%208th%20of%20October%202022!%0D%0A%0D%0A-%20Participants%20(standard%20menu%20%2F%20vegetarian%20menu%20%2F%20vegan%20menu%20%2F%20kids%20menu%20%2F%20alergies%20%2F%20etc.)%3A%0D%0AName%20Surname%20(standard%20menu)%0D%0AName%20Surname%20(Vegetarian%20menu%2C%20I'm%20allergic%20to...)%0D%0AName%20Surname%20(Kids%20menu)%0D%0A%0D%0A-%20We%20would%20be%20interested%20in%20taking%20the%20bus%20from%20Pamplona's%20city%20center%20to%20the%20wedding%20location%3A%0D%0AOne%20way%20only%20%2F%20Return%20trip%20%2F%20No%0D%0A%0D%0ABest%2C"
+  link: "mailto:elorz.mikel@gmail.com?subject=Hochzeitsfeier%20Mikel%20%26%20Montse&body=Servus%2C%0D%0A%0D%0AWir%20kommen%20gerne%20zu%20euer%20Hochzeitsfeier%20am%2008.%20Oktober%202022%20in%20Pamplona!%0D%0A%0D%0AG%C3%A4ste%20(Standard-Men%C3%BC%20%2F%20vegetarisches%20menu%20%2F%20veganes%20Men%C3%BC%20%2F%20Kinder-Men%C3%BC%20%2F%20Allergien%20%2F%20etc.)%3A%0D%0A-%20Name%20(Standard-Men%C3%BC)%0D%0A-%20Name%20(vegetarisches%20menu%20%2F%20Ich%20bin%20allergisch%20gegen%20...)%0D%0A-%20Name%20(Kinder-Men%C3%BC)%0D%0A%0D%0AWir%20h%C3%A4tten%20Interesse%20an%20einer%20organisierten%20Busfahrt%20von%20Pamplona-Stadtmitte%20zur%20Hochzeitslocation%3A%0D%0A-%20nur%20Hinfahrt%20%2F%20Hin-%20und%20R%C3%BCckfahrt%20%2F%20Nein%0D%0A%0D%0A%0D%0AViele%20Gr%C3%BC%C3%9Fe%2C"
   assistants: 'Wie viele Personen werden kommen? (Partner, Kinder, ...)'
   kids: "Wie viele Kinder-Menü´s sind erwünscht?"
-  dietary_restrictions: 'Irgendwelche Ernährungspräferenzen oder -beschränkungen, die wir wissen sollten? (Allergien, Vegetarier, ...) '
+  dietary_restrictions: 'Irgendwelche Ernährungspräferenzen oder &#8209;beschränkungen, die wir wissen sollten? (Allergien, Vegetarier, ...) '
   transportation: "Hättet ihr Interesse an einem Bus von Pamplona-Stadtmitte zur Hochzeitslocation?"
   extra: 'Sonst noch etwas, das ihr uns mitteilen wollt?'
 get_there:
@@ -57,21 +57,21 @@ tourism:
     # Qué comer
     # Frases (Diccionario Castellano | Euskera | Inglés | Alemán | Schwab | Francés(qué más te da))
 faq:
-  title: 'FAQ'
-  q: 'Q.'
+  title: 'Häufig gestellte Fragen'
+  q: 'F.'
   a: 'A.'
   gifts:
     q: 'Was wünscht ihr euch zur Hochzeit?'
     a: "Das größte Geschenk für uns ist eure Zeit und Anwesenheit; klingt kitschig, ist aber so. Besteht ihr dennoch auf ein Geschenk, freuen wir uns über jede finanzielle Unterstützung für die Hochzeitsfeier."
   dress_code:
     q: 'Gibt es einen Dresscode?'
-    a: "Also es ist eine Hochzeit und Oktober. Wenn ihr in kurzer Hose kommen wollt, werdet ihr wahrscheinlich schon herausstechen...und vermutlich frieren."
+    a: "Also es ist eine Hochzeit und Oktober. Wenn ihr in kurzer Hose kommen wollt, werdet ihr wahrscheinlich schon herausstechen... und vermutlich frieren."
   weather:
     q: 'Apropos Wetter, wie wird das Wetter im Oktober in Pamplona?'
-    a: 'Let me google that for you: https://lmgtfy.app/?q=wie+wird+das+Wetter+im+Oktober+in+Pamplona'
+    a: '<a href=https://letmegooglethat.com/?q=wie+wird+das+Wetter+im+Oktober+in+Pamplona target="_blank">Let me google that for you.</a>'
   party:
     q: 'Wird es eine Party und kostenlose Getränke geben?'
-    a: 'Ja und Ja (so lYes and yes (solange die COVID-Regeln es zulassen).'
+    a: 'Ja und Ja (solange die COVID-Regeln es zulassen).'
   dance:
     q: 'Ist Tanzen Pflicht?'
     a: 'Ja.'
@@ -83,10 +83,10 @@ faq:
     a: 'Wir versuchen die Personenanzahl unter <strike>50</strike> <strike>75</strike> 100.'
   author:
     q: 'Wer von euch hat diese Website erstellt?'
-    a: 'Wir haben beide 50-50 We did it both 50-50 and Montse is not currently looking over my shoulder.'
+    a: 'Montse ganz alleine, Mikel hat nur die Farben ausgesucht ;)'
   pictures:
     q: 'Dürfen wir Bilder und Videos machen während der Hochzeitsfeier?'
-    a: "Klar, kein Problem"
+    a: "Klar, kein Problem."
 
 common:
   to_be_announced: 'Coming&nbsp;soon'
