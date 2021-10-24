@@ -25,7 +25,7 @@ location:
     alt: 'Photo of the dancefloor with a disco ball'
 rsvp:
   title: 'RSVP'
-  subtitle: 'Wir würden uns freuen, <em>euch</em> bei unserer Feier dabei zu haben und es würde uns sehr helfen, wenn ihr uns eine E-Mail oder eine Nachricht mit ein paar Informationen zu schicken könntet:'
+  subtitle: 'Wir würden uns sehr freuen, unsere Hochzeit mit <em>euch</em> zu feiern. Es würde uns helfen, wenn ihr uns eine E-Mail oder eine Nachricht mit ein paar Informationen zuschicken könntet:'
   button: 'Schreib´ uns'
   # https://mailtolink.me/
   link: "mailto:elorz.mikel@gmail.com?subject=Hochzeitsfeier%20Mikel%20%26%20Montse&body=Servus%2C%0D%0A%0D%0AWir%20kommen%20gerne%20zu%20euer%20Hochzeitsfeier%20am%2008.%20Oktober%202022%20in%20Pamplona!%0D%0A%0D%0AG%C3%A4ste%20(Standard-Men%C3%BC%20%2F%20vegetarisches%20menu%20%2F%20veganes%20Men%C3%BC%20%2F%20Kinder-Men%C3%BC%20%2F%20Allergien%20%2F%20etc.)%3A%0D%0A-%20Name%20(Standard-Men%C3%BC)%0D%0A-%20Name%20(vegetarisches%20menu%20%2F%20Ich%20bin%20allergisch%20gegen%20...)%0D%0A-%20Name%20(Kinder-Men%C3%BC)%0D%0A%0D%0AWir%20h%C3%A4tten%20Interesse%20an%20einer%20organisierten%20Busfahrt%20von%20Pamplona-Stadtmitte%20zur%20Hochzeitslocation%3A%0D%0A-%20nur%20Hinfahrt%20%2F%20Hin-%20und%20R%C3%BCckfahrt%20%2F%20Nein%0D%0A%0D%0A%0D%0AViele%20Gr%C3%BC%C3%9Fe%2C"
@@ -80,12 +80,12 @@ faq:
     a: 'Wir möchten die Gästeliste bis zum 1. Juli 2022 fertigstellen.'
   guests:
     q: 'Wie viele Gäste sind eingeladen?'
-    a: 'Wir versuchen die Personenanzahl unter <strike>50</strike> <strike>75</strike> 100.'
+    a: 'Wir versuchen die Personenanzahl unter <strike>50</strike> <strike>75</strike> 100 zu belassen.'
   author:
     q: 'Wer von euch hat diese Website erstellt?'
     a: 'Montse ganz alleine, Mikel hat nur die Farben ausgesucht ;)'
   pictures:
-    q: 'Dürfen wir Bilder und Videos machen während der Hochzeitsfeier?'
+    q: 'Dürfen wir Bilder und Videos während der Hochzeitsfeier machen?'
     a: "Klar, kein Problem."
 
 common:
