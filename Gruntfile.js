@@ -62,8 +62,13 @@ module.exports = function(grunt) {
         replacements: [{
           pattern: /@@localize\((.*?)\)/ig,
           replacement: function (match, key) {
-            var translations = grunt.file.readYAML('translations_' + grunt.option('language') +'.yml');
-            return eval('translations.' + key) || key;
+            try {
+              var translations = grunt.file.readYAML('translations_' + grunt.option('language') +'.yml');
+              return eval('translations.' + key)  
+            }catch {
+              return key
+            }
+            
           }
         }]
       },

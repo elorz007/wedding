@@ -52,6 +52,12 @@ stay:
   title: 'Unterkünfte'
 tourism:
   title: 'Sightseeing & Tourismus'
+  olite:
+    title: 'Castillo de Olite, Puente la Reina y el cerco de Artajona'
+    text: 'Una ruta por la zona media de Navarra con mucha historia medieval. Este castillo del siglo XIII es indispensable, el puente del siglo XI es parte del camino de santiago y el cerco es una fortificación medieval amurallada con una iglesia-fortaleza que empezó a construirse en el año 1085.'
+    more_info: 'https://www.visitnavarra.es/es/olite'
+    src: './images/olite.webp'
+    img_alt: 'asdf'
     # Qué ver
     # Ciudades cerca
     # Qué comer

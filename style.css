@@ -34,6 +34,10 @@ html, button, input, select, textarea,
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.pure-img {
+  object-fit: cover;
+}
+
 figure {
   margin: 0;
 }
@@ -314,7 +318,20 @@ iframe.responsive {
     width: 100%;
   }
 
-#tourism {}
+#tourism {
+  /*padding: var(--space);*/
+}
+  #tourism h1 {
+    margin-bottom: var(--space);
+  }
+  #tourism figure {
+    /*margin-bottom: var(--space-small);*/
+    border-width: 0 0 1px 0;
+    border-style: solid;
+  }
+    #tourism figure figcaption {
+      padding: var(--space-small);
+    }
 
 #faq {}
   #faq .qa {
@@ -358,8 +375,6 @@ iframe.responsive {
       color: var(--text);
     }
 
-
-
 .fadeIn {
   animation: wait 0.3s, fadeIn 1.2s ease 0.3s;
 }
@@ -400,6 +415,13 @@ iframe.responsive {
     padding: var(--space);
   }
 }
+
+@media (min-width: 48em) {
+  .reverse-on-wide {
+    order: 1;
+  }
+}
+
 @media (min-width: 78em) {
   #banner {
     font-size: 200%;
@@ -407,4 +429,6 @@ iframe.responsive {
   #language-selection {
     font-size: 75%;
   }
+
 }
+

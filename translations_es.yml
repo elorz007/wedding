@@ -51,7 +51,43 @@ corona:
 stay:
   title: 'Alojamiento'
 tourism:
-  title: 'Pamplona y alrededores'
+  title: 'Navarra y alrededores'
+  olite:
+    title: 'Castillo de Olite, Puente la Reina y el cerco de Artajona'
+    text: 'Una ruta por la zona media de Navarra con mucha historia medieval. Este castillo del siglo XIII es indispensable, el puente del siglo XI es parte del camino de santiago y el cerco es una fortificación medieval amurallada con una iglesia-fortaleza que empezó a construirse en el año 1085.'
+    url: 'https://www.visitnavarra.es/es/olite'
+    src: './images/olite.webp'
+    img_alt: 'Castillo de Olite'
+  bertiz: 
+    title: 'Parque natural señorío de Bertiz'
+    text: 'El Parque Natural más romántico de Navarra es un bosque denso y colorido para visitar y perderse por su enorme red de senderos. No te pierdas el jardín y después de un paseo por la naturaleza se puede parar en el pueblo de Santesteban y comer en Casa Santamaría.'
+    url: 'https://www.visitnavarra.es/es/bertiz'
+    src: './images/bertiz.webp'
+    img_alt: 'Jardín de Bertiz'
+  irati: 
+    title: 'Selva de Irati'
+    text: 'El "rey de los bosques" que merece la pena en cualquier estación. Visita el pueblo de Orbaizeta y su fábrica de armas antes de adentrarte en esta selva de hayas, robles, abetos, abedules y sauces. Este hábitat natural de ciervos, corzos, jabalíes y multitud de aves es ideal para hacer senderismo. No te pierdas el embalse de Irabia.'
+    url: 'https://www.visitnavarra.es/selva-de-irati'
+    src: './images/irati.webp'
+    img_alt: 'Selva de irati'
+  urederra: 
+    title: 'Urbasa y el nacedero del Urederra'
+    text: 'Las cascadas más conocidas de Navarra que significa "aguas hermosas" en euskera. Este río con colores turquesa imposibles se puede ver con toda la familia. Situado en el parque natural de Urbasa, puedes encontrar cerca el mirador del Balcón de Pilatos con unas vistas impresionantes. Cerca está la ciudad de Estella, para ir a tomar algo o comer.'
+    url: 'https://www.visitnavarra.es/es/nacedero-del-urederra'
+    src: './images/urederra.webp'
+    img_alt: 'Nacedero del urederra'
+  arbaiun: 
+    title: 'Foz de Lumbier y foz de Arbaiun'
+    text: 'Dos gargantas que albergan una gran colonia de buitres leonados. Desde el mirador de Iso se puede apreciar la magnitud de estas paredes de 400 metros de altura. El castillo de Javier también está en las inmediaciones.'
+    url: 'https://www.visitnavarra.es/es/foces-lumbier-arbaiun'
+    src: './images/arbaiun.webp'
+    img_alt: 'Foz de Arbaiun'
+  bardenas: 
+    title: 'Las bardenas reales'
+    text: 'Un desierto inesperado que se encuentra a una hora de los pirineos y a dos horas del mar. Las bardenas y las formaciones rocosas de Castildetierra y Piskerra han aparecido en numerosas películas y series como Juego de Tronos. Tudela, fundada en el año 802 bajo el dominio musulmán, está a un paso para ir a descansar y a comer.'
+    url: 'https://www.visitnavarra.es/es/bardenas-reales'
+    src: './images/bardenas.webp'
+    img_alt: 'Castildetierra'
     # Qué ver
     # Ciudades cerca
     # Qué comer
