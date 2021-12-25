@@ -50,6 +50,30 @@ corona:
   # Dance
 stay:
   title: 'Alojamiento'
+visit:
+  title: 'Pamplona'
+  summary: 'Pamplona,  es una ciudad con muchas cosas para ver y muchos restaurantes'
+  murallas:
+    text: 'Las murallas'
+    url: 'https://goo.gl/maps/7EUJbdAWSwHvhsfq6'
+  plaza_castillo:
+    text: 'Plaza del castillo'
+    url: 'https://goo.gl/maps/f83XZAAnbZMR1kHQ9'
+  estafeta:
+    text: 'Calle de Estafeta'
+    url: 'https://goo.gl/maps/ra7Z7tPYcoW6xfiz5'
+  catedral:
+    text: 'Catedral de Pamplona'
+    url: 'https://goo.gl/maps/Shdt57HVbNNyFss4A'
+  taconera:
+    text: 'Parque de la taconera'
+    url: 'https://goo.gl/maps/mu6zQygZ92WzxddFA'
+  ciudadela:
+    text: 'Ciudadela'
+    url: 'https://goo.gl/maps/5wLQtGhTYqsdGPTGA'
+  san_nicolas:
+    text: 'Calle San Nicolás'
+    url: 'https://goo.gl/maps/BPP9zEzZshsdeA9h8'
 tourism:
   title: 'Navarra y alrededores'
   olite:
@@ -88,8 +112,18 @@ tourism:
     url: 'https://www.visitnavarra.es/es/bardenas-reales'
     src: './images/bardenas.webp'
     img_alt: 'Castildetierra'
-    # Qué ver
-    # Ciudades cerca
+  donosti: 
+    title: 'San Sebastián / Donosti'
+    text: 'La perla del país vasco, a una hora en coche o en autobús desde Pamplona. El paseo de la concha es perfecto para hacer un poco de hambre antes de comer unos pintxos en el casco viejo. El peine del viento, el Kursaal, el paseo nuevo, la playa de Zurriola... Nosotros estuvimos en el restaurante Zazpi y nos encantó.'
+    url: 'https://www.gipuzkoaturismoa.eus/es/que-hacer/ciudades-y-pueblos/san-sebastian'
+    src: './images/donosti.webp'
+    img_alt: 'La concha desde el monte Igueldo'
+  bilbo: 
+    title: 'Bilbao'
+    text: 'Una gran ciudad llena de historia y tradición. Alberga el conocido museo Guggenheim, la ría con sus icónicos puentes y, por supuesto, una zona para tomar pintxos y txikitos: las siete calles.'
+    url: 'https://turismo.euskadi.eus/es/top10/localidades/bilbao/aa30-12376/es/'
+    src: './images/bilbo.webp'
+    img_alt: 'Museo Guggenheim'
     # Qué comer
     # Frases (Diccionario Castellano | Euskera | Inglés | Alemán | Schwab | Francés(qué más te da))
 faq:
