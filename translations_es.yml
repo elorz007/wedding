@@ -51,29 +51,76 @@ corona:
 stay:
   title: 'Alojamiento'
 visit:
-  title: 'Pamplona'
-  summary: 'Pamplona,  es una ciudad con muchas cosas para ver y muchos restaurantes'
+  title: 'Pamplona · Iruña'
+  summary_places: 'Pamplona es una ciudad llena de vida y con muchas <strong>cosas para ver</strong>. Aquí tienes unos cuantos lugares indispensables que no te puedes perder si tienes un rato libre en Pamplona. Todos estos sietios están cerca en el centro y se pueden ver andando.'
+  summary_food: 'En Pamplona también hay muchos <strong>bares y restaurantes</strong> donde tomar algo, pedir unos pintxos o disfrutar de una buena comida. También os recomendamos que probéis al menos una vez un menú de sidrería (chorizo a la sidra, tortilla de bacalao, chuletón y queso con membrillo o cuajada; todo regado con sidra, por supuesto)'
+  pics:
+    catedral:
+      src: './images/catedral.webp'
+      alt: 'Catedral de Santa María la Real'
+    ciudadela:
+      src: './images/ciudadela.webp'
+      alt: 'Ciudadela de Pamplona'
+    taconera:
+      src: './images/taconera.webp'
+      alt: 'Parque de la taconera'
+    plaza_castillo:
+      src: './images/plaza_castillo.webp'
+      alt: 'Plaza del castillo'
   murallas:
     text: 'Las murallas'
-    url: 'https://goo.gl/maps/7EUJbdAWSwHvhsfq6'
+    url: 'https://goo.gl/maps/r5arHijxNeZ4AT4c6'
   plaza_castillo:
     text: 'Plaza del castillo'
     url: 'https://goo.gl/maps/f83XZAAnbZMR1kHQ9'
   estafeta:
-    text: 'Calle de Estafeta'
+    text: 'Calle de Estafeta (recorrido del encierro y bares)'
     url: 'https://goo.gl/maps/ra7Z7tPYcoW6xfiz5'
   catedral:
-    text: 'Catedral de Pamplona'
+    text: 'Catedral de Santa María la Real'
     url: 'https://goo.gl/maps/Shdt57HVbNNyFss4A'
   taconera:
     text: 'Parque de la taconera'
     url: 'https://goo.gl/maps/mu6zQygZ92WzxddFA'
   ciudadela:
-    text: 'Ciudadela'
+    text: 'Ciudadela (parque y fortaleza)'
     url: 'https://goo.gl/maps/5wLQtGhTYqsdGPTGA'
-  san_nicolas:
-    text: 'Calle San Nicolás'
-    url: 'https://goo.gl/maps/BPP9zEzZshsdeA9h8'
+  irunazarra:
+    text: 'Iruñazarra (pintxos y restaurante)'
+    url: 'https://g.page/barIrunazarra?share'
+  melbourne:
+    text: 'Melbourne (restaurante)'
+    url: 'https://goo.gl/maps/aJgnHXZgnw6Zycee7'
+  casa_manolo:
+    text: 'Casa Manolo (restaurante)'
+    url: 'https://goo.gl/maps/pDJybbAsH3EWjtP66'
+  erretegia:
+    text: 'Erretegia (asador)'
+    url: 'https://goo.gl/maps/1vcQqxQrzhYPbUVKA'
+  auzmendi:
+    text: 'Auzmendi (sidrería)'
+    url: 'https://goo.gl/maps/KKshwvnWjt2UcJ4m7'
+  txirrintxa:
+    text: 'Txirrintxa (bar & grill)'
+    url: 'https://goo.gl/maps/QdwWqwXba4FD7iED6'
+  sarria:
+    text: 'Bodegón Sarría (pintxos)'
+    url: 'https://goo.gl/maps/SquqLx1WqfBay6ed8'
+  zanpa:
+    text: 'Zanpa (pintxos)'
+    url: 'https://goo.gl/maps/2phRPMjSJn7yzo9M9'
+  mandarra:
+    text: 'Mandarra de la Ramos (pintxos y restaurante)'
+    url: 'https://g.page/Lamandarradelaramos?share'
+  otano:
+    text: 'Casa Otano (pintxos y restaurante)'
+    url: 'https://goo.gl/maps/pTYpEjm5FDNLoCea9'
+  mejillonera:
+    text: 'La mejillonera (bar)'
+    url: 'https://goo.gl/maps/t6eQD3h4pMySzXtr9'
+  nabarreria:
+    text: 'Mesón de la Nabarrería (bar)'
+    url: 'https://goo.gl/maps/MVCx7W9ZWvFnb3PLA'
 tourism:
   title: 'Navarra y alrededores'
   olite:
@@ -113,7 +160,7 @@ tourism:
     src: './images/bardenas.webp'
     img_alt: 'Castildetierra'
   donosti: 
-    title: 'San Sebastián / Donosti'
+    title: 'San Sebastián · Donosti'
     text: 'La perla del país vasco, a una hora en coche o en autobús desde Pamplona. El paseo de la concha es perfecto para hacer un poco de hambre antes de comer unos pintxos en el casco viejo. El peine del viento, el Kursaal, el paseo nuevo, la playa de Zurriola... Nosotros estuvimos en el restaurante Zazpi y nos encantó.'
     url: 'https://www.gipuzkoaturismoa.eus/es/que-hacer/ciudades-y-pueblos/san-sebastian'
     src: './images/donosti.webp'
@@ -124,8 +171,6 @@ tourism:
     url: 'https://turismo.euskadi.eus/es/top10/localidades/bilbao/aa30-12376/es/'
     src: './images/bilbo.webp'
     img_alt: 'Museo Guggenheim'
-    # Qué comer
-    # Frases (Diccionario Castellano | Euskera | Inglés | Alemán | Schwab | Francés(qué más te da))
 faq:
   title: 'Preguntas frecuentes'
   q: 'P.'

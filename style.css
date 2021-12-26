@@ -313,6 +313,11 @@ iframe.responsive {
 
 #corona {}
 
+#visit {}
+  #visit article div {
+    padding: var(--space);
+  }
+
 #stay {}
   #stay .fake img {
     width: 100%;
