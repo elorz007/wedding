@@ -37,9 +37,11 @@ html, button, input, select, textarea,
 .pure-img {
   object-fit: cover;
 }
-
 figure {
   margin: 0;
+}
+img.soft {
+  filter: sepia(25%);
 }
 
 ::selection {
@@ -324,18 +326,17 @@ iframe.responsive {
   }
 
 #tourism {
-  /*padding: var(--space);*/
 }
-  #tourism h1 {
-    margin-bottom: var(--space);
+  #tourism .summary {
+    padding: var(--space);
   }
   #tourism figure {
-    /*margin-bottom: var(--space-small);*/
     border-width: 0 0 1px 0;
     border-style: solid;
   }
     #tourism figure figcaption {
       padding: var(--space-small);
+      margin-bottom: var(--space-big);
     }
 
 #faq {}

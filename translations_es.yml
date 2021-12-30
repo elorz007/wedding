@@ -52,7 +52,7 @@ stay:
   title: 'Alojamiento'
 visit:
   title: 'Pamplona · Iruña'
-  summary_places: 'Pamplona es una ciudad llena de vida y con muchas <strong>cosas para ver</strong>. Aquí tienes unos cuantos lugares indispensables que no te puedes perder si tienes un rato libre en Pamplona. Todos estos sietios están cerca en el centro y se pueden ver andando.'
+  summary_places: 'Pamplona es una ciudad llena de vida y con muchas <strong>cosas para ver</strong>. Aquí tienes unos cuantos lugares indispensables que no te puedes perder si tienes un rato libre en Pamplona. Todos estos sitios están cerca en el centro y se pueden ver andando. También puedes mirar la <a target="_black" href="https://www.visitnavarra.es/es/pamplona">web oficial</a>.'
   summary_food: 'En Pamplona también hay muchos <strong>bares y restaurantes</strong> donde tomar algo, pedir unos pintxos o disfrutar de una buena comida. También os recomendamos que probéis al menos una vez un menú de sidrería (chorizo a la sidra, tortilla de bacalao, chuletón y queso con membrillo o cuajada; todo regado con sidra, por supuesto)'
   pics:
     catedral:
@@ -123,15 +123,17 @@ visit:
     url: 'https://goo.gl/maps/MVCx7W9ZWvFnb3PLA'
 tourism:
   title: 'Navarra y alrededores'
+  summary: 'Navarra tiene una variedad enorme de lugares, orografías y paisajes. Desde frondosos bosques a desiertos pasando por castillos medievales. A continuación os damos unas cuantas ideas de sitios interesantes que visitar a menos de una hora desde Pamplona. Para la mayoría necesitarás un coche para llegar pero siempre es fácil de aparcar y casi todos son gratis de visitar (o tienen una entrada de unos pocos euros). Si quieres mirar rutas para andar, también puedes mirar en <a target="_blank" href="https://www.komoot.com/guide/45603/hiking-in-navarra">esta colección en Komoot</a>'
   olite:
     title: 'Castillo de Olite, Puente la Reina y el cerco de Artajona'
-    text: 'Una ruta por la zona media de Navarra con mucha historia medieval. Este castillo del siglo XIII es indispensable, el puente del siglo XI es parte del camino de santiago y el cerco es una fortificación medieval amurallada con una iglesia-fortaleza que empezó a construirse en el año 1085.'
+    text: 'Una ruta por la zona media de Navarra con mucha historia medieval. El castillo de Olite data del siglo XIII y es indispensable visitarlo, el puente del siglo XI es parte del camino de santiago y el <a target="_blank" href="http://www.artajona.net/el-cerco-de-artajona/">cerco de Artajona</a> es una fortificación medieval amurallada con una iglesia-fortaleza que empezó a construirse en el año 1085.'
     url: 'https://www.visitnavarra.es/es/olite'
-    src: './images/olite.webp'
+    # src: './images/olite.webp'
+    src: './images/artajona.webp'
     img_alt: 'Castillo de Olite'
   bertiz: 
     title: 'Parque natural señorío de Bertiz'
-    text: 'El Parque Natural más romántico de Navarra es un bosque denso y colorido para visitar y perderse por su enorme red de senderos. No te pierdas el jardín y después de un paseo por la naturaleza se puede parar en el pueblo de Santesteban y comer en Casa Santamaría.'
+    text: 'El Parque Natural más romántico de Navarra es un bosque denso y colorido para visitar y perderse por su red de senderos fáciles y bien señalizados. No te pierdas el jardín (entrada de 3 euros por persona) y después de un paseo por la naturaleza se puede parar en el pueblo de Santesteban y comer en Casa Santamaría.'
     url: 'https://www.visitnavarra.es/es/bertiz'
     src: './images/bertiz.webp'
     img_alt: 'Jardín de Bertiz'
@@ -143,7 +145,7 @@ tourism:
     img_alt: 'Selva de irati'
   urederra: 
     title: 'Urbasa y el nacedero del Urederra'
-    text: 'Las cascadas más conocidas de Navarra que significa "aguas hermosas" en euskera. Este río con colores turquesa imposibles se puede ver con toda la familia. Situado en el parque natural de Urbasa, puedes encontrar cerca el mirador del Balcón de Pilatos con unas vistas impresionantes. Cerca está la ciudad de Estella, para ir a tomar algo o comer.'
+    text: 'Las cascadas más conocidas de Navarra que significa "aguas hermosas" en euskera. Este río con colores turquesa imposibles se puede ver con toda la familia. Ten en cuenta que para visitar el nacedero hace falta pedir cita en <a target="_blank" href="https://urederra.amescoa.com/es/reservas/reservar.html">esta web</a>. Situado en el parque natural de Urbasa, puedes encontrar cerca el mirador del Balcón de Pilatos con unas vistas impresionantes. Cerca está la ciudad de Estella, para ir a tomar algo o comer.'
     url: 'https://www.visitnavarra.es/es/nacedero-del-urederra'
     src: './images/urederra.webp'
     img_alt: 'Nacedero del urederra'
@@ -161,13 +163,13 @@ tourism:
     img_alt: 'Castildetierra'
   donosti: 
     title: 'San Sebastián · Donosti'
-    text: 'La perla del país vasco, a una hora en coche o en autobús desde Pamplona. El paseo de la concha es perfecto para hacer un poco de hambre antes de comer unos pintxos en el casco viejo. El peine del viento, el Kursaal, el paseo nuevo, la playa de Zurriola... Nosotros estuvimos en el restaurante Zazpi y nos encantó.'
+    text: 'La perla del país vasco, a una hora en coche o <a target="_blank" href="https://www.alsa.es/">en autobús</a> (unos 17€ ida y vuelta). El paseo de la concha es perfecto para hacer un poco de hambre antes de comer unos pintxos en el casco viejo. El peine del viento, el Kursaal, el paseo nuevo, la playa de Zurriola... Nosotros estuvimos en el restaurante Zazpi y nos encantó.'
     url: 'https://www.gipuzkoaturismoa.eus/es/que-hacer/ciudades-y-pueblos/san-sebastian'
     src: './images/donosti.webp'
     img_alt: 'La concha desde el monte Igueldo'
   bilbo: 
     title: 'Bilbao'
-    text: 'Una gran ciudad llena de historia y tradición. Alberga el conocido museo Guggenheim, la ría con sus icónicos puentes y, por supuesto, una zona para tomar pintxos y txikitos: las siete calles.'
+    text: 'Una gran ciudad llena de historia y tradición. Alberga el conocido museo Guggenheim, la ría con sus icónicos puentes y, por supuesto, una zona para tomar pintxos y txikitos: las siete calles. A unas dos horas de Pamplona, se puede ir <a target="_blank" href="https://www.alsa.es/">en autobús</a> por unos 30€ ida y vuelta.'
     url: 'https://turismo.euskadi.eus/es/top10/localidades/bilbao/aa30-12376/es/'
     src: './images/bilbo.webp'
     img_alt: 'Museo Guggenheim'
