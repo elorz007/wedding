@@ -50,18 +50,178 @@ corona:
   # Dance
 stay:
   title: 'Stay & Hotels'
+  budget:
+    title: '< 50 €'
+    opt1:
+      title: 'Hostel Plaza Catedral'
+      url: 'https://www.albergueplazacatedral.com/en/'
+    opt2:
+      title: 'Alojamientos Olga'
+      url: 'https://www.reservaonline.support/apartamentosolga/reservas.html'
+    opt3:
+      title: 'Find some apartment on Airbnb (avoid the touristy ones that say stuff about Sanfermines)'
+      url: 'https://www.airbnb.com/pamplona-spain/stays'
+  midrange:
+    title: '50-70 €'
+    opt1:
+      title: 'BED4U Pamplona *** (20 min by bus to the city center)'
+      url: 'https://www.bed4uhotels.com/bed4u-pamplona.html'
+    opt2:
+      title: 'Holiday Inn Express Pamplona *** (35 min by bus to the city center)'
+      url: 'https://www.ihg.com/holidayinnexpress/hotels/gb/en/pamplona/pnasp/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-ES-_-PNASP'
+    opt3:
+      title: 'Zenit Pamplona **** (30 min by bus to the city center)'
+      url: 'https://pamplona.zenithoteles.com/es/'
+    opt4:
+      title: 'Hotel Pompaelo ****'
+      url: 'https://www.hotelpompaelo.com/bookings'
+  premium:
+    title: '70-100 €'
+    opt1:
+      title: 'Hotel Avenida ***'
+      url: 'https://avenidahotel.es/'
+    opt2:
+      title: 'Sercotel Hotel Leyre ***'
+      url: 'https://www.hotel-leyre.com/'
+    opt3:
+      title: 'Hotel Maisonnave ****'
+      url: 'https://www.hotelmaisonnave.es/'
+    opt4:
+      title: 'Sercotel Restaurante Hotel Europa ***'
+      url: 'https://www.hoteleuropapamplona.com/'
+  luxury:
+    title: '> 110 €'
+    opt1:
+      title: 'Hotel Blanca de Navarra ****'
+      url: 'https://www.hotelblancadenavarra.com/'
+    opt2:
+      title: 'NH Pamplona Iruña Park ****'
+      url: 'https://www.nh-hotels.com/hotel/nh-pamplona-iruna-park'
+    opt3:
+      title: 'Hotel Alma Pamplona *****'
+      url: 'https://almahotels.com/pamplona/'
+visit:
+  title: 'Pamplona · Iruña'
+  summary_places: 'Pamplona is a city full of life and with plenty <strong>stuff to see</strong>. Here you have a list of some places you should not miss if you have some free time in Pamplona. All these places are close to the city center and can be visited on foot. You can also take a look at the <a target="_black" href="https://www.visitnavarra.es/es/pamplona">official website</a>.'
+  summary_food: 'In Pamplona there are also many <strong>bars and restaurants</strong> where you can drink something, eat some pintxos or enjoy a meal. We also recommend you try once a "Sidrería" (they should serve a menu with chorizo with cider, cod omelette, veal rib steak (chuletón) and cheese with quince; all paired with natural cider).'
+  pics:
+    catedral:
+      src: '../images/catedral.webp'
+      alt: 'Santa María la Real Cathedral'
+    ciudadela:        
+      src: '../images/ciudadela.webp'
+      alt: 'Ciudadela de Pamplona (defensive fortress)'
+    taconera:
+      src: '../images/taconera.webp'
+      alt: 'Taconera park'
+    plaza_castillo:
+      src: '../images/plaza_castillo.webp'
+      alt: 'Plaza del castillo (main square)'
+  murallas:
+    text: 'The walls'
+    url: 'https://goo.gl/maps/r5arHijxNeZ4AT4c6'
+  plaza_castillo:
+    text: 'Plaza del castillo (main square)'
+    url: 'https://goo.gl/maps/f83XZAAnbZMR1kHQ9'
+  estafeta:
+    text: 'Estafeta street (part of the bullrunning route + pintxos)'
+    url: 'https://goo.gl/maps/ra7Z7tPYcoW6xfiz5'
+  catedral:
+    text: 'Santa María la Real Cathedral'
+    url: 'https://goo.gl/maps/Shdt57HVbNNyFss4A'
+  taconera:
+    text: 'Taconera park'
+    url: 'https://goo.gl/maps/mu6zQygZ92WzxddFA'
+  ciudadela:
+    text: 'Ciudadela de Pamplona (defensive fortress)'
+    url: 'https://goo.gl/maps/5wLQtGhTYqsdGPTGA'
+  irunazarra:
+    text: 'Iruñazarra (pintxos and restaurant)'
+    url: 'https://g.page/barIrunazarra?share'
+  melbourne:
+    text: 'Melbourne (restaurant)'
+    url: 'https://goo.gl/maps/aJgnHXZgnw6Zycee7'
+  casa_manolo:
+    text: 'Casa Manolo (restaurant)'
+    url: 'https://goo.gl/maps/pDJybbAsH3EWjtP66'
+  erretegia:
+    text: 'Erretegia (grill)'
+    url: 'https://goo.gl/maps/1vcQqxQrzhYPbUVKA'
+  auzmendi:
+    text: 'Auzmendi (sidrería)'
+    url: 'https://goo.gl/maps/KKshwvnWjt2UcJ4m7'
+  txirrintxa:
+    text: 'Txirrintxa (bar & grill)'
+    url: 'https://goo.gl/maps/QdwWqwXba4FD7iED6'
+  sarria:
+    text: 'Bodegón Sarría (pintxos)'
+    url: 'https://goo.gl/maps/SquqLx1WqfBay6ed8'
+  zanpa:
+    text: 'Zanpa (pintxos)'
+    url: 'https://goo.gl/maps/2phRPMjSJn7yzo9M9'
+  mandarra:
+    text: 'Mandarra de la Ramos (pintxos and restaurant)'
+    url: 'https://g.page/Lamandarradelaramos?share'
+  otano:
+    text: 'Casa Otano (pintxos and restaurant)'
+    url: 'https://goo.gl/maps/pTYpEjm5FDNLoCea9'
+  mejillonera:
+    text: 'La mejillonera (bar)'
+    url: 'https://goo.gl/maps/t6eQD3h4pMySzXtr9'
+  nabarreria:
+    text: 'Mesón de la Nabarrería (bar)'
+    url: 'https://goo.gl/maps/MVCx7W9ZWvFnb3PLA'
 tourism:
-  title: 'Sightseeing & Tourism'
+  title: 'Navarra & surroundings'
+  summary: "Navarra has a great variety of locations, landmarks and scenery. Ranging from lush forests to deserts and medieval castles. Below are some ideas of interesting places to visit less than one hour away from Pamplona. For the majority you will need a car but it's always easy to park and almost all of them are free (or they require a few euro fee). If you like to hike, you can also check out <a target=\"_blank\" href=\"https://www.komoot.com/guide/45603/hiking-in-navarra\">this collection in Komoot</a>"
   olite:
-    title: 'Castillo de Olite, Puente la Reina y el cerco de Artajona'
-    text: 'Una ruta por la zona media de Navarra con mucha historia medieval. Este castillo del siglo XIII es indispensable, el puente del siglo XI es parte del camino de santiago y el cerco es una fortificación medieval amurallada con una iglesia-fortaleza que empezó a construirse en el año 1085.'
-    more_info: 'https://www.visitnavarra.es/es/olite'
-    src: './images/olite.webp'
-    img_alt: 'asdf'
-    # Qué ver
-    # Ciudades cerca
-    # Qué comer
-    # Frases (Diccionario Castellano | Euskera | Inglés | Alemán | Schwab | Francés(qué más te da))
+    title: "Olite's castle, Puente la Reina (queen's bridge) and Artajona's citadel"
+    text: "A route through Navarra's center region with a lot of medieval history. Olite's castle dates back to the 13th century and you should not miss it. The bridge was built in the 11th century in a settlement nearby and it's part of the Pilgrimage of Compostela. <a target=\"_blank\" href=\"http://www.artajona.net/el-cerco-de-artajona/\">Artajona's citadel</a> is a walled medieval enclosure with a fortress-church inside that began to be built on the year 1085."
+    url: 'https://www.visitnavarra.es/en/olite'
+    src: '../images/artajona.webp'
+    img_alt: "Artajona's citadel"
+  bertiz: 
+    title: 'Lordship of Bertiz natural park'
+    text: "The most romantic natural park in Navarra is a dense and colorful forest that invites to walk through the endless network of well marked hiking paths. Don't miss the botanical garden (3 euro entry fee) and after walking through the forest you can stop by the Santesteban village and eat at Casa Santamaría"
+    url: 'https://www.visitnavarra.es/en/bertiz'
+    src: '../images/bertiz.webp'
+    img_alt: 'Botanical garden of Bertiz'
+  irati: 
+    title: 'Irati forest'
+    text: 'The "king of forests" is worth a visit every time of the year. You can visit the village of Orbaizeta and the old arms factory before going into the woodlands. You will see beeches, oaks, firs, birches, willows, ferns and mosses as well as maybe stags, roe deer, wild boars and a host of other inhabitants. The Irabia reservoir dam is also nearby for a little change in scenery.'
+    url: 'https://www.visitnavarra.es/en/selva-de-irati'
+    src: '../images/irati.webp'
+    img_alt: 'Irati forest'
+  urederra: 
+    title: 'Urbasa and the Urederra river source'
+    text: 'The best known waterfalls in Navarra, the name Urederra means "beautiful water" in basque. This river with turquoise waters can be visited via a short hike with the whole family. Take into account that one must book a visit beforehand in <a target="_blank" href="https://urederra.amescoa.com/es/reservas/reservar.html">this website</a>. Placed in the natural reserve of Urbasa, you can find the Balcón de Pilatos viewpoint nearby. You can also stop by the town of Stella if you are hungry.'
+    url: 'https://www.visitnavarra.es/es/nacedero-del-urederra'
+    src: '../images/urederra.webp'
+    img_alt: 'Nacedero del urederra'
+  arbaiun: 
+    title: 'Gorge of Lumbier and gorge of Arbaiun '
+    text: "Two canyons that are the home to Navarra's biggest bird of prey colony. From the Iso viewpoint one can wonder at the 400m walls. The castle of Javier is also nearby and it's worth a visit if you still have the time."
+    url: 'https://www.visitnavarra.es/en/foces-lumbier-arbaiun'
+    src: '../images/arbaiun.webp'
+    img_alt: 'Gorge of Arbaiun'
+  bardenas: 
+    title: 'Bardenas Reales (Royal badlands)'
+    text: "An unexpected desert less than one hour from the Pyrenees and two hours away from the sea. These badlands are famous for the Castildetierra and Piskerra rock formations which have appeared in numerous films, music videos and TV shows like Game of Thrones. Tudela, founded in the year 802 under the Muslim rule, it's the perfect place to get some food after the visit."
+    url: 'https://www.visitnavarra.es/en/bardenas-reales'
+    src: '../images/bardenas.webp'
+    img_alt: 'Castildetierra'
+  donosti: 
+    title: 'San Sebastián · Donosti'
+    text: 'The pearl of the Basque Country, one hour by car or <a target="_blank" href="https://www.alsa.es/">by bus</a> (17€ round trip). La Concha bay and its promenade is perfect to take a walk and get hungry for some pintxos in the old town. You can also see "the comb of the wind", the Kursaal, the new promenade (paseo nuevo), the beach of Zurriola... We went once to the restaurant <a target="blank" href="https://goo.gl/maps/a7KdV8eHmDK33fNG7">Zazpi</a> and we loved it so we can recommend it too.'
+    url: 'https://www.gipuzkoaturismoa.eus/en/things-to-do/towns-and-villages/donostia-san-sebastian'
+    src: '../images/donosti.webp'
+    img_alt: 'La Concha bay from mount Igueldo'
+  bilbo: 
+    title: 'Bilbao'
+    text: "A great city full of history and tradition. It's the home of the Guggenheim museum, la ría (the riverside) with its iconic bridges and, of course, an area to drink some txikitos and eat some pintxos: \"seven streets\". Two hours away from Pamplona you can also get there <a target=\"_blank\" href=\"https://www.alsa.es/\">by bus</a> for about 30€ round trip."
+    url: 'https://tourism.euskadi.eus/en/top10/towns/bilbao/aa30-12376/en/'
+    src: '../images/bilbo.webp'
+    img_alt: 'Guggenheim museum'
 faq:
   title: 'FAQ'
   q: 'Q.'
@@ -93,7 +253,9 @@ faq:
   pictures:
     q: 'Can we take pictures and videos during the wedding?'
     a: "As long as you don't get in the official photographer's way, sure, no problem"
-
+  parking:
+    q: '¿Is it easy to park near the location?'
+    a: 'Yes, there is plenty space in the street nearby, you just need to walk up a short path afterwards.'
 common:
   to_be_announced: 'Coming&nbsp;soon'
 fake:

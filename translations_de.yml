@@ -50,18 +50,178 @@ corona:
   # Dance
 stay:
   title: 'Unterkünfte'
+  budget:
+    title: '< 50 €'
+    opt1:
+      title: 'Hostel Plaza Catedral'
+      url: 'https://www.albergueplazacatedral.com/en/'
+    opt2:
+      title: 'Alojamientos Olga'
+      url: 'https://www.reservaonline.support/apartamentosolga/reservas.html'
+    opt3:
+      title: '**TODO TRANSLATE**Buscar apartamentos en Airbnb (evitar aquellos donde ponga cosas de Sanfermines)'
+      url: 'https://www.airbnb.com/pamplona-spain/stays'
+  midrange:
+    title: '50-70 €'
+    opt1:
+      title: '**TODO TRANSLATE**BED4U Pamplona *** (20 min en bus al centro)'
+      url: 'https://www.bed4uhotels.com/bed4u-pamplona.html'
+    opt2:
+      title: '**TODO TRANSLATE**Holiday Inn Express Pamplona *** (35 min en bus al centro)'
+      url: 'https://www.ihg.com/holidayinnexpress/hotels/gb/en/pamplona/pnasp/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-ES-_-PNASP'
+    opt3:
+      title: '**TODO TRANSLATE**Zenit Pamplona **** (30 min en bus al centro)'
+      url: 'https://pamplona.zenithoteles.com/es/'
+    opt4:
+      title: 'Hotel Pompaelo ****'
+      url: 'https://www.hotelpompaelo.com/bookings'
+  premium:
+    title: '70-100 €'
+    opt1:
+      title: 'Hotel Avenida ***'
+      url: 'https://avenidahotel.es/'
+    opt2:
+      title: 'Sercotel Hotel Leyre ***'
+      url: 'https://www.hotel-leyre.com/'
+    opt3:
+      title: 'Hotel Maisonnave ****'
+      url: 'https://www.hotelmaisonnave.es/'
+    opt4:
+      title: 'Sercotel Restaurante Hotel Europa ***'
+      url: 'https://www.hoteleuropapamplona.com/'
+  luxury:
+    title: '> 110 €'
+    opt1:
+      title: 'Hotel Blanca de Navarra ****'
+      url: 'https://www.hotelblancadenavarra.com/'
+    opt2:
+      title: 'NH Pamplona Iruña Park ****'
+      url: 'https://www.nh-hotels.com/hotel/nh-pamplona-iruna-park'
+    opt3:
+      title: 'Hotel Alma Pamplona *****'
+      url: 'https://almahotels.com/pamplona/'
+visit:
+  title: 'Pamplona · Iruña'
+  summary_places: '**TODO TRANSLATE**Pamplona es una ciudad llena de vida y con muchas <strong>cosas para ver</strong>. Aquí tienes unos cuantos lugares que no te puedes perder si tienes un rato libre en Pamplona. Todos estos sitios están cerca en el centro y se pueden ver andando. También puedes mirar la <a target="_black" href="https://www.visitnavarra.es/es/pamplona">web oficial</a>.'
+  summary_food: '**TODO TRANSLATE**En Pamplona también hay muchos <strong>bares y restaurantes</strong> donde tomar algo, pedir unos pintxos o disfrutar de una buena comida. También os recomendamos que probéis al menos una vez un menú de sidrería (chorizo a la sidra, tortilla de bacalao, chuletón y queso con membrillo o cuajada; todo regado con sidra, por supuesto)'
+  pics:
+    catedral:
+      src: '../images/catedral.webp'
+      alt: '**TODO TRANSLATE**Catedral de Santa María la Real'
+    ciudadela:
+      src: '../images/ciudadela.webp'
+      alt: '**TODO TRANSLATE**Ciudadela de Pamplona'
+    taconera:
+      src: '../images/taconera.webp'
+      alt: '**TODO TRANSLATE**Parque de la taconera'
+    plaza_castillo:
+      src: '../images/plaza_castillo.webp'
+      alt: '**TODO TRANSLATE**Plaza del castillo'
+  murallas:
+    text: '**TODO TRANSLATE**Las murallas'
+    url: 'https://goo.gl/maps/r5arHijxNeZ4AT4c6'
+  plaza_castillo:
+    text: '**TODO TRANSLATE**Plaza del castillo'
+    url: 'https://goo.gl/maps/f83XZAAnbZMR1kHQ9'
+  estafeta:
+    text: '**TODO TRANSLATE**Calle de Estafeta (recorrido del encierro y bares)'
+    url: 'https://goo.gl/maps/ra7Z7tPYcoW6xfiz5'
+  catedral:
+    text: '**TODO TRANSLATE**Catedral de Santa María la Real'
+    url: 'https://goo.gl/maps/Shdt57HVbNNyFss4A'
+  taconera:
+    text: '**TODO TRANSLATE**Parque de la taconera'
+    url: 'https://goo.gl/maps/mu6zQygZ92WzxddFA'
+  ciudadela:
+    text: '**TODO TRANSLATE**Ciudadela (parque y fortaleza)'
+    url: 'https://goo.gl/maps/5wLQtGhTYqsdGPTGA'
+  irunazarra:
+    text: '**TODO TRANSLATE**Iruñazarra (pintxos y restaurante)'
+    url: 'https://g.page/barIrunazarra?share'
+  melbourne:
+    text: '**TODO TRANSLATE**Melbourne (restaurante)'
+    url: 'https://goo.gl/maps/aJgnHXZgnw6Zycee7'
+  casa_manolo:
+    text: '**TODO TRANSLATE**Casa Manolo (restaurante)'
+    url: 'https://goo.gl/maps/pDJybbAsH3EWjtP66'
+  erretegia:
+    text: '**TODO TRANSLATE**Erretegia (asador)'
+    url: 'https://goo.gl/maps/1vcQqxQrzhYPbUVKA'
+  auzmendi:
+    text: 'Auzmendi (sidrería)'
+    url: 'https://goo.gl/maps/KKshwvnWjt2UcJ4m7'
+  txirrintxa:
+    text: 'Txirrintxa (bar & grill)'
+    url: 'https://goo.gl/maps/QdwWqwXba4FD7iED6'
+  sarria:
+    text: 'Bodegón Sarría (pintxos)'
+    url: 'https://goo.gl/maps/SquqLx1WqfBay6ed8'
+  zanpa:
+    text: 'Zanpa (pintxos)'
+    url: 'https://goo.gl/maps/2phRPMjSJn7yzo9M9'
+  mandarra:
+    text: '**TODO TRANSLATE**Mandarra de la Ramos (pintxos y restaurante)'
+    url: 'https://g.page/Lamandarradelaramos?share'
+  otano:
+    text: '**TODO TRANSLATE**Casa Otano (pintxos y restaurante)'
+    url: 'https://goo.gl/maps/pTYpEjm5FDNLoCea9'
+  mejillonera:
+    text: 'La mejillonera (bar)'
+    url: 'https://goo.gl/maps/t6eQD3h4pMySzXtr9'
+  nabarreria:
+    text: 'Mesón de la Nabarrería (bar)'
+    url: 'https://goo.gl/maps/MVCx7W9ZWvFnb3PLA'
 tourism:
-  title: 'Sightseeing & Tourismus'
+  title: '**TODO TRANSLATE**Navarra y alrededores'
+  summary: '**TODO TRANSLATE**Navarra tiene una variedad enorme de lugares, orografías y paisajes. Desde frondosos bosques a desiertos pasando por castillos medievales. A continuación os damos unas cuantas ideas de sitios interesantes que visitar a menos de una hora desde Pamplona. Para la mayoría necesitarás un coche para llegar pero siempre es fácil de aparcar y casi todos son gratis de visitar (o tienen una entrada de unos pocos euros). Si quieres mirar rutas para andar, también puedes mirar en <a target="_blank" href="https://www.komoot.com/guide/45603/hiking-in-navarra">esta colección en Komoot</a>'
   olite:
-    title: 'Castillo de Olite, Puente la Reina y el cerco de Artajona'
-    text: 'Una ruta por la zona media de Navarra con mucha historia medieval. Este castillo del siglo XIII es indispensable, el puente del siglo XI es parte del camino de santiago y el cerco es una fortificación medieval amurallada con una iglesia-fortaleza que empezó a construirse en el año 1085.'
-    more_info: 'https://www.visitnavarra.es/es/olite'
-    src: './images/olite.webp'
-    img_alt: 'asdf'
-    # Qué ver
-    # Ciudades cerca
-    # Qué comer
-    # Frases (Diccionario Castellano | Euskera | Inglés | Alemán | Schwab | Francés(qué más te da))
+    title: '**TODO TRANSLATE**Castillo de Olite, Puente la Reina y el cerco de Artajona'
+    text: '**TODO TRANSLATE**Una ruta por la zona media de Navarra con mucha historia medieval. El castillo de Olite data del siglo XIII y es indispensable visitarlo, el puente del siglo XI es parte del camino de santiago y el <a target="_blank" href="http://www.artajona.net/el-cerco-de-artajona/">cerco de Artajona</a> es una fortificación medieval amurallada con una iglesia-fortaleza que empezó a construirse en el año 1085.'
+    url: 'https://www.visitnavarra.es/en/olite'
+    src: '../images/artajona.webp'
+    img_alt: '**TODO TRANSLATE**Castillo de Olite'
+  bertiz: 
+    title: '**TODO TRANSLATE**Parque natural señorío de Bertiz'
+    text: '**TODO TRANSLATE**El Parque Natural más romántico de Navarra es un bosque denso y colorido para visitar y perderse por su red de senderos fáciles y bien señalizados. No te pierdas el jardín (entrada de 3 euros por persona) y después de un paseo por la naturaleza se puede parar en el pueblo de Santesteban y comer en Casa Santamaría.'
+    url: 'https://www.visitnavarra.es/en/bertiz'
+    src: '../images/bertiz.webp'
+    img_alt: '**TODO TRANSLATE**Jardín de Bertiz'
+  irati: 
+    title: '**TODO TRANSLATE**Selva de Irati'
+    text: '**TODO TRANSLATE**El "rey de los bosques" que merece la pena en cualquier estación. Visita el pueblo de Orbaizeta y su fábrica de armas antes de adentrarte en esta selva de hayas, robles, abetos, abedules y sauces. Este hábitat natural de ciervos, corzos, jabalíes y multitud de aves es ideal para hacer senderismo. No te pierdas el embalse de Irabia.'
+    url: 'https://www.visitnavarra.es/en/selva-de-irati'
+    src: '../images/irati.webp'
+    img_alt: '**TODO TRANSLATE**Selva de irati'
+  urederra: 
+    title: '**TODO TRANSLATE**Urbasa y el nacedero del Urederra'
+    text: '**TODO TRANSLATE**Las cascadas más conocidas de Navarra que significa "aguas hermosas" en euskera. Este río con colores turquesa imposibles se puede ver con toda la familia. Ten en cuenta que para visitar el nacedero hace falta pedir cita en <a target="_blank" href="https://urederra.amescoa.com/es/reservas/reservar.html">esta web</a>. Situado en el parque natural de Urbasa, puedes encontrar cerca el mirador del Balcón de Pilatos con unas vistas impresionantes. Cerca está la ciudad de Estella, para ir a tomar algo o comer.'
+    url: 'https://www.visitnavarra.es/en/nacedero-del-urederra'
+    src: '../images/urederra.webp'
+    img_alt: '**TODO TRANSLATE**Nacedero del urederra'
+  arbaiun: 
+    title: '**TODO TRANSLATE**Foz de Lumbier y foz de Arbaiun'
+    text: '**TODO TRANSLATE**Dos gargantas que albergan una gran colonia de buitres leonados. Desde el mirador de Iso se puede apreciar la magnitud de estas paredes de 400 metros de altura. El castillo de Javier también está en las inmediaciones.'
+    url: 'https://www.visitnavarra.es/en/foces-lumbier-arbaiun'
+    src: '../images/arbaiun.webp'
+    img_alt: '**TODO TRANSLATE**Foz de Arbaiun'
+  bardenas: 
+    title: '**TODO TRANSLATE**Las bardenas reales'
+    text: '**TODO TRANSLATE**Un desierto inesperado que se encuentra a una hora de los pirineos y a dos horas del mar. Las bardenas y las formaciones rocosas de Castildetierra y Piskerra han aparecido en numerosas películas y series como Juego de Tronos. Tudela, fundada en el año 802 bajo el dominio musulmán, está a un paso para ir a descansar y a comer.'
+    url: 'https://www.visitnavarra.es/en/bardenas-reales'
+    src: '../images/bardenas.webp'
+    img_alt: 'Castildetierra'
+  donosti: 
+    title: 'San Sebastián · Donosti'
+    text: '**TODO TRANSLATE**La perla del país vasco, a una hora en coche o <a target="_blank" href="https://www.alsa.es/">en autobús</a> (unos 17€ ida y vuelta). El paseo de la concha es perfecto para hacer un poco de hambre antes de comer unos pintxos en el casco viejo. El peine del viento, el Kursaal, el paseo nuevo, la playa de Zurriola... Nosotros estuvimos en el restaurante <a target="blank" href="https://goo.gl/maps/a7KdV8eHmDK33fNG7">Zazpi</a> y nos encantó.'
+    url: 'https://www.gipuzkoaturismoa.eus/en/things-to-do/towns-and-villages/donostia-san-sebastian'
+    src: '../images/donosti.webp'
+    img_alt: '**TODO TRANSLATE**La concha desde el monte Igueldo'
+  bilbo: 
+    title: 'Bilbao'
+    text: '**TODO TRANSLATE**Una gran ciudad llena de historia y tradición. Alberga el conocido museo Guggenheim, la ría con sus icónicos puentes y, por supuesto, una zona para tomar pintxos y txikitos: las siete calles. A unas dos horas de Pamplona, se puede ir <a target="_blank" href="https://www.alsa.es/">en autobús</a> por unos 30€ ida y vuelta.'
+    url: 'https://tourismus.euskadi.eus/de/top10/ortschaften/bilbao/aa30-12376/de/'
+    src: '../images/bilbo.webp'
+    img_alt: '**TODO TRANSLATE**Museo Guggenheim'
 faq:
   title: 'Häufig gestellte Fragen'
   q: 'F.'
@@ -93,7 +253,9 @@ faq:
   pictures:
     q: 'Dürfen wir Bilder und Videos während der Hochzeitsfeier machen?'
     a: "Klar, kein Problem."
-
+  parking:
+    q: '**TODO TRANSLATE**¿Hay posibilidad de aparcar en el Palacio de Olloqui?'
+    a: '**TODO TRANSLATE**Sí, hay mucho sitio para aparcar en la calle adyaciente, solo hay que subir una pequeña cuesta desde ahí.'
 common:
   to_be_announced: 'Coming&nbsp;soon'
 fake:

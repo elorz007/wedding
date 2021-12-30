@@ -102,8 +102,8 @@ stay:
       url: 'https://almahotels.com/pamplona/'
 visit:
   title: 'Pamplona · Iruña'
-  summary_places: 'Pamplona es una ciudad llena de vida y con muchas <strong>cosas para ver</strong>. Aquí tienes unos cuantos lugares indispensables que no te puedes perder si tienes un rato libre en Pamplona. Todos estos sitios están cerca en el centro y se pueden ver andando. También puedes mirar la <a target="_black" href="https://www.visitnavarra.es/es/pamplona">web oficial</a>.'
-  summary_food: 'En Pamplona también hay muchos <strong>bares y restaurantes</strong> donde tomar algo, pedir unos pintxos o disfrutar de una buena comida. También os recomendamos que probéis al menos una vez un menú de sidrería (chorizo a la sidra, tortilla de bacalao, chuletón y queso con membrillo o cuajada; todo regado con sidra, por supuesto)'
+  summary_places: 'Pamplona es una ciudad llena de vida y con muchas <strong>cosas para ver</strong>. Aquí tienes unos cuantos lugares que no te puedes perder si tienes un rato libre en Pamplona. Todos estos sitios están cerca en el centro y se pueden ver andando. También puedes mirar la <a target="_black" href="https://www.visitnavarra.es/es/pamplona">web oficial</a>.'
+  summary_food: 'En Pamplona también hay muchos <strong>bares y restaurantes</strong> donde tomar algo, pedir unos pintxos o disfrutar de una buena comida. También os recomendamos que probéis al menos una vez un menú de sidrería (chorizo a la sidra, tortilla de bacalao, chuletón y queso con membrillo; todo regado con sidra, por supuesto)'
   pics:
     catedral:
       src: './images/catedral.webp'
@@ -178,9 +178,8 @@ tourism:
     title: 'Castillo de Olite, Puente la Reina y el cerco de Artajona'
     text: 'Una ruta por la zona media de Navarra con mucha historia medieval. El castillo de Olite data del siglo XIII y es indispensable visitarlo, el puente del siglo XI es parte del camino de santiago y el <a target="_blank" href="http://www.artajona.net/el-cerco-de-artajona/">cerco de Artajona</a> es una fortificación medieval amurallada con una iglesia-fortaleza que empezó a construirse en el año 1085.'
     url: 'https://www.visitnavarra.es/es/olite'
-    # src: './images/olite.webp'
     src: './images/artajona.webp'
-    img_alt: 'Castillo de Olite'
+    img_alt: 'Cerco de Artajona'
   bertiz: 
     title: 'Parque natural señorío de Bertiz'
     text: 'El Parque Natural más romántico de Navarra es un bosque denso y colorido para visitar y perderse por su red de senderos fáciles y bien señalizados. No te pierdas el jardín (entrada de 3 euros por persona) y después de un paseo por la naturaleza se puede parar en el pueblo de Santesteban y comer en Casa Santamaría.'
@@ -213,7 +212,7 @@ tourism:
     img_alt: 'Castildetierra'
   donosti: 
     title: 'San Sebastián · Donosti'
-    text: 'La perla del país vasco, a una hora en coche o <a target="_blank" href="https://www.alsa.es/">en autobús</a> (unos 17€ ida y vuelta). El paseo de la concha es perfecto para hacer un poco de hambre antes de comer unos pintxos en el casco viejo. El peine del viento, el Kursaal, el paseo nuevo, la playa de Zurriola... Nosotros estuvimos en el restaurante Zazpi y nos encantó.'
+    text: 'La perla del país vasco, a una hora en coche o <a target="_blank" href="https://www.alsa.es/">en autobús</a> (unos 17€ ida y vuelta). El paseo de la concha es perfecto para hacer un poco de hambre antes de comer unos pintxos en el casco viejo. El peine del viento, el Kursaal, el paseo nuevo, la playa de Zurriola... Nosotros estuvimos en el restaurante <a target="blank" href="https://goo.gl/maps/a7KdV8eHmDK33fNG7">Zazpi</a> y nos encantó.'
     url: 'https://www.gipuzkoaturismoa.eus/es/que-hacer/ciudades-y-pueblos/san-sebastian'
     src: './images/donosti.webp'
     img_alt: 'La concha desde el monte Igueldo'
@@ -254,7 +253,9 @@ faq:
   pictures:
     q: '¿Podemos sacar fotos y vídeo durante la boda?'
     a: 'Siempre y cuando no molestéis al fotógrafo oficial, sin problema.'
-
+  parking:
+    q: '¿Hay posibilidad de aparcar en el Palacio de Olloqui?'
+    a: 'Sí, hay mucho sitio para aparcar en la calle adyaciente, solo hay que subir una pequeña cuesta desde ahí.'
 common:
   to_be_announced: 'Próximamente'
 fake:

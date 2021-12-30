@@ -291,7 +291,7 @@ iframe.responsive {
     #get-there .address .content {
       flex-direction: column;
       text-align: center;
-      min-height: 19em;
+      min-height: calc(22em - 1%);
     }
     #get-there .address .title {
       margin: 0;
@@ -310,6 +310,10 @@ iframe.responsive {
     }
   #get-there .airports {
     /*background: red;*/
+    /*height: 5%;*/
+    transform: translateY(-100%);
+    /*margin-left: 25%;*/
+    font-size: 0.8em;
   }
   #get-there .map {
     filter: grayscale(50%);
