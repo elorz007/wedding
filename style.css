@@ -280,7 +280,7 @@ iframe.responsive {
     }
 
 #get-there {}
-  #get-there div {
+  #get-there .address, #get-there .map .responsive-container {
     min-height: 22em;
   }
   #get-there .address {
@@ -288,12 +288,10 @@ iframe.responsive {
     border-width: 1px 0 1px 0;
     border-color: var(--text);
   }
-    #get-there .map {
-      filter: grayscale(50%);
-    }
-    #get-there .address .center {
+    #get-there .address .content {
       flex-direction: column;
       text-align: center;
+      min-height: 19em;
     }
     #get-there .address .title {
       margin: 0;
@@ -310,6 +308,12 @@ iframe.responsive {
       font-size: 1em;
       font-weight: lighter;
     }
+  #get-there .airports {
+    /*background: red;*/
+  }
+  #get-there .map {
+    filter: grayscale(50%);
+  }
 
 #timeline {}
 
