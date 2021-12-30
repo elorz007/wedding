@@ -320,22 +320,27 @@ iframe.responsive {
     padding: var(--space);
   }
 
-#stay {}
-  #stay .fake img {
-    width: 100%;
+#stay {
+  padding: var(--space);
+}
+  #stay .bracket .title {
+    padding: var(--space-tiny);
+    margin: var(--space-tiny);
+    border-width: 0 0 1px 0;
+    border-style: solid;
   }
 
-#tourism {
-}
+#tourism {}
   #tourism .summary {
     padding: var(--space);
   }
   #tourism figure {
-    border-width: 0 0 1px 0;
+    border-width: 1px 0 0 0;
     border-style: solid;
   }
     #tourism figure figcaption {
-      padding: var(--space-small);
+      padding-left: var(--space);
+      padding-right: var(--space);
       margin-bottom: var(--space-big);
     }
 
@@ -435,6 +440,8 @@ iframe.responsive {
   #language-selection {
     font-size: 75%;
   }
-
+  #tourism figure figcaption {
+    margin-bottom: 0;
+  }
 }
 

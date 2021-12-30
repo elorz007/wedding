@@ -50,6 +50,56 @@ corona:
   # Dance
 stay:
   title: 'Alojamiento'
+  budget:
+    title: '< 50 €'
+    opt1:
+      title: 'Hostel Plaza Catedral'
+      url: 'https://www.albergueplazacatedral.com/en/'
+    opt2:
+      title: 'Alojamientos Olga'
+      url: 'https://www.reservaonline.support/apartamentosolga/reservas.html'
+    opt3:
+      title: 'Buscar apartamentos en Airbnb (evitar aquellos donde ponga cosas de Sanfermines)'
+      url: 'https://www.airbnb.com/pamplona-spain/stays'
+  midrange:
+    title: '50-70 €'
+    opt1:
+      title: 'BED4U Pamplona *** (20 min en bus al centro)'
+      url: 'https://www.bed4uhotels.com/bed4u-pamplona.html'
+    opt2:
+      title: 'Holiday Inn Express Pamplona *** (35 min en bus al centro)'
+      url: 'https://www.ihg.com/holidayinnexpress/hotels/gb/en/pamplona/pnasp/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-ES-_-PNASP'
+    opt3:
+      title: 'Zenit Pamplona **** (30 min en bus al centro)'
+      url: 'https://pamplona.zenithoteles.com/es/'
+    opt4:
+      title: 'Hotel Pompaelo ****'
+      url: 'https://www.hotelpompaelo.com/bookings'
+  premium:
+    title: '70-100 €'
+    opt1:
+      title: 'Hotel Avenida ***'
+      url: 'https://avenidahotel.es/'
+    opt2:
+      title: 'Sercotel Hotel Leyre ***'
+      url: 'https://www.hotel-leyre.com/'
+    opt3:
+      title: 'Hotel Maisonnave ****'
+      url: 'https://www.hotelmaisonnave.es/'
+    opt4:
+      title: 'Sercotel Restaurante Hotel Europa ***'
+      url: 'https://www.hoteleuropapamplona.com/'
+  luxury:
+    title: '> 110 €'
+    opt1:
+      title: 'Hotel Blanca de Navarra ****'
+      url: 'https://www.hotelblancadenavarra.com/'
+    opt2:
+      title: 'NH Pamplona Iruña Park ****'
+      url: 'https://www.nh-hotels.com/hotel/nh-pamplona-iruna-park'
+    opt3:
+      title: 'Hotel Alma Pamplona *****'
+      url: 'https://almahotels.com/pamplona/'
 visit:
   title: 'Pamplona · Iruña'
   summary_places: 'Pamplona es una ciudad llena de vida y con muchas <strong>cosas para ver</strong>. Aquí tienes unos cuantos lugares indispensables que no te puedes perder si tienes un rato libre en Pamplona. Todos estos sitios están cerca en el centro y se pueden ver andando. También puedes mirar la <a target="_black" href="https://www.visitnavarra.es/es/pamplona">web oficial</a>.'
