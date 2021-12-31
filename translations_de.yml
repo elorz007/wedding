@@ -40,6 +40,11 @@ get_there:
     title: 'Adresse'
     street: 'Calle San Adrián 15, 31699 Olloki,<br> Navarra, Spanien'
     distance: "15 Minuten vom Stadtzentrum Pamplona entfernt"
+  airports:
+    pamplona: 'Pamplona | 10km'
+    bilbo: 'Bilbao | 160km'
+    madrid: 'Madrid | 380km'
+    barcelona: 'Barcelona | 480km'
 timeline:
   title: 'Ablauf'
 corona:
