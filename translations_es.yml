@@ -40,6 +40,11 @@ get_there:
     title: 'Dirección'
     street: 'Calle San Adrián 15, Olloki'
     distance: 'a 15 minutos del centro'
+  airports:
+    pamplona: 'Pamplona | 10km'
+    bilbo: 'Bilbao | 160km'
+    madrid: 'Madrid | 380km'
+    barcelona: 'Barcelona | 480km'
 timeline:
   title: 'Horario'
 corona:
