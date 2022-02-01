@@ -64,7 +64,7 @@ stay:
       title: 'Alojamientos Olga'
       url: 'https://www.reservaonline.support/apartamentosolga/reservas.html'
     opt3:
-      title: 'Unterkünfte auf Airbnb suchen (vermeidet dabei die touristischen "Sanfermines"-Unterkünfte)'
+      title: 'Unterkünfte auf Airbnb suchen (vermeidet dabei die touristischen „Sanfermines“-Unterkünfte)'
       url: 'https://www.airbnb.com/pamplona-spain/stays'
   midrange:
     title: '50-70 €'
@@ -178,7 +178,7 @@ visit:
     url: 'https://goo.gl/maps/MVCx7W9ZWvFnb3PLA'
 tourism:
   title: 'Navarra & Umgebung'
-  summary: 'Navarra bietet eine große Vielfalt an Sehenswürdigkeiten - von üppigen Wälder bis hin zu Wüsten und mitteralterlichen Burgen. Nachfolgend findet ihr einige Ideen für interessante Orte, die ihr weniger als eine Auto-Stunde von Pamplona entfernt besuchen könnt. Für das Meiste braucht ihr ein Auto, aber es ist immer einfach zu parken und fast alle Sehesnwürdigkeiten sind kostenlos (oder es werden nur ein paar Euro Eintritt verlangt). Wenn ihr gerne wandern geht, schaut euch auch mal <a target="_blank" href="https://www.komoot.com/guide/45603/hiking-in-navarra">diese Wanderrouten auf Komootesta</a> an.'
+  summary: 'Navarra bietet eine große Vielfalt an Sehenswürdigkeiten - von üppigen Wälder bis hin zu Wüsten und mitteralterlichen Burgen. Nachfolgend findet ihr einige Ideen für interessante Orte, die ihr weniger als eine Auto-Stunde von Pamplona entfernt besuchen könnt. Für das Meiste braucht ihr ein Auto, aber es ist immer einfach zu parken und fast alle Sehesnwürdigkeiten sind kostenlos (oder es werden nur ein paar Euro Eintritt verlangt). Wenn ihr gerne wandern geht, schaut euch auch mal <a target="_blank" href="https://www.komoot.com/guide/45603/hiking-in-navarra">diese Wanderrouten auf Komoot</a> an.'
   olite:
     title: 'Palacio Real de Olite, Puente la Reina und Cerco de Artajona'
     text: 'Eine Route durch das Zentrum von Navarra mit viel mittelalterlicher Geschichte. Die Burg von Olite stammt aus dem 13. Jahrhundert und solltet ihr euch nicht entgehen lassen! Die Brücke wurde im 11. Jahrhundert in einer nahe gelegenen Siedlung erbaut und ist Teil des Jakobsweges. Der <a target="_blank" href="http://www.artajona.net/el-cerco-de-artajona/">cerco de Artajona</a> ist eine ummauerte mittelalterliche Anlage mit einer Festungskirche im Inneren, deren Bau im Jahr 1085 begann.'
@@ -198,8 +198,8 @@ tourism:
     src: '../images/irati.webp'
     img_alt: 'Irati-Wald'
   urederra: 
-    title: '**TODO TRANSLATE**Urbasa und die Quelle der Urederra'
-    text: 'Die bekanntesten Wasserfälle in Navarra "Urederra", was auf Baskisch "schöne Gewässer" bedeutet. Dieser Fluss mit seinen türkisfarbenen Farben kann mit der ganzen Familie besucht werden. Bitte denkt daran, dass ihr für den Besuch der Quelle einen Termin vereinbaren müsst auf dieser <a target="_blank" href="https://urederra.amescoa.com/es/reservas/reservar.html">Seite</a>. Im Naturschutzgebiet von Urbasa gelegen, befindet sich ganz in der Nähe der Aussichtspunkt "Balcón de Pilatos". Ihr könnet auch in der Stadt "Estella" vorbeischauen, wenn ihr hungrig seid.'
+    title: 'Urbasa und die Quelle der Urederra'
+    text: 'Die bekanntesten Wasserfälle in Navarra „Urederra“, was auf Baskisch „schöne Gewässer“ bedeutet. Dieser Fluss mit seinen türkisfarbenen Farben kann mit der ganzen Familie besucht werden. Bitte denkt daran, dass ihr für den Besuch der Quelle einen Termin vereinbaren müsst auf dieser <a target="_blank" href="https://urederra.amescoa.com/es/reservas/reservar.html">Seite</a>. Im Naturschutzgebiet von Urbasa gelegen, befindet sich ganz in der Nähe der Aussichtspunkt „Balcón de Pilatos“. Ihr könnet auch in der Stadt „Estella“ vorbeischauen, wenn ihr hungrig seid.'
     url: 'https://www.visitnavarra.es/en/nacedero-del-urederra'
     src: '../images/urederra.webp'
     img_alt: 'Quelle der Urederra'
@@ -217,7 +217,7 @@ tourism:
     img_alt: 'Castildetierra'
   donosti: 
     title: 'San Sebastián · Donosti'
-    text: 'Die Perle des Baskenlandes, eine Stunde mit dem Auto oder dem <a target="_blank" href="https://www.alsa.es/">Bus</a> entfernt (ca. 17 € Hin- und Rückfahrt). Ein Spaziergang entlang der Promenade "La Concha" ist perfekt, um " Appetit zu machen" auf ein paar Pintxos in der Altstadt. Außerdem sieht man den Windkamm, den Kursaal, die neue Promenade (paseo nuevo), den Strand von Zurriola... Wir waren im Restaurant <a target="blank" href="https://goo.gl/maps/a7KdV8eHmDK33fNG7">Zazpi</a> und können es nur weiter empfehlen.'
+    text: 'Die Perle des Baskenlandes, eine Stunde mit dem Auto oder dem <a target="_blank" href="https://www.alsa.es/">Bus</a> entfernt (ca. 17 € Hin- und Rückfahrt). Ein Spaziergang entlang der Promenade „La Concha“ ist perfekt, um „Appetit zu machen“ auf ein paar Pintxos in der Altstadt. Außerdem sieht man den Windkamm, den Kursaal, die neue Promenade (paseo nuevo), den Strand von Zurriola... Wir waren im Restaurant <a target="blank" href="https://goo.gl/maps/a7KdV8eHmDK33fNG7">Zazpi</a> und können es nur weiter empfehlen.'
     url: 'https://www.gipuzkoaturismoa.eus/en/things-to-do/towns-and-villages/donostia-san-sebastian'
     src: '../images/donosti.webp'
     img_alt: 'La Concha vom Monte Igueldo'
