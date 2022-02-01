@@ -44,7 +44,7 @@ get_there:
     pamplona: 'Pamplona | 10km'
     bilbo: 'Bilbao | 160km'
     madrid: 'Madrid | 380km'
-    barcelona: 'Barcelona | 480km
+    barcelona: 'Barcelona | 480km'
 timeline:
   title: 'Timeline'
 corona:

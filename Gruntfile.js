@@ -65,7 +65,8 @@ module.exports = function(grunt) {
             try {
               var translations = grunt.file.readYAML('translations_' + grunt.option('language') +'.yml');
               return eval('translations.' + key)  
-            }catch {
+            } catch (error) {
+              grunt.log.write(error)
               return key
             }
             
