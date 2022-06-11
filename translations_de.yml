@@ -37,9 +37,11 @@ rsvp:
 get_there:
   title: 'Anfahrt'
   address:
-    title: 'Adresse'
     street: 'Calle San Adrián 15, 31699 Olloki,<br> Navarra, Spanien'
-    distance: "15 Minuten vom Stadtzentrum Pamplona entfernt"
+    bus: "Organisierte bus um <strong>12:15</strong> vom <a href=\"https://goo.gl/maps/3876vj9RAYFbSoNdA\">Hotel 3 Reyes (Hinterstraße)</a> - 00:15 Zurück"
+    distance: "15 Autominuten vom Stadtzentrum Pamplona entfernt - in <a href=\"https://goo.gl/maps/7XL1bykDuXEeq49U9\">Av. Esteribar</a> Parallelstraße parken"
+    public: "ÖPNV L23 bus - 1,4€ - <a href=\"https://www.infotuc.es/index.php/es/horarios-y-recorridos/linea/23\">jede 90 Minuten</a> - Halstelle <a href=\"https://goo.gl/maps/JCXHp6PCSoB3bAaz5\">Olloki c/ Asketa'</a>"
+    taxi: "Taxi per <a href=\"https://pidetaxi.es/\">pidetaxi</a> App oder <a href=\"tel:+34948232300\">+34948232300</a> anrufen"
   airports:
     pamplona: 'Pamplona | 10km'
     bilbo: 'Bilbao | 160km'
