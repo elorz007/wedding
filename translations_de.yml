@@ -51,10 +51,12 @@ timeline:
   title: 'Ablauf'
 corona:
   title: 'COVID Regelungen'
-  # Mask + type + testing + certificate
-  # Contact
-  # How many people
-  # Dance
+  explanation: 'Die Covid Regeln sind viel lockerer geworden in Vergleich mit dem Anfang der Pandemie. Trotzdem empfehlen wir die Tage vor dem Event Kontake einzuschränken um die in Riskiogruppen zu schützen.'
+  rule_wedding_masks: 'Es gilt keine Maskenpflicht während des Events, trotzdem darf man eine Maske tragen, natürlich.'
+  rule_wedding_tests: 'Impf- oder Testnachweis ist nicht erforderlich im Location'
+  rule_restaurants: 'Es gilt keine Maskenpflicht in Bars und Restaurants, weder drinnen noch draußen.'
+  rule_transit: 'Maskenpflicht im öffentlichen Verkehr gilt weiterhin außer in den Halstellen, Bahnhöfe und Flughäfen.'
+  rule_vaccination: "Beim Ein- und Ausreise gibt's keine Impf- oder Testpflicht"
 stay:
   title: 'Unterkünfte'
   budget:
@@ -244,7 +246,7 @@ faq:
     a: '<a href=https://letmegooglethat.com/?q=wie+wird+das+Wetter+im+Oktober+in+Pamplona target="_blank">Let me google that for you.</a>'
   party:
     q: 'Wird es eine Party und kostenlose Getränke geben?'
-    a: 'Ja und Ja (solange die COVID-Regeln es zulassen).'
+    a: 'Ja und Ja.'
   dance:
     q: 'Ist Tanzen Pflicht?'
     a: 'Ja.'
@@ -263,6 +265,10 @@ faq:
   parking:
     q: 'Kann man bei Palacio de Olloqui parken?'
     a: 'Ja, es gibt genügend Parkplätze in einer Parallelstraße, von der man über eine kleine Steigung die Location in nur wenigen Gehminuten erreicht.'
+  ceremony:
+    q: 'Wo wird die Zeremonie/Messe stattfinden?'
+    a: "Gottensdient gibt's nicht, Zeremonie und alles wird im Palacio Olloki gefeiert."
+
 common:
   to_be_announced: 'Coming&nbsp;soon'
 fake:

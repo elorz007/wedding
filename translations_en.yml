@@ -51,10 +51,12 @@ timeline:
   title: 'Timeline'
 corona:
   title: 'COVID rules'
-  # Mask + type + testing + certificate
-  # Contact
-  # How many people
-  # Dance
+  explanation: 'The covid rules are now much more lenient compared to the beginning of the pandemic. However, we recommend to limit the contacts in the days prior to the event in order to protect those more vulnerable.'
+  rule_wedding_masks: 'During the event masking is not mandatory but can be done, of course.'
+  rule_wedding_tests: 'No test or proof of vaccionation must be presented to participate in the event.'
+  rule_restaurants: 'In the bars and restaurants masking is also not mandatory.'
+  rule_transit: 'Masking is mandatory in all public transportation but not in the stops, train stations and airports.'
+  rule_vaccination: 'Vaccination proof or tests are not mandatory for entering or leaving the country.'
 stay:
   title: 'Stay & Hotels'
   budget:
@@ -244,7 +246,7 @@ faq:
     a: 'Do I look like a meteorologist? I guess chilly, bring a jacket.'
   party:
     q: 'Will there be a party and free drinks?'
-    a: 'Yes and yes (as long as the COVID rules allow it).'
+    a: 'Yes and yes.'
   dance:
     q: 'Is it mandatory to dance?'
     a: 'Yes.'
@@ -263,6 +265,9 @@ faq:
   parking:
     q: '¿Is it easy to park near the location?'
     a: 'Yes, there is plenty space in the street nearby, you just need to walk up a short path afterwards.'
+  ceremony:
+    q: 'Where will the ceremony/mass take place?'
+    a: "There won't be any mass, the ceremony and everything will happen at Palacio de Olloki."
 common:
   to_be_announced: 'Coming&nbsp;soon'
 fake:

@@ -321,6 +321,10 @@ iframe.responsive {
 #timeline {}
 
 #corona {}
+  #corona .content {
+    padding: var(--space);
+    
+  }
 
 #visit {}
   #visit article div {

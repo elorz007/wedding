@@ -51,10 +51,12 @@ timeline:
   title: 'Horario'
 corona:
   title: 'Normas COVID'
-  # Mask + type + testing + certificate
-  # Contact
-  # How many people
-  # Dance
+  explanation: 'Las normas del covid se han relajado mucho desde los momentos más duros de la pandemia. Aún así recomendamos minimizar los contactos antes del evento para proteger sobre todo a los asistentes más vulnerables.'
+  rule_wedding_masks: 'Durante el evento no es obligatorio llevar mascarilla en ningún momento pero podéis hacerlo sin problema, por supuesto.'
+  rule_wedding_tests: 'No es obligatorio hacerse tests o presentar prueba de vacunación para asistir al evento.'
+  rule_restaurants: 'En los restaurantes y bares no es obligatorio llevar mascarillas ni dentro ni fuera.'
+  rule_transit: 'Es obligatorio llevar mascarilla en todos los medios públicos de transporte (pero no en las parades, estaciones y aeropuertos).'
+  rule_vaccination: 'No es obligatorio pasaporte covid de vacunación para la entrada ni salida del país.'
 stay:
   title: 'Alojamiento'
   budget:
@@ -244,7 +246,7 @@ faq:
     a: '¿Acaso tengo cara de meteorólogo? Pues fresquito, trae chaqueta.'
   party:
     q: '¿Habrá baile y barra libre?'
-    a: 'Sí y sí (siempre y cuando lo permitan las normas COVID).'
+    a: 'Sí y sí.'
   dance:
     q: '¿Es obligatorio bailar?'
     a: 'Sí.'
@@ -263,6 +265,9 @@ faq:
   parking:
     q: '¿Hay posibilidad de aparcar en el Palacio de Olloqui?'
     a: 'Sí, hay mucho sitio para aparcar en la calle adyaciente, solo hay que subir una pequeña cuesta desde ahí.'
+  ceremony:
+    q: '¿Dónde se oficiará la ceremonia/misa?'
+    a: 'Misa no hay, la ceremonia es en el propio Palacio Olloki, todo el evento se celebrará allí.'
 common:
   to_be_announced: 'Próximamente'
 fake:
