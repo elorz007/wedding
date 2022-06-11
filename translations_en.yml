@@ -109,7 +109,7 @@ stay:
       url: 'https://almahotels.com/pamplona/'
 visit:
   title: 'Pamplona · Iruña'
-  summary_places: 'Pamplona is a city full of life and with plenty <strong>stuff to see</strong>. Here you have a list of some places you should not miss if you have some free time in Pamplona. All these places are close to the city center and can be visited on foot. You can also take a look at the <a target="_black" href="https://www.visitnavarra.es/es/pamplona">official website</a>.'
+  summary_places: 'Pamplona is a city full of life and with plenty <strong>stuff to see</strong>. Here you have a list of some places you should not miss if you have some free time in Pamplona. All these places are close to the city center and can be visited on foot. You can also take a look at the <a target="_blank" href="https://www.visitnavarra.es/es/pamplona">official website</a>.'
   summary_food: 'In Pamplona there are also many <strong>bars and restaurants</strong> where you can drink something, eat some pintxos or enjoy a meal. We also recommend you try once a "Sidrería" (they should serve a menu with chorizo with cider, cod omelette, veal rib steak (chuletón) and cheese with quince; all paired with natural cider).'
   pics:
     catedral:

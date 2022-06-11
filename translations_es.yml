@@ -38,10 +38,10 @@ get_there:
   title: 'Cómo llegar'
   address:
     street: 'Calle San Adrián 15, Olloki'
-    bus: "Bus organizado a las <strong>12:15</strong> desde <a href=\"https://goo.gl/maps/3876vj9RAYFbSoNdA\">la trasera del Hotel 3 Reyes</a> - Vuelta 00:15"
-    distance: 'a 15 minutos del centro en coche - aparcar en <a href=\"https://goo.gl/maps/7XL1bykDuXEeq49U9\">Av. Esteribar</a>'
-    public: "Bus L23 - 1,4€ - <a href=\"https://www.infotuc.es/index.php/es/horarios-y-recorridos/linea/23\">cada 90 minutos</a> - parada <a href=\"https://goo.gl/maps/JCXHp6PCSoB3bAaz5\">'Olloki c/ Asketa'</a>"
-    taxi: "App <a href=\"https://pidetaxi.es/\">Pidetaxi</a> o llamar <a href=\"tel:+34948232300\">+34948232300</a>"
+    bus: "Bus organizado a las <strong>12:15</strong> desde <a target=\"_blank\" href=\"https://goo.gl/maps/3876vj9RAYFbSoNdA\">la trasera del Hotel 3 Reyes</a> - Vuelta 00:15"
+    distance: "A 15 minutos del centro en coche - aparcar en <a target=\"_blank\" href=\"https://goo.gl/maps/7XL1bykDuXEeq49U9\">Av. Esteribar</a>"
+    public: "Bus L23 - 1,4€ - <a target=\"_blank\" href=\"https://www.infotuc.es/index.php/es/horarios-y-recorridos/linea/23\">cada 90 minutos</a> - parada <a target=\"_blank\" href=\"https://goo.gl/maps/JCXHp6PCSoB3bAaz5\">'Olloki c/ Asketa'</a>"
+    taxi: "App <a target=\"_blank\" href=\"https://pidetaxi.es/\">Pidetaxi</a> o llamar <a href=\"tel:+34948232300\">+34948232300</a>"
   airports:
     pamplona: 'Pamplona | 10km'
     bilbo: 'Bilbao | 160km'
@@ -109,7 +109,7 @@ stay:
       url: 'https://almahotels.com/pamplona/'
 visit:
   title: 'Pamplona · Iruña'
-  summary_places: 'Pamplona es una ciudad llena de vida y con muchas <strong>cosas para ver</strong>. Aquí tienes unos cuantos lugares que no te puedes perder si tienes un rato libre en Pamplona. Todos estos sitios están cerca en el centro y se pueden ver andando. También puedes mirar la <a target="_black" href="https://www.visitnavarra.es/es/pamplona">web oficial</a>.'
+  summary_places: 'Pamplona es una ciudad llena de vida y con muchas <strong>cosas para ver</strong>. Aquí tienes unos cuantos lugares que no te puedes perder si tienes un rato libre en Pamplona. Todos estos sitios están cerca en el centro y se pueden ver andando. También puedes mirar la <a target="_blank" href="https://www.visitnavarra.es/es/pamplona">web oficial</a>.'
   summary_food: 'En Pamplona también hay muchos <strong>bares y restaurantes</strong> donde tomar algo, pedir unos pintxos o disfrutar de una buena comida. También os recomendamos que probéis al menos una vez un menú de sidrería (chorizo a la sidra, tortilla de bacalao, chuletón y queso con membrillo; todo regado con sidra, por supuesto)'
   pics:
     catedral:
