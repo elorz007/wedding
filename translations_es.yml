@@ -49,6 +49,33 @@ get_there:
     barcelona: 'Barcelona | 480km'
 timeline:
   title: 'Horario'
+  bus:
+    time: '12:15'
+    event: 'Salida en bus'
+  arrival:
+    time: '12:30'
+    event: 'Llegada Palacio de Olloqui'
+  ceremony:
+    time: '13:00'
+    event: 'Ceremonia'
+  appetizers:
+    time: '13:30'
+    event: 'Aperitivos y fotos'
+  lunch:
+    time: '15:30'
+    event: 'Comida'
+  dance:
+    time: '20:00'
+    event: 'Baile y barra libre'
+  dinner:
+    time: '22:00'
+    event: 'Recena'
+  end:
+    time: '00:00'
+    event: 'Fin del baile'
+  bus_back:
+    time: '00:15'
+    event: 'Bus de vuelta'
 corona:
   title: 'Normas COVID'
   explanation: 'Las normas del covid se han relajado mucho desde los momentos más duros de la pandemia. Aún así recomendamos minimizar los contactos antes del evento para proteger sobre todo a los asistentes más vulnerables.'
@@ -267,7 +294,7 @@ faq:
     a: 'Sí, hay mucho sitio para aparcar en la calle adyaciente, solo hay que subir una pequeña cuesta desde ahí.'
   ceremony:
     q: '¿Dónde se oficiará la ceremonia/misa?'
-    a: 'Misa no hay, la ceremonia es en el propio Palacio Olloki, todo el evento se celebrará allí.'
+    a: 'Misa no hay, la ceremonia es en el propio Palacio de Olloqui, todo el evento se celebrará allí.'
 common:
   to_be_announced: 'Próximamente'
 fake:

@@ -49,6 +49,33 @@ get_there:
     barcelona: 'Barcelona | 480km'
 timeline:
   title: 'Timeline'
+  bus:
+    time: '12:15'
+    event: 'Bus departure'
+  arrival:
+    time: '12:30'
+    event: 'Arrival Palacio de Olloqui'
+  ceremony:
+    time: '13:00'
+    event: 'Ceremony'
+  appetizers:
+    time: '13:30'
+    event: 'Appetizers & photos'
+  lunch:
+    time: '15:30'
+    event: 'Lunch'
+  dance:
+    time: '20:00'
+    event: 'Party & open bar'
+  dinner:
+    time: '22:00'
+    event: 'Late-night snacks'
+  end:
+    time: '00:00'
+    event: 'End of party'
+  bus_back:
+    time: '00:15'
+    event: 'Bus back'
 corona:
   title: 'COVID rules'
   explanation: 'The covid rules are now much more lenient compared to the beginning of the pandemic. However, we recommend to limit the contacts in the days prior to the event in order to protect those more vulnerable.'
@@ -267,7 +294,7 @@ faq:
     a: 'Yes, there is plenty space in the street nearby, you just need to walk up a short path afterwards.'
   ceremony:
     q: 'Where will the ceremony/mass take place?'
-    a: "There won't be any mass, the ceremony and everything will happen at Palacio de Olloki."
+    a: "There won't be any mass, the ceremony and everything will happen at Palacio de Olloqui."
 common:
   to_be_announced: 'Coming&nbsp;soon'
 fake:

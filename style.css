@@ -193,7 +193,6 @@ iframe.responsive {
 .drop-cap {
   display: inline-block;
 }
-
   .drop-cap::first-letter {
     color: var(--accent);
     float: left;
@@ -263,9 +262,6 @@ iframe.responsive {
   }
 
 #location {}
-  #location img {
-    /*filter: contrast(125%) grayscale(100%);*/
-  }
 
 #rsvp {}
   #rsvp .box {
@@ -319,11 +315,61 @@ iframe.responsive {
   }
 
 #timeline {}
+  :root {
+    --size-timeline-marker: 0.5em;
+    --size-timeline-line: 1px;
+  }
+  #timeline .content {
+    padding: var(--space);
+  }
+  #timeline .lines {
+    position: relative;
+    list-style: none;
+  }
+    #timeline .lines::after {
+      content: '';
+      background-color: var(--text);
+      position: absolute;
+      height: 100%;
+      width: var(--size-timeline-line);
+      top: 0;
+      left: calc(50% - calc(var(--size-timeline-line) / 2));
+    }
+  #timeline .marker {
+    content: '';
+    position: absolute;
+    height: var(--size-timeline-marker);
+    width: var(--size-timeline-marker);
+    margin-top: calc(var(--size-timeline-marker));
+    left: calc(50% - calc(var(--size-timeline-marker) / 2));
+    background-color: var(--text);
+    transform: rotate(45deg);
+    border-radius: var(--size-timeline-marker);
+  }
+
+  #timeline li {
+    padding: 0.3em;
+    height: 2em;
+  }
+    #timeline li .label {
+      position: absolute;
+      left: 50%;
+      padding: 0 1em 0 1em;
+      display: flex;
+    }
+    #timeline li:nth-child(even) .label {
+      transform: translateX(-100%);
+      flex-flow: row-reverse;
+      text-align: right;
+    }
+      #timeline li .label .time {
+        font-weight: bold;
+        font-size: 1.3em;
+      }
 
 #corona {}
   #corona .content {
     padding: var(--space);
-    
   }
 
 #visit {}
@@ -441,6 +487,9 @@ iframe.responsive {
 @media (min-width: 48em) {
   .reverse-on-wide {
     order: 1;
+  }
+  #timeline {
+    font-size: 1.2em;
   }
 }
 

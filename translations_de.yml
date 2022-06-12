@@ -49,6 +49,33 @@ get_there:
     barcelona: 'Barcelona | 480km'
 timeline:
   title: 'Ablauf'
+  bus:
+    time: '12:15'
+    event: 'Bus Abfahrt'
+  arrival:
+    time: '12:30'
+    event: 'Ankunft Palacio de Olloqui'
+  ceremony:
+    time: '13:00'
+    event: 'Anfang Zeremonie'
+  appetizers:
+    time: '13:30'
+    event: 'Fingerfood und fotos'
+  lunch:
+    time: '15:30'
+    event: 'Mittagessen'
+  dance:
+    time: '20:00'
+    event: 'Party und Open Bar'
+  dinner:
+    time: '22:00'
+    event: 'Snacks'
+  end:
+    time: '00:00'
+    event: 'Ende der Party'
+  bus_back:
+    time: '00:15'
+    event: 'Bus Rückfahrt'
 corona:
   title: 'COVID Regelungen'
   explanation: 'Die Covid Regeln sind viel lockerer geworden in Vergleich mit dem Anfang der Pandemie. Trotzdem empfehlen wir die Tage vor dem Event Kontake einzuschränken um die in Riskiogruppen zu schützen.'
@@ -267,7 +294,7 @@ faq:
     a: 'Ja, es gibt genügend Parkplätze in einer Parallelstraße, von der man über eine kleine Steigung die Location in nur wenigen Gehminuten erreicht.'
   ceremony:
     q: 'Wo wird die Zeremonie/Messe stattfinden?'
-    a: "Gottensdient gibt's nicht, Zeremonie und alles wird im Palacio Olloki gefeiert."
+    a: "Gottensdient gibt's nicht, Zeremonie und alles wird im Palacio de Olloqui gefeiert."
 
 common:
   to_be_announced: 'Coming&nbsp;soon'

@@ -53,13 +53,12 @@
 					<p class="secondary">@@localize(get_there.address.public)</p>
 					<p class="secondary">@@localize(get_there.address.taxi)</p>
 				</div>
-
-					<div class="airports pure-g"><!-- TODO ME localize -->
-						<span class="center pure-u-1-2 pure-u-lg-1-4"><i class="fa fa-plane fa-fw" aria-hidden="true"></i>&nbsp;@@localize(get_there.airports.pamplona)</span>
-						<span class="center pure-u-1-2 pure-u-lg-1-4"><i class="fa fa-plane fa-fw" aria-hidden="true"></i>&nbsp;@@localize(get_there.airports.bilbo)</span>
-						<span class="center pure-u-1-2 pure-u-lg-1-4"><i class="fa fa-plane fa-fw" aria-hidden="true"></i>&nbsp;@@localize(get_there.airports.madrid)</span>
-						<span class="center pure-u-1-2 pure-u-lg-1-4"><i class="fa fa-plane fa-fw" aria-hidden="true"></i>&nbsp;@@localize(get_there.airports.barcelona)</span>
-					</div>
+				<div class="airports pure-g">
+					<span class="center pure-u-1-2 pure-u-lg-1-4"><i class="fa fa-plane fa-fw" aria-hidden="true"></i>&nbsp;@@localize(get_there.airports.pamplona)</span>
+					<span class="center pure-u-1-2 pure-u-lg-1-4"><i class="fa fa-plane fa-fw" aria-hidden="true"></i>&nbsp;@@localize(get_there.airports.bilbo)</span>
+					<span class="center pure-u-1-2 pure-u-lg-1-4"><i class="fa fa-plane fa-fw" aria-hidden="true"></i>&nbsp;@@localize(get_there.airports.madrid)</span>
+					<span class="center pure-u-1-2 pure-u-lg-1-4"><i class="fa fa-plane fa-fw" aria-hidden="true"></i>&nbsp;@@localize(get_there.airports.barcelona)</span>
+				</div>
 			</div>
 
 			<div class="map pure-u-1 pure-u-md-1-2">
@@ -72,29 +71,24 @@
 	</section>
 	<section id="timeline">
 		<h1 class="center">@@localize(timeline.title)</h1>
-		<div class="to-be-announced">
-			<span class="overlay">@@localize(common.to_be_announced)</span>
-			<div class="fake">
-				<p style="display: table;">@@localize(fake.medium_2)</p>
-				<table class="pure-table">
-					<thead>
-						<tr>
-							<th>@@localize(fake.word)</th>
-							<th>@@localize(fake.word_2)</th>
-							<th>@@localize(fake.word_3)</th>
-							<th>@@localize(fake.word_4)</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>@@localize(fake.hour)</td>
-							<td>@@localize(fake.hour)</td>
-							<td>@@localize(fake.hour)</td>
-							<td>@@localize(fake.hour)</td>
-					</tbody>
-				</table>
+		<article class="pure-g content">
+			<div class="pure-u-0 pure-u-lg-1-4"></div>
+			<div class="pure-u-1 pure-u-lg-1-2 lines-container">
+				<ul class="lines">
+					<li><span class="marker"></span><span class="label"><span class="time">@@localize(timeline.bus.time)</span>&nbsp;-&nbsp;<span class="event">@@localize(timeline.bus.event)</span></span></li>
+					<li><span class="marker"></span><span class="label"><span class="time">@@localize(timeline.arrival.time)</span>&nbsp;-&nbsp;<span class="event">@@localize(timeline.arrival.event)</span></span></li>
+					<li><span class="marker"></span><span class="label"><span class="time">@@localize(timeline.ceremony.time)</span>&nbsp;-&nbsp;<span class="event">@@localize(timeline.ceremony.event)</span></span></li>
+					<li><span class="marker"></span><span class="label"><span class="time">@@localize(timeline.appetizers.time)</span>&nbsp;-&nbsp;<span class="event">@@localize(timeline.appetizers.event)</span></span></li>
+					<li><span class="marker"></span><span class="label"><span class="time">@@localize(timeline.lunch.time)</span>&nbsp;-&nbsp;<span class="event">@@localize(timeline.lunch.event)</span></span></li>
+					<li><span class="marker"></span><span class="label"><span class="time">@@localize(timeline.dance.time)</span>&nbsp;-&nbsp;<span class="event">@@localize(timeline.dance.event)</span></span></li>
+					<li><span class="marker"></span><span class="label"><span class="time">@@localize(timeline.dinner.time)</span>&nbsp;-&nbsp;<span class="event">@@localize(timeline.dinner.event)</span></span></li>
+					<li><span class="marker"></span><span class="label"><span class="time">@@localize(timeline.end.time)</span>&nbsp;-&nbsp;<span class="event">@@localize(timeline.end.event)</span></span></li>
+					<li><span class="marker"></span><span class="label"><span class="time">@@localize(timeline.bus_back.time)</span>&nbsp;-&nbsp;<span class="event">@@localize(timeline.bus_back.event)</span></span></li>
+					<!-- <li>@@localize(corona.rule_vaccination)</li> -->
+				</ul>
 			</div>
-		</div>
+			<div class="pure-u-0 pure-u-lg-1-4"></div>
+		</article>
 	</section>
 	<section id="corona">
 		<h1 class="center">@@localize(corona.title)</h1>
