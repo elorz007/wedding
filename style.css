@@ -350,10 +350,9 @@ iframe.responsive {
     position: absolute;
     height: var(--size-timeline-marker);
     width: var(--size-timeline-marker);
-    margin-top: calc(var(--size-timeline-marker));
+    margin-top: 0.7em;
     left: calc(50% - calc(var(--size-timeline-marker) / 2));
     background-color: var(--text);
-    transform: rotate(45deg);
     border-radius: var(--size-timeline-marker);
   }
 
@@ -364,7 +363,8 @@ iframe.responsive {
     #timeline li .label {
       position: absolute;
       left: 50%;
-      padding: 0 1em 0 1em;
+      padding-left: var(--space-small);
+      padding-right: var(--space-small);
       display: flex;
     }
     #timeline li:nth-child(even) .label {
