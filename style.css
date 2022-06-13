@@ -169,8 +169,10 @@ iframe.responsive {
   #main a {
     color: var(--text);
     text-underline-offset: 2px;
-    /*text-decoration: underline wavy;*/
     text-decoration-thickness: 0.5px;
+  }
+  #main a:hover {
+    opacity: 0.8;
   }
 
 .spotlight:before {
@@ -327,10 +329,10 @@ iframe.responsive {
 #timeline {}
   :root {
     --size-timeline-marker: 0.5em;
-    --size-timeline-line: 1px;
+    --size-timeline-line: 0.5px;
   }
   #timeline .content {
-    padding: var(--space);
+    padding: var(--space-tiny);
   }
   #timeline .lines {
     position: relative;
@@ -357,7 +359,8 @@ iframe.responsive {
   }
 
   #timeline li {
-    padding: 0.3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     height: 2em;
   }
     #timeline li .label {
@@ -366,6 +369,8 @@ iframe.responsive {
       padding-left: var(--space-small);
       padding-right: var(--space-small);
       display: flex;
+      line-height: 1.2em;
+      margin-top: 0.3em;
     }
     #timeline li:nth-child(even) .label {
       transform: translateX(-100%);
@@ -376,6 +381,11 @@ iframe.responsive {
         font-weight: bold;
         font-size: 1.3em;
       }
+    #timeline li .label:hover .time {
+      transform: scale(1.1);
+      opacity: 0.7;
+      transition: 0.2s ease-out;
+    }
 
 #corona {}
   #corona .content {
@@ -429,6 +439,10 @@ iframe.responsive {
     position: relative;
     border-style: solid;
     border-width: 0 0 0 3px;
+  }
+  #faq .qa:hover {
+      transform: translateX(10px);
+      transition: 0.2s ease-out;
   }
     #faq .qa .item:before {
       position: absolute;
