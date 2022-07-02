@@ -17,6 +17,8 @@
   --space: 2em;
   --space-big: 4em;
   --space-huge: 7em;
+
+  --link-opacity:  0.8;
 }
 
 body {
@@ -138,6 +140,80 @@ iframe.responsive {
     background: var(--text-over-accent);
   }
 
+#menu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+  font-size: 1.25em;
+  margin-top: var(--space-tiny);
+  margin-left: var(--space-tiny);
+}
+  #menu * {
+    --menu-animation-duration: 0.2s;
+    transition: opacity var(--menu-animation-duration) ease-in, visibility var(--menu-animation-duration) ease-in, transform var(--menu-animation-duration) ease-in;
+  }
+  #menu input {
+    display: none;
+  }
+    #menu label {
+      display: block;
+    }
+      #menu label:hover {
+        cursor: pointer;
+      }
+      #menu label i {
+        position: absolute;
+      }
+    
+    #menu input:checked +label .closed {
+      visibility: hidden;
+      opacity: 0;
+      transform: rotate(-45deg) scale(0.5);
+    }
+    #menu input +label .closed {
+      visibility: visible;
+      opacity: 1;
+      transform: rotate(0deg)
+    }
+    #menu input:checked +label .open {
+      visibility: visible;
+      opacity: 1;
+      transform: rotate(0deg);
+    }
+    #menu input +label .open {
+      visibility: hidden;
+      opacity: 0;
+      transform: rotate(45deg) scale(0.5);
+  }
+  #menu input:checked ~ .content {
+    visibility: visible;
+    opacity: 1;
+  }
+  #menu input ~ .content {
+    visibility: hidden;
+    opacity: 0;
+  }
+  #menu .content {
+    padding: var(--space-small);
+    font-size: 0.75em;
+    background-color: var(--background);
+    border-radius: 0.3em;
+    margin-left: var(--space);
+  }
+    #menu .content a {
+      display: block;
+      text-decoration: none;
+      color: var(--text-over-accent);
+      padding: var(--space-tiny);
+      border-radius: 0.3em;
+    }
+    #menu .content a:hover {
+      background-color: var(--background-inverted);
+      color: var(--text-inverted);
+    }
+  
+
 #language-selection {
   position: absolute;
   font-size: 1.25em;
@@ -150,6 +226,9 @@ iframe.responsive {
   color: var(--text-over-accent);
   padding: var(--space-tiny);
 }
+  #language-selection a:hover {
+    opacity: var(--link-opacity);
+  }
 
 #main {
     position: absolute;
@@ -159,7 +238,7 @@ iframe.responsive {
     background: var(--background);
 }
   #main section {
-    margin-top: var(--space-big);
+    padding-top: var(--space-big);
   }
   #main h1 {
     text-align: center;
@@ -172,7 +251,7 @@ iframe.responsive {
     text-decoration-thickness: 0.5px;
   }
   #main a:hover {
-    opacity: 0.8;
+    opacity: var(--link-opacity);
   }
 
 .spotlight:before {
@@ -281,10 +360,9 @@ iframe.responsive {
     }
 
 
-#get-there {}
-  :root {
-    --size-get-there: 36em;
-  }
+#get-there {
+  --size-get-there: 36em;
+}
   #get-there .address, #get-there .map .responsive-container {
     min-height: var(--size-get-there);
   }
@@ -326,11 +404,10 @@ iframe.responsive {
     filter: grayscale(50%);
   }
 
-#timeline {}
-  :root {
-    --size-timeline-marker: 0.5em;
-    --size-timeline-line: 0.5px;
-  }
+#timeline {
+  --size-timeline-marker: 0.5em;
+  --size-timeline-line: 0.5px;
+}
   #timeline .content {
     padding: var(--space-tiny);
   }
@@ -505,7 +582,10 @@ iframe.responsive {
     font-size: 150%;
   }
   #language-selection {
-   font-size: 85%;
+    font-size: 85%;
+  }
+  #menu {
+    font-size: 85%;
   }
   #faq {
     padding: var(--space);
@@ -526,6 +606,9 @@ iframe.responsive {
     font-size: 200%;
   }
   #language-selection {
+    font-size: 75%;
+  }
+  #menu {
     font-size: 75%;
   }
   #tourism figure figcaption {
