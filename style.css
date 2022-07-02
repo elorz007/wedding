@@ -267,13 +267,6 @@ iframe.responsive {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' fill='%23271E22' /%3E%3C/svg%3E");
 }
 
-.box {
-  max-width: 40em;
-  padding: var(--space);
-  border-style: solid;
-  border-width: 1px 0 1px 0;
-}
-
 .drop-cap {
   display: inline-block;
 }
@@ -349,6 +342,10 @@ iframe.responsive {
 
 #rsvp {}
   #rsvp .box {
+    max-width: 40em;
+    padding: var(--space);
+    border-style: solid;
+    border-width: 1px 0 1px 0;
     margin-top: var(--space-small);
     padding-bottom: var(--space-big);
   }
@@ -403,6 +400,16 @@ iframe.responsive {
   #get-there .map {
     filter: grayscale(50%);
   }
+#get-to-know {}
+  #get-to-know img {
+    border-radius: 0.2em;
+  }
+  #get-to-know figcaption {
+    padding: var(--space-small);
+  }
+    #get-to-know figcaption .fa {
+      margin-right: var(--space-tiny);
+    }
 
 #timeline {
   --size-timeline-marker: 0.5em;
@@ -411,7 +418,18 @@ iframe.responsive {
   #timeline .content {
     padding: var(--space-tiny);
   }
+  #timeline .date {
+    margin: 0;
+  }
+    #timeline .date .box {
+      padding: var(--space-tiny);
+      border-width: var(--size-timeline-line);
+      border-color: var(--text);
+      border-style: solid;
+      border-radius: 0.2em;
+    }
   #timeline .lines {
+    margin-top: 0;
     position: relative;
     list-style: none;
   }

@@ -16,6 +16,7 @@
 			<a href="#rsvp">@@localize(rsvp.title)</a>
 			<a href="#location">@@localize(location.title)</a>
 			<a href="#get-there">@@localize(get_there.title)</a>
+			<a href="#get-to-know">@@localize(get_to_know.title)</a>
 			<a href="#timeline">@@localize(timeline.title)</a>
 			<a href="#corona">@@localize(corona.title)</a>
 			<a href="#stay">@@localize(stay.title)</a>
@@ -85,11 +86,29 @@
 
 		</article>
 	</section>
+	<section id="get-to-know">
+		<h1 class="center">@@localize(get_to_know.title)</h1>
+		<article class="pure-g content">
+			<div class="pure-u-0 pure-u-lg-1-6"></div>
+			<div class="pure-u-1 pure-u-lg-2-3 content">
+				<figure class="pure-g">
+					<img loading="lazy" class="pure-img pure-u-1 pure-u-md-1-2" alt='@@localize(get_to_know.location.img_alt)' src="@@localize(get_to_know.location.src)"/></a>
+					<figcaption class="pure-u-1 pure-u-md-1-2">
+						<h2 class="where"><i class="fa fa-map-marker" aria-hidden="true"></i>@@localize(get_to_know.location.where)</h2>
+						<h3 class="where"><i class="fa fa-clock-o" aria-hidden="true"></i>@@localize(get_to_know.location.when)</h3>
+						<p>@@localize(get_to_know.location.text)</p>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="pure-u-0 pure-u-lg-1-6"></div>
+		</article>
+	</section>
 	<section id="timeline">
 		<h1 class="center">@@localize(timeline.title)</h1>
 		<article class="pure-g content">
 			<div class="pure-u-0 pure-u-lg-1-4"></div>
 			<div class="pure-u-1 pure-u-lg-1-2 lines-container">
+				<h3 class="center date"><span class="box">@@localize(timeline.date)</span></h3>
 				<ul class="lines">
 					<li><span class="marker"></span><span class="label"><span class="time">@@localize(timeline.bus.time)</span>&nbsp;-&nbsp;<span class="event">@@localize(timeline.bus.event)</span></span></li>
 					<li><span class="marker"></span><span class="label"><span class="time">@@localize(timeline.arrival.time)</span>&nbsp;-&nbsp;<span class="event">@@localize(timeline.arrival.event)</span></span></li>
@@ -100,7 +119,6 @@
 					<li><span class="marker"></span><span class="label"><span class="time">@@localize(timeline.dinner.time)</span>&nbsp;-&nbsp;<span class="event">@@localize(timeline.dinner.event)</span></span></li>
 					<li><span class="marker"></span><span class="label"><span class="time">@@localize(timeline.end.time)</span>&nbsp;-&nbsp;<span class="event">@@localize(timeline.end.event)</span></span></li>
 					<li><span class="marker"></span><span class="label"><span class="time">@@localize(timeline.bus_back.time)</span>&nbsp;-&nbsp;<span class="event">@@localize(timeline.bus_back.event)</span></span></li>
-					<!-- <li>@@localize(corona.rule_vaccination)</li> -->
 				</ul>
 			</div>
 			<div class="pure-u-0 pure-u-lg-1-4"></div>

@@ -47,8 +47,17 @@ get_there:
     bilbo: 'Bilbao | 160km'
     madrid: 'Madrid | 380km'
     barcelona: 'Barcelona | 480km'
+get_to_know:
+  title: 'Preboda'
+  location:
+    text: 'Para todos aquellos que vengáis de lejos o simplemente queráis pasar a saludar sin el estrés del día de la boda hemos organizado una pequeña quedada informal. Pasaros si os apetece, nosotros nos encargamos de la comida y la bebida :)'
+    when: 'Viernes 7 de Octubre - <em>19:00</em>'
+    where: '<a target="_blank" href="https://goo.gl/maps/37Vaxvs9kQe576U37">Mesón del Caballo Blanco</a>'
+    img_alt: 'Mesón del Caballo Blanco'
+    src: './images/meson.webp'
 timeline:
   title: 'Horario'
+  date: '8 de Octubre de 2022'
   bus:
     time: '12:15'
     event: 'Salida en bus'

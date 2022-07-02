@@ -47,8 +47,17 @@ get_there:
     bilbo: 'Bilbao | 160km'
     madrid: 'Madrid | 380km'
     barcelona: 'Barcelona | 480km'
-timeline:
+get_to_know: # TODO Montse check translation
+  title: 'Get to know'
+  location:
+    text: 'Für alle die aus dem Ausland kommen oder einfach ohne den Stress vom Hochzeitstag uns begrüßen wollen, wir haben ein kleines informales Treffen organisiert. Komm vorbei wenn ihr wollt, wir kümmern uns ums Essen und die Getränke :)'
+    when: 'Freitag 7. Oktober - <em>19:00</em>'
+    where: '<a target="_blank" href="https://goo.gl/maps/37Vaxvs9kQe576U37">Mesón del Caballo Blanco</a>'
+    img_alt: 'Mesón del Caballo Blanco'
+    src: '../images/meson.webp'
+timeline: # TODO Montse check translation
   title: 'Ablauf'
+  date: '8. Oktober 2022'
   bus:
     time: '12:15'
     event: 'Bus Abfahrt'
@@ -76,14 +85,14 @@ timeline:
   bus_back:
     time: '00:15'
     event: 'Bus Rückfahrt'
-corona:
+corona: # TODO Montse check translation
   title: 'COVID Regelungen'
   explanation: 'Die Covid Regeln sind viel lockerer geworden in Vergleich mit dem Anfang der Pandemie. Trotzdem empfehlen wir die Tage vor dem Event Kontake einzuschränken um die in Riskiogruppen zu schützen.'
   rule_wedding_masks: 'Es gilt keine Maskenpflicht während des Events, trotzdem darf man eine Maske tragen, natürlich.'
   rule_wedding_tests: 'Impf- oder Testnachweis ist nicht erforderlich im Location'
   rule_restaurants: 'Es gilt keine Maskenpflicht in Bars und Restaurants, weder drinnen noch draußen.'
   rule_transit: 'Maskenpflicht im öffentlichen Verkehr gilt weiterhin außer in den Halstellen, Bahnhöfe und Flughäfen.'
-  rule_vaccination: "Beim Ein- und Ausreise gibt's keine Impf- oder Testpflicht"
+  rule_vaccination: "Bei Ein- und Ausreise gibt's keine Impf- oder Testpflicht"
 stay:
   title: 'Unterkünfte'
   budget:
@@ -292,7 +301,7 @@ faq:
   parking:
     q: 'Kann man bei Palacio de Olloqui parken?'
     a: 'Ja, es gibt genügend Parkplätze in einer Parallelstraße, von der man über eine kleine Steigung die Location in nur wenigen Gehminuten erreicht.'
-  ceremony:
+  ceremony: # TODO Montse check translation
     q: 'Wo wird die Zeremonie/Messe stattfinden?'
     a: "Gottensdient gibt's nicht, Zeremonie und alles wird im Palacio de Olloqui gefeiert."
 

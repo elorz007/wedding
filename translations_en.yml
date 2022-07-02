@@ -47,8 +47,17 @@ get_there:
     bilbo: 'Bilbao | 160km'
     madrid: 'Madrid | 380km'
     barcelona: 'Barcelona | 480km'
+get_to_know:
+  title: 'Get to know'
+  location:
+    text: 'For all of you who come from abroad or simply want to greet us without the stress of the wedding day we have organized a small informal gathering. Stop by if you want, we will take care of food and drinks :)'
+    when: 'Friday 7<sup>th</sup> October - <em>19:00</em>'
+    where: '<a target="_blank" href="https://goo.gl/maps/37Vaxvs9kQe576U37">Mesón del Caballo Blanco</a>'
+    img_alt: 'Mesón del Caballo Blanco'
+    src: '../images/meson.webp'
 timeline:
   title: 'Timeline'
+  date: '8<sup>th</sup> October 2022'
   bus:
     time: '12:15'
     event: 'Bus departure'
