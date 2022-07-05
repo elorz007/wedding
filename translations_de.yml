@@ -147,7 +147,7 @@ stay:
       url: 'https://almahotels.com/pamplona/'
 visit:
   title: 'Pamplona · Iruña'
-  summary_places: 'Pamplona ist eine Stadt voller Leben und mit <strong>vielen Sehenswürdigkeiten</strong>. Hier ist eine Liste mit einigen Orten, die ihr euch nicht entgehen lassen solltet, wenn ihr etwas Zeit in Pamplona habt. Alle Sehenswürdigkeiten befinden sich in der Nähe des Stadtzentrums und können zu Fuß besucht werden. Ihr könnt auch einen Blick auf <a target="_blank" href="https://www.visitnavarra.es/es/pamplona">die ofizzielle Website</a> werfen.'
+  summary_places: 'Pamplona ist eine Stadt voller Leben und mit <strong>vielen Sehenswürdigkeiten</strong>. Hier ist eine Liste mit einigen Orten, die ihr euch nicht entgehen lassen solltet, wenn ihr etwas Zeit in Pamplona habt. Alle Sehenswürdigkeiten befinden sich in der Nähe des Stadtzentrums und können zu Fuß besucht werden. Ihr könnt auch einen Blick auf <a target="_blank" href="https://www.visitnavarra.es/es/pamplona">die offizielle Website</a> werfen.'
   summary_food: 'In Pamplona gibt es auch viele <strong>Bars und Restaurants</strong>, wo ihr etwas trinken, ein paar Pintxos essen oder eine Mahlzeit genießen könnt. Wir empfehlen euch auch, einmal eine „Sidrería“ zu besuchen (das Menü sollte aus Chorizo ​​mit Apfelwein, Kabeljau-Omelett, Kalbsrippensteak (Chuletón) und Käse mit Quitte bestehen; alles selbstverstädnlich serviert mit Apfelwein)'
   pics:
     catedral:
@@ -268,7 +268,7 @@ tourism:
     src: '../images/bilbo.webp'
     img_alt: 'Museum Guggenheim'
 faq:
-  title: 'Häufig gestellte Fragen'
+  title: 'FAQ'
   q: 'F.'
   a: 'A.'
   gifts:
