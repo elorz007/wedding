@@ -89,7 +89,7 @@ corona:
   title: 'COVID Regelungen'
   explanation: 'Die Covid Regeln sind viel lockerer geworden im Vergleich zum Anfang der Pandemie. Trotzdem empfehlen wir ein paar Tage vor dem Event Kontake einzuschränken und am Morgen unseres Hochzeitstags einen Schnelltest machen, um die zu Riskiogruppen zählenden Gäste zu schützen.'
   rule_wedding_masks: 'Es gilt keine Maskenpflicht während des Events, eine Maske darf aber natürlich tragen werden.'
-  rule_wedding_tests: 'Impf- oder Testnachweis ist nicht erforderlich in der Location. Wir bitten euch dennoch vorab einen Schnelltest zu machen.'
+  rule_wedding_tests: 'Impf- oder Testnachweis ist nicht erforderlich in der Location. <strong>Wir bitten euch dennoch vorab einen Schnelltest zu machen.</strong>'
   rule_restaurants: 'Es gilt keine Maskenpflicht in Bars und Restaurants, weder drinnen noch draußen.'
   rule_transit: 'Maskenpflicht im öffentlichen Verkehr gilt weiterhin außer an Haltestellen, Bahnhöfen und Flughäfen.'
   rule_vaccination: "Bei Ein- und Ausreise gibt es keine Impf- oder Testpflicht"
